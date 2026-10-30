@@ -122,14 +122,6 @@ a {
   text-underline-offset: 0.2em;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background: var(--accent);
-    color: var(--on-bright);
-    text-decoration: none;
-  }
-}
-
 abbr[title] {
   text-decoration: none;
   cursor: help;
@@ -195,13 +187,6 @@ blockquote {
 .titlebar a {
   color: var(--on-bright);
   text-decoration: none;
-}
-
-@media (hover: hover) {
-  .titlebar a:hover {
-    background: var(--on-bright);
-    color: var(--accent);
-  }
 }
 
 .titlebar :focus-visible {
@@ -317,19 +302,6 @@ blockquote {
   color: var(--on-bright);
 }
 
-@media (hover: hover) {
-  .keybar-action:hover:not(:disabled) {
-    background: var(--accent);
-    color: var(--on-bright);
-  }
-}
-
-@media (hover: hover) {
-  .keybar-action:hover:not(:disabled) .key-hint {
-    color: var(--on-bright);
-  }
-}
-
 .keybar-action:disabled {
   background: transparent;
   color: var(--dim);
@@ -340,6 +312,28 @@ blockquote {
 
 .keybar-action:disabled .key-hint {
   color: var(--dim);
+}
+
+@media (hover: hover) {
+  a:hover {
+    background: var(--accent);
+    color: var(--on-bright);
+    text-decoration: none;
+  }
+
+  .titlebar a:hover {
+    background: var(--on-bright);
+    color: var(--accent);
+  }
+
+  .keybar-action:hover:not(:disabled) {
+    background: var(--accent);
+    color: var(--on-bright);
+  }
+
+  .keybar-action:hover:not(:disabled) .key-hint {
+    color: var(--on-bright);
+  }
 }
 
 /* ---------------------------------------------------------------- shared pieces */
@@ -387,20 +381,6 @@ blockquote {
   color: var(--dim);
 }
 
-@media (hover: hover) {
-  .btn:hover:not(:disabled) {
-    background: var(--accent);
-    color: var(--on-bright);
-  }
-}
-
-@media (hover: hover) {
-  .btn:hover:not(:disabled)::before,
-  .btn:hover:not(:disabled)::after {
-    color: inherit;
-  }
-}
-
 .btn-primary {
   color: var(--highlight);
   font-weight: 700;
@@ -408,12 +388,6 @@ blockquote {
 
 .btn-danger {
   color: var(--red);
-}
-
-@media (hover: hover) {
-  .btn-danger:hover:not(:disabled) {
-    background: var(--red);
-  }
 }
 
 .btn-quiet {
@@ -526,6 +500,22 @@ blockquote {
   border-left: 3px double var(--rule);
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+@media (hover: hover) {
+  .btn:hover:not(:disabled) {
+    background: var(--accent);
+    color: var(--on-bright);
+  }
+
+  .btn:hover:not(:disabled)::before,
+  .btn:hover:not(:disabled)::after {
+    color: inherit;
+  }
+
+  .btn-danger:hover:not(:disabled) {
+    background: var(--red);
+  }
 }
 
 /* ---------------------------------------------------------------- forms */
@@ -659,12 +649,6 @@ textarea:focus {
   color: var(--highlight);
 }
 
-@media (hover: hover) {
-  .toggle:hover > span {
-    background: var(--well);
-  }
-}
-
 .toggle input:focus-visible + span {
   outline: 2px solid var(--highlight);
   outline-offset: 2px;
@@ -709,6 +693,12 @@ textarea:focus {
     width: auto;
     margin: 0;
     padding-top: 0.6rem;
+  }
+}
+
+@media (hover: hover) {
+  .toggle:hover > span {
+    background: var(--well);
   }
 }
 
@@ -777,22 +767,8 @@ dialog.window::backdrop {
   color: color-mix(in srgb, var(--window-text) 75%, var(--window));
 }
 
-@media (hover: hover) {
-  .window .btn:hover:not(:disabled) {
-    background: var(--window-text);
-    color: var(--window);
-  }
-}
-
 .window .btn-danger {
   color: var(--window-danger);
-}
-
-@media (hover: hover) {
-  .window .btn-danger:hover:not(:disabled) {
-    background: var(--window-danger);
-    color: #fff;
-  }
 }
 
 .window .field-error,
@@ -809,12 +785,6 @@ dialog.window::backdrop {
 .window .toggle-check input:checked + span::before {
   color: var(--window-text);
   font-weight: 700;
-}
-
-@media (hover: hover) {
-  .window .toggle:hover > span {
-    background: color-mix(in srgb, var(--window-text) 10%, var(--window));
-  }
 }
 
 .starter-list {
@@ -910,6 +880,22 @@ dialog.window::backdrop {
   overflow-wrap: anywhere;
 }
 
+@media (hover: hover) {
+  .window .btn:hover:not(:disabled) {
+    background: var(--window-text);
+    color: var(--window);
+  }
+
+  .window .btn-danger:hover:not(:disabled) {
+    background: var(--window-danger);
+    color: #fff;
+  }
+
+  .window .toggle:hover > span {
+    background: color-mix(in srgb, var(--window-text) 10%, var(--window));
+  }
+}
+
 /* ---------------------------------------------------------------- library */
 
 .deck-list {
@@ -937,13 +923,6 @@ dialog.window::backdrop {
   text-decoration: none;
 }
 
-@media (hover: hover) {
-  .deck-link:hover {
-    background: none;
-    color: var(--text);
-  }
-}
-
 .library-foot {
   margin-top: 1rem;
 }
@@ -960,13 +939,6 @@ dialog.window::backdrop {
   overflow-wrap: anywhere;
 }
 
-@media (hover: hover) {
-  .deck-link:hover .deck-name {
-    background: var(--accent);
-    color: var(--on-bright);
-  }
-}
-
 .deck-description {
   overflow-wrap: anywhere;
 }
@@ -981,6 +953,18 @@ dialog.window::backdrop {
   display: flex;
   flex-wrap: wrap;
   gap: 0 1.5ch;
+}
+
+@media (hover: hover) {
+  .deck-link:hover {
+    background: none;
+    color: var(--text);
+  }
+
+  .deck-link:hover .deck-name {
+    background: var(--accent);
+    color: var(--on-bright);
+  }
 }
 
 /* ---------------------------------------------------------------- deck */
@@ -1038,20 +1022,6 @@ dialog.window::backdrop {
   text-decoration: none;
 }
 
-@media (hover: hover) {
-  .question-link:hover {
-    background: none;
-    color: var(--text);
-  }
-}
-
-@media (hover: hover) {
-  .question-link:hover .question-prompt {
-    color: var(--accent);
-    text-decoration: underline;
-  }
-}
-
 .question-prompt,
 .question-answer {
   display: -webkit-box;
@@ -1079,6 +1049,18 @@ dialog.window::backdrop {
   align-items: center;
   justify-content: space-between;
   gap: 0 1.5ch;
+}
+
+@media (hover: hover) {
+  .question-link:hover {
+    background: none;
+    color: var(--text);
+  }
+
+  .question-link:hover .question-prompt {
+    color: var(--accent);
+    text-decoration: underline;
+  }
 }
 
 /* ---------------------------------------------------------------- editor */
@@ -1134,6 +1116,23 @@ dialog.window::backdrop {
 .streak.is-hot {
   color: var(--highlight);
   font-weight: 700;
+}
+
+/* The last 3 seconds of a timed question. */
+.timer.is-low {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.timer.is-low .meter-fill {
+  color: var(--red);
+  animation: blink 1s steps(1) infinite;
+}
+
+.timer.is-low .timer-value {
+  padding: 0 0.5ch;
+  background: var(--red);
+  color: var(--on-bright);
 }
 
 .question-card {
@@ -1200,14 +1199,6 @@ dialog.window::backdrop {
   color: var(--on-bright);
 }
 
-@media (hover: hover) {
-  .answer:hover:not(:disabled) {
-    border-color: var(--accent);
-    background: var(--accent);
-    color: var(--on-bright);
-  }
-}
-
 .answer:disabled {
   cursor: default;
 }
@@ -1235,32 +1226,12 @@ dialog.window::backdrop {
   color: var(--on-bright);
 }
 
-@media (hover: hover) {
-  .answer:hover:not(:disabled) .answer-key {
-    color: var(--on-bright);
-  }
-}
-
 .answer.is-muted .answer-key {
   color: var(--dim);
 }
 
 .answer.reveal {
   border-style: dashed;
-}
-
-@media (hover: hover) {
-  .rate-yes:hover:not(:disabled) {
-    border-color: var(--green);
-    background: var(--green);
-  }
-}
-
-@media (hover: hover) {
-  .rate-no:hover:not(:disabled) {
-    border-color: var(--red);
-    background: var(--red);
-  }
 }
 
 .card-answer {
@@ -1301,11 +1272,50 @@ dialog.window::backdrop {
   color: var(--highlight);
 }
 
-.combo {
-  margin-left: 2ch;
+/* Where a correct answer's points came from, shown when it earned a bonus. */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.chip {
   padding: 0 0.75ch;
-  background: var(--highlight);
+  background: var(--dim);
   color: var(--on-bright);
+}
+
+.chip-streak {
+  background: var(--highlight);
+}
+
+.chip-speed {
+  background: var(--accent);
+}
+
+@media (hover: hover) {
+  .answer:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--on-bright);
+  }
+
+  .answer:hover:not(:disabled) .answer-key {
+    color: var(--on-bright);
+  }
+
+  .rate-yes:hover:not(:disabled) {
+    border-color: var(--green);
+    background: var(--green);
+  }
+
+  .rate-no:hover:not(:disabled) {
+    border-color: var(--red);
+    background: var(--red);
+  }
 }
 
 /* ---------------------------------------------------------------- results */
@@ -1526,7 +1536,8 @@ dialog.window::backdrop {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cursor {
+  .cursor,
+  .timer.is-low .meter-fill {
     animation: none;
   }
 }

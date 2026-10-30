@@ -191,7 +191,7 @@
       "type": "multiple_choice",
       "prompt": "A certified reference material is useful because it has:",
       "choices": [
-        "A value assigned only by the user's own lab",
+        "A value assigned only by the user's own lab, with no uncertainty",
         "A composition that matches every real sample",
         "A characterized property value and stated uncertainty",
         "A signal that needs no instrument calibration"
@@ -245,9 +245,9 @@
       "type": "multiple_choice",
       "prompt": "The endpoint of a titration is:",
       "choices": [
-        "Always exactly the equivalence point",
+        "Always exactly the same as the equivalence point",
         "The observed signal used to stop titrant addition",
-        "The volume of analyte at the start",
+        "The volume of analyte pipetted into the flask at the start",
         "The reading taken for the reagent blank"
       ],
       "correctIndex": 1,
@@ -425,9 +425,9 @@
       "type": "multiple_choice",
       "prompt": "The Van Deemter relationship is used to understand how column efficiency depends on:",
       "choices": [
-        "Detector color",
+        "The color of the detector lamp",
         "Sample pH only",
-        "Molecular formula only",
+        "The analyte's molecular formula only",
         "Mobile-phase linear velocity"
       ],
       "correctIndex": 3,
@@ -499,7 +499,7 @@
       "choices": [
         "No isotopes",
         "Only one stable isotope",
-        "A mass that changes during ionization",
+        "An atomic mass that changes during ionization",
         "Two abundant isotopes with distinct masses"
       ],
       "correctIndex": 3,
@@ -516,7 +516,7 @@
       "prompt": "A matrix effect occurs when:",
       "choices": [
         "Other sample components alter analyte response",
-        "The analyte is weighed twice in one run",
+        "The analyte is weighed twice during a single analytical run",
         "A blank sample shows no color change",
         "A standard of known concentration is used"
       ],
@@ -535,7 +535,7 @@
       "choices": [
         "Take only the most accessible surface portion of the lot",
         "Collect a suitable composite or representative set of increments",
-        "Collect one large grab sample from a single convenient spot",
+        "Collect one large grab sample from a single, convenient spot in the lot",
         "Sample only the material that looks most typical by eye"
       ],
       "correctIndex": 1,
@@ -551,7 +551,7 @@
       "type": "multiple_choice",
       "prompt": "Why are replicate measurements useful?",
       "choices": [
-        "They remove every systematic error in a method",
+        "They remove every systematic error from an analytical method",
         "They make calibration standards unnecessary",
         "They help estimate random variability and precision",
         "They guarantee that each result is accurate"
@@ -588,9 +588,9 @@
       "prompt": "A confidence interval for a mean generally becomes narrower when:",
       "choices": [
         "More independent measurements are collected",
-        "Measurement scatter becomes larger",
+        "The scatter among repeated measurements becomes larger",
         "Fewer measurements are collected",
-        "The confidence level is set higher"
+        "The confidence level is raised from 95% to 99%"
       ],
       "correctIndex": 0,
       "difficulty": "medium",
@@ -795,15 +795,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "The limit of quantification is generally at or above the limit of detection.",
-      "answer": true,
+      "prompt": "The limit of quantification is generally lower than the limit of detection.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "calibration",
         "quantification-limit"
       ],
-      "explanation": "Reliable quantification usually requires a larger signal than detection alone."
+      "explanation": "Quantifying an analyte needs a larger, more reliable signal than detecting it, so the limit of quantification is usually at or above the limit of detection."
     },
     {
       "type": "true_false",
@@ -843,27 +843,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "At the half-equivalence point for a weak acid titrated by strong base, pH is approximately pKa.",
-      "answer": true,
+      "prompt": "At the half-equivalence point for a weak acid titrated by strong base, pH is approximately 7.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "classical-analysis",
         "acid-base-titration"
       ],
-      "explanation": "At half-equivalence, acid and conjugate-base concentrations are equal."
+      "explanation": "At half-equivalence, acid and conjugate-base concentrations are equal, so pH ≈ pKa, not 7."
     },
     {
       "type": "true_false",
-      "prompt": "EDTA commonly forms 1:1 complexes with metal ions.",
-      "answer": true,
+      "prompt": "EDTA commonly forms 2:1 complexes, with two EDTA molecules bound to each metal ion.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "classical-analysis",
         "complexometric-titration"
       ],
-      "explanation": "One EDTA molecule chelates one metal ion in the common analytical complex."
+      "explanation": "One EDTA molecule chelates one metal ion, so the common analytical complex is 1:1."
     },
     {
       "type": "true_false",
@@ -891,27 +891,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "Voltammetry measures current as a function of applied potential.",
-      "answer": true,
+      "prompt": "Voltammetry measures the potential of an electrode while no current flows.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "analytical-chemistry",
         "electroanalysis",
         "voltammetry"
       ],
-      "explanation": "Potential is varied to drive redox reactions at an electrode."
+      "explanation": "That describes potentiometry. Voltammetry varies the applied potential and measures the resulting current."
     },
     {
       "type": "true_false",
-      "prompt": "Coulometry relates analyte amount to total electrical charge for a defined electrode reaction.",
-      "answer": true,
+      "prompt": "Coulometry relates analyte amount to the final electrode potential rather than to the charge passed.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "electroanalysis",
         "coulometry"
       ],
-      "explanation": "Faraday’s law links charge to electron amount."
+      "explanation": "Coulometry measures the total charge for a defined electrode reaction. Faraday’s law converts that charge to moles of electrons."
     },
     {
       "type": "true_false",
@@ -927,15 +927,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "The Van Deemter equation relates plate height to mobile-phase velocity.",
-      "answer": true,
+      "prompt": "The Van Deemter equation relates retention time to column temperature.",
+      "answer": false,
       "difficulty": "hard",
       "tags": [
         "analytical-chemistry",
         "separations",
         "van-deemter"
       ],
-      "explanation": "Its terms describe multiple sources of band broadening."
+      "explanation": "It relates plate height to mobile-phase velocity. Its terms describe separate sources of band broadening."
     },
     {
       "type": "true_false",
@@ -951,15 +951,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Mass spectrometry distinguishes ions by mass-to-charge ratio.",
-      "answer": true,
+      "prompt": "Mass spectrometry distinguishes ions by their mass alone, regardless of charge.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "analytical-chemistry",
         "mass-spectrometry",
         "analyzers"
       ],
-      "explanation": "The analyzer separates ions according to m/z."
+      "explanation": "The analyzer separates ions by mass-to-charge ratio (m/z), so an ion’s charge matters as much as its mass."
     },
     {
       "type": "true_false",
@@ -1011,15 +1011,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "In Beer-Lambert law, absorbance is proportional to path length and concentration under suitable conditions.",
-      "answer": true,
+      "prompt": "In the Beer-Lambert law, absorbance is inversely proportional to path length.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "analytical-chemistry",
         "spectroscopy",
         "beer-lambert"
       ],
-      "explanation": "A = εbc for an appropriate wavelength and linear regime."
+      "explanation": "A = εbc, so absorbance rises in proportion to path length b and concentration c under suitable conditions."
     },
     {
       "type": "true_false",
@@ -1349,7 +1349,7 @@
       "type": "multiple_choice",
       "prompt": "Analytical selectivity describes a method’s ability to:",
       "choices": [
-        "Produce a large signal for any compound present",
+        "Produce a large signal for any compound present in the sample",
         "Measure an analyte in the presence of other components",
         "Measure only high concentrations without dilution",
         "Give results without any calibration standards"
@@ -1440,9 +1440,9 @@
       "prompt": "Size-exclusion chromatography separates molecules mainly by:",
       "choices": [
         "Acid strength",
-        "Oxidation state only",
+        "Oxidation state of the analyte only",
         "Effective size in solution",
-        "Optical rotation"
+        "Optical rotation of polarized light"
       ],
       "correctIndex": 2,
       "difficulty": "medium",
@@ -1493,7 +1493,7 @@
       "type": "multiple_choice",
       "prompt": "In atomic emission spectroscopy, analyte atoms or ions are measured by their:",
       "choices": [
-        "Mass after precipitation",
+        "Mass after precipitation and drying",
         "Emitted characteristic light",
         "Color in a burette",
         "Vapor pressure"
@@ -1531,7 +1531,7 @@
       "choices": [
         "Its mass change marks completion of the titration",
         "Its odor change identifies the analyte",
-        "Its boiling point signals when titrant is used up",
+        "Its boiling point signals when the titrant has been used up",
         "Its color change signals redox progress near endpoint"
       ],
       "correctIndex": 3,
@@ -1575,15 +1575,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "A residual is the difference between an observed value and a model-predicted value.",
-      "answer": true,
+      "prompt": "A residual is the sum of an observed value and a model-predicted value.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "calibration",
         "regression"
       ],
-      "explanation": "Residuals help assess model fit and assumptions."
+      "explanation": "A residual is the difference, observed minus predicted. Residuals help assess model fit and assumptions."
     },
     {
       "type": "true_false",
@@ -1599,15 +1599,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "In size-exclusion chromatography, large molecules can elute before small ones because they enter fewer pores.",
-      "answer": true,
+      "prompt": "In size-exclusion chromatography, small molecules usually elute before large ones.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "analytical-chemistry",
         "separations",
         "size-exclusion"
       ],
-      "explanation": "Smaller molecules access more pore volume and are retained longer in many size-exclusion columns."
+      "explanation": "Small molecules enter more of the pore volume and are retained longer. Large molecules are excluded from the pores and elute first."
     },
     {
       "type": "flashcard",

@@ -4,25 +4,18 @@ interface CatalogDeck {
   description: string;
 }
 
-// Also lists decks that are no longer starter decks (deck-geography, deck-hunger-games,
-// deck-marvel-comics, deck-minecraft, deck-pokemon, deck-recent-general-knowledge,
-// deck-botany, deck-human-body),
-// so copies already in someone's library keep their category.
 const categoryDecks: Record<string, readonly string[]> = {
   'Mixed trivia': ['deck-trivia-easy', 'deck-trivia-medium', 'deck-trivia-hard', 'deck-trivia-expert'],
-  'General knowledge': ['deck-world-facts', 'deck-recent-general-knowledge'],
+  'General knowledge': ['deck-world-facts'],
   Science: [
-    'deck-human-body', 'deck-nature', 'deck-botany', 'deck-oceans-water-bodies', 'deck-ap-environmental-science',
+    'deck-nature', 'deck-oceans-water-bodies', 'deck-ap-environmental-science',
     'deck-chemistry-foundations', 'deck-ap-chemistry', 'deck-general-chemistry',
     'deck-health-sciences-chemistry', 'deck-organic-chemistry-1', 'deck-organic-chemistry-2',
     'deck-analytical-chemistry', 'deck-inorganic-chemistry', 'deck-fun-chemistry-for-kids',
   ],
   History: ['deck-ap-world-history'],
-  Places: ['deck-world-geography', 'deck-geography', 'deck-national-parks'],
-  'Stories & games': [
-    'deck-harry-potter', 'deck-movies',
-    'deck-pokemon', 'deck-minecraft', 'deck-hunger-games', 'deck-marvel-comics',
-  ],
+  Places: ['deck-world-geography', 'deck-national-parks'],
+  'Stories & games': ['deck-harry-potter', 'deck-movies'],
   Words: ['deck-vocabulary'],
   Languages: [
     'deck-german-foundations', 'deck-german-a1-part-1', 'deck-german-a1-part-2',

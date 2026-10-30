@@ -33,6 +33,7 @@
         "Yosemite"
       ],
       "correctIndex": 3,
+      "explanation": "Yosemite became a national park in 1890. El Capitan rises about 3,000 feet above the valley floor.",
       "difficulty": "easy",
       "tags": [
         "landmarks"
@@ -64,6 +65,7 @@
         "Nevada"
       ],
       "correctIndex": 2,
+      "explanation": "Zion was Utah's first national park, established in 1919.",
       "difficulty": "easy",
       "tags": [
         "locations"
@@ -79,6 +81,7 @@
         "Arches"
       ],
       "correctIndex": 3,
+      "explanation": "Arches has more than 2,000 documented natural stone arches.",
       "difficulty": "easy",
       "tags": [
         "landmarks"
@@ -126,6 +129,7 @@
         "Alabama"
       ],
       "correctIndex": 2,
+      "explanation": "The Everglades is the largest subtropical wilderness in the United States.",
       "difficulty": "easy",
       "tags": [
         "locations"
@@ -141,6 +145,7 @@
         "Everglades"
       ],
       "correctIndex": 0,
+      "explanation": "About 95% of Biscayne National Park is water.",
       "difficulty": "medium",
       "tags": [
         "coasts"
@@ -172,6 +177,7 @@
         "Massachusetts"
       ],
       "correctIndex": 0,
+      "explanation": "Cadillac Mountain in Acadia is the first place in the U.S. to see sunrise for part of the year.",
       "difficulty": "easy",
       "tags": [
         "locations"
@@ -203,6 +209,7 @@
         "Georgia and South Carolina"
       ],
       "correctIndex": 0,
+      "explanation": "Great Smoky Mountains is the most visited U.S. national park in most years.",
       "difficulty": "medium",
       "tags": [
         "locations"
@@ -394,6 +401,7 @@
         "Colorado"
       ],
       "correctIndex": 2,
+      "explanation": "The park's centerpiece, Denali, is North America's highest peak at 20,310 feet.",
       "difficulty": "easy",
       "tags": [
         "locations"
@@ -439,6 +447,7 @@
       "type": "flashcard",
       "prompt": "What is a hoodoo?",
       "answer": "A tall, narrow rock spire shaped by weathering and erosion.",
+      "explanation": "Bryce Canyon in Utah has the largest concentration of hoodoos in the world.",
       "difficulty": "medium",
       "tags": [
         "geology"
@@ -448,6 +457,7 @@
       "type": "flashcard",
       "prompt": "What is a caldera?",
       "answer": "A large volcanic depression formed when the ground collapses after magma is withdrawn from below.",
+      "explanation": "Crater Lake in Oregon fills a caldera that formed when Mount Mazama collapsed about 7,700 years ago.",
       "difficulty": "hard",
       "tags": [
         "geology"

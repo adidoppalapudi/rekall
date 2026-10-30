@@ -1436,124 +1436,184 @@
       "explanation": "The German expression for “to meet up” is “sich treffen.”"
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Das ist ___ Bruder. (ich)",
-      "answer": "mein",
+      "choices": [
+        "mein",
+        "meine",
+        "meinen",
+        "meiner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Masculine nominative Bruder takes mein from the first-person possessive stem.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Masculine nominative Bruder takes mein from the first-person possessive stem."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Das ist ___ Schwester. (ich)",
-      "answer": "meine",
+      "choices": [
+        "mein",
+        "meine",
+        "meinen",
+        "meiner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Feminine nominative Schwester takes meine.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Feminine nominative Schwester takes meine."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Das ist ___ Kind. (ich)",
-      "answer": "mein",
+      "choices": [
+        "meine",
+        "meinen",
+        "mein",
+        "meinem"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neuter nominative Kind takes mein.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Neuter nominative Kind takes mein."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Das sind ___ Eltern. (ich)",
-      "answer": "meine",
+      "choices": [
+        "mein",
+        "meinen",
+        "meiner",
+        "meine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Plural Eltern takes meine.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Plural Eltern takes meine."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Ist das ___ Tasche? (du)",
-      "answer": "deine",
+      "choices": [
+        "deine",
+        "dein",
+        "deinen",
+        "deiner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Feminine nominative Tasche takes deine from the du possessive stem.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Feminine nominative Tasche takes deine from the du possessive stem."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Ich sehe ___ Vater. (du)",
-      "answer": "deinen",
+      "choices": [
+        "dein",
+        "deinen",
+        "deine",
+        "deinem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Masculine accusative Vater takes deinen.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Masculine accusative Vater takes deinen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Wir besuchen ___ Freunde. (er)",
-      "answer": "seine",
+      "choices": [
+        "sein",
+        "seinen",
+        "seine",
+        "ihre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plural Freunde takes seine from the er possessive stem.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Plural Freunde takes seine from the er possessive stem."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Sie sucht ___ Schlüssel. (sie)",
-      "answer": "ihren",
+      "choices": [
+        "ihr",
+        "ihrem",
+        "seinen",
+        "ihren"
+      ],
+      "correctIndex": 3,
+      "explanation": "Masculine accusative Schlüssel takes ihren from the feminine singular possessive stem ihr-.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "Masculine accusative Schlüssel takes ihren from the feminine singular possessive stem ihr-."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Wir sprechen mit ___ Lehrerin. (wir)",
-      "answer": "unserer",
+      "choices": [
+        "unserer",
+        "unsere",
+        "unserem",
+        "unser"
+      ],
+      "correctIndex": 0,
+      "explanation": "mit governs the dative, and feminine dative uses unserer.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "mit governs the dative, and feminine dative uses unserer."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Choose the correct possessive form: Kommt ihr mit ___ Auto? (ihr)",
-      "answer": "eurem",
+      "choices": [
+        "euer",
+        "eurem",
+        "euren",
+        "eurer"
+      ],
+      "correctIndex": 1,
+      "explanation": "mit governs the dative, and neuter dative Auto uses eurem.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "possessives",
         "cases"
-      ],
-      "explanation": "mit governs the dative, and neuter dative Auto uses eurem."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -1880,64 +1940,94 @@
       "explanation": "A stationary location uses the dative: in der Stadt."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the informal singular imperative of kommen?",
-      "answer": "Komm!",
+      "choices": [
+        "Kommst!",
+        "Kommt!",
+        "Komm!",
+        "Kommen Sie!"
+      ],
+      "correctIndex": 2,
+      "explanation": "The informal singular imperative of kommen is Komm!",
       "difficulty": "medium",
       "tags": [
         "a1",
         "imperative",
         "commands"
-      ],
-      "explanation": "The informal singular imperative of kommen is Komm!"
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the informal singular imperative of machen?",
-      "answer": "Mach!",
+      "choices": [
+        "Machst!",
+        "Macht!",
+        "Machen Sie!",
+        "Mach!"
+      ],
+      "correctIndex": 3,
+      "explanation": "The informal singular imperative of machen is Mach!",
       "difficulty": "medium",
       "tags": [
         "a1",
         "imperative",
         "commands"
-      ],
-      "explanation": "The informal singular imperative of machen is Mach!"
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the informal singular imperative of lesen?",
-      "answer": "Lies!",
+      "choices": [
+        "Les!",
+        "Liest!",
+        "Lies!",
+        "Lest!"
+      ],
+      "correctIndex": 2,
+      "explanation": "lesen has the stem-vowel change e to ie in the informal singular imperative: Lies!",
       "difficulty": "medium",
       "tags": [
         "a1",
         "imperative",
         "commands"
-      ],
-      "explanation": "lesen has the stem-vowel change e to ie in the informal singular imperative: Lies!"
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the formal imperative of sprechen?",
-      "answer": "Sprechen Sie!",
+      "choices": [
+        "Sprich!",
+        "Sprecht!",
+        "Sie sprechen!",
+        "Sprechen Sie!"
+      ],
+      "correctIndex": 3,
+      "explanation": "The formal imperative uses the infinitive plus Sie: Sprechen Sie!",
       "difficulty": "medium",
       "tags": [
         "a1",
         "imperative",
         "commands"
-      ],
-      "explanation": "The formal imperative uses the infinitive plus Sie: Sprechen Sie!"
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural informal imperative of warten?",
-      "answer": "Wartet!",
+      "choices": [
+        "Wartet!",
+        "Warte!",
+        "Warten Sie!",
+        "Wartest!"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ihr imperative uses the second-person plural present form without the pronoun: Wartet!",
       "difficulty": "medium",
       "tags": [
         "a1",
         "imperative",
         "commands"
-      ],
-      "explanation": "The ihr imperative uses the second-person plural present form without the pronoun: Wartet!"
+      ]
     },
     {
       "type": "flashcard",
@@ -1952,37 +2042,55 @@
       "explanation": "Seien Sie is the formal imperative of sein, and ruhig means quiet."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the comparative of klein?",
-      "answer": "kleiner",
+      "choices": [
+        "mehr klein",
+        "kleiner",
+        "am kleinsten",
+        "kleinner"
+      ],
+      "correctIndex": 1,
+      "explanation": "The regular comparative adds -er: klein becomes kleiner.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "adjectives"
-      ],
-      "explanation": "The regular comparative adds -er: klein becomes kleiner."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the comparative of groß?",
-      "answer": "größer",
+      "choices": [
+        "großer",
+        "mehr groß",
+        "am größten",
+        "größer"
+      ],
+      "correctIndex": 3,
+      "explanation": "The comparative of groß is größer, with an umlaut and -er.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "adjectives"
-      ],
-      "explanation": "The comparative of groß is größer, with an umlaut and -er."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the superlative form used after a definite article for schnell?",
-      "answer": "der schnellste",
+      "choices": [
+        "der schnellste",
+        "der schnellere",
+        "der schnellstes",
+        "der am schnellsten"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attributive superlatives use -st- plus the appropriate adjective ending: der schnellste.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "adjectives"
-      ],
-      "explanation": "Attributive superlatives use -st- plus the appropriate adjective ending: der schnellste."
+      ]
     },
     {
       "type": "flashcard",

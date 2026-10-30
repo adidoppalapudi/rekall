@@ -7,7 +7,15 @@
  */
 import { createId } from '../lib/id';
 import { shuffle, type Random } from '../lib/random';
-import { DIFFICULTIES, QUESTION_TYPES, type Difficulty, type Question, type QuestionType } from '../models/types';
+import {
+  DIFFICULTIES,
+  QUESTION_TYPES,
+  type DeckProgress,
+  type Difficulty,
+  type Question,
+  type QuestionType,
+} from '../models/types';
+import { dayNumber, pickQuestions } from './mastery';
 
 export const QUESTION_COUNT_OPTIONS = [5, 10, 20, 'all'] as const;
 export type QuestionCount = (typeof QUESTION_COUNT_OPTIONS)[number];
@@ -49,17 +57,24 @@ const STREAK_BONUS_STEP = 10;
 const MAX_STREAK_BONUS = 50;
 const MAX_SPEED_BONUS = 50;
 
+/** Where an answer's points came from. All zero for a wrong answer. */
+export interface PointParts {
+  answer: number;
+  streak: number;
+  speed: number;
+}
+
 /**
- * Points for one answer. `streak` counts this answer (1 = first in a row).
+ * Points for one answer, split by source. `streak` counts this answer (1 = first in a row).
  * `timeLeft` is the share of the timer left, from 1 down to 0 (0 when untimed or a flashcard).
  */
-export function pointsFor(correct: boolean, streak: number, timeLeft = 0): number {
-  if (!correct) return 0;
-  return (
-    POINTS_PER_CORRECT +
-    Math.min(Math.max(streak - 1, 0) * STREAK_BONUS_STEP, MAX_STREAK_BONUS) +
-    Math.round(timeLeft * MAX_SPEED_BONUS)
-  );
+export function pointParts(correct: boolean, streak: number, timeLeft = 0): PointParts {
+  if (!correct) return { answer: 0, streak: 0, speed: 0 };
+  return {
+    answer: POINTS_PER_CORRECT,
+    streak: Math.min(Math.max(streak - 1, 0) * STREAK_BONUS_STEP, MAX_STREAK_BONUS),
+    speed: Math.round(timeLeft * MAX_SPEED_BONUS),
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -104,17 +119,28 @@ function toItems(
   return ordered.slice(0, count).map((question) => toItem(question, settings.shuffleChoices, random));
 }
 
+export interface BuildOptions {
+  /** One deck's mastery. With "shuffle questions" on, the quiz picks by it instead of at random. */
+  progress?: DeckProgress;
+  random?: Random;
+  now?: number;
+}
+
 /** Filters, orders and trims questions into the items of a new quiz. */
 export function buildQuizItems(
   questions: readonly Question[],
   settings: QuizSettings,
-  random: Random = Math.random,
+  { progress, random = Math.random, now = Date.now() }: BuildOptions = {},
 ): QuizItem[] {
   const matching = filterQuestions(questions, settings);
-  return toItems(matching, settings, random, resolveCount(settings.count, matching.length));
+  const count = resolveCount(settings.count, matching.length);
+  if (!progress || !settings.shuffleQuestions) return toItems(matching, settings, random, count);
+  return pickQuestions(matching, count, progress, dayNumber(now), random).map((question) =>
+    toItem(question, settings.shuffleChoices, random),
+  );
 }
 
-/** Quick play: 10 random questions from every deck. */
+/** Quick play: 10 random questions from every deck. Mastery doesn't pick them. */
 export const QUICK_PLAY_SETTINGS: QuizSettings = { ...DEFAULT_SETTINGS, count: 10 };
 
 // ---------------------------------------------------------------------------
@@ -143,6 +169,8 @@ export interface AnswerRecord {
   response: QuizResponse;
   correct: boolean;
   points: number;
+  /** How `points` splits up. Missing from quizzes saved by versions before 29 October 2026. */
+  parts?: PointParts;
 }
 
 /** Where a quiz came from, so "back" and "replay" know where to go. */
@@ -254,9 +282,10 @@ export function answerCurrent(session: QuizSession, response: QuizResponse, now 
   const { question } = currentItem(session);
   const correct = isCorrect(question, recorded);
   const streak = correct ? session.streak + 1 : 0;
-  const points = pointsFor(correct, streak, question.type === 'flashcard' ? 0 : (left ?? 0));
+  const parts = pointParts(correct, streak, question.type === 'flashcard' ? 0 : (left ?? 0));
+  const points = parts.answer + parts.streak + parts.speed;
   const answers = session.answers.slice();
-  answers[session.current] = { response: recorded, correct, points };
+  answers[session.current] = { response: recorded, correct, points, parts };
   return {
     ...session,
     answers,

@@ -20,16 +20,22 @@
       "explanation": "Mir is the first-person singular dative pronoun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to me / for me” in German?",
-      "answer": "mir",
+      "choices": [
+        "mich",
+        "mein",
+        "ich",
+        "mir"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mir is the first-person singular dative pronoun.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "pronouns",
         "dative"
-      ],
-      "explanation": "Mir is the first-person singular dative pronoun."
+      ]
     },
     {
       "type": "flashcard",
@@ -44,16 +50,22 @@
       "explanation": "Dir is the informal singular dative pronoun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to you (informal singular)” in German?",
-      "answer": "dir",
+      "choices": [
+        "dich",
+        "dein",
+        "du",
+        "dir"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dir is the informal singular dative pronoun.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "pronouns",
         "dative"
-      ],
-      "explanation": "Dir is the informal singular dative pronoun."
+      ]
     },
     {
       "type": "flashcard",
@@ -68,16 +80,22 @@
       "explanation": "Ihm is the third-person singular masculine or neuter dative form."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to him / to it (masculine or neuter)” in German?",
-      "answer": "ihm",
+      "choices": [
+        "ihn",
+        "ihr",
+        "sein",
+        "ihm"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ihm is the third-person singular masculine or neuter dative form.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "pronouns",
         "dative"
-      ],
-      "explanation": "Ihm is the third-person singular masculine or neuter dative form."
+      ]
     },
     {
       "type": "flashcard",
@@ -92,16 +110,22 @@
       "explanation": "Ihnen is used for third-person plural dative and formal singular you; the formal form is capitalized."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to them / to them (formal)” in German?",
-      "answer": "ihnen",
+      "choices": [
+        "sie",
+        "ihr",
+        "euch",
+        "ihnen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ihnen is used for third-person plural dative and formal singular you; the formal form is capitalized.",
       "difficulty": "easy",
       "tags": [
         "a2",
         "pronouns",
         "dative"
-      ],
-      "explanation": "Ihnen is used for third-person plural dative and formal singular you; the formal form is capitalized."
+      ]
     },
     {
       "type": "flashcard",
@@ -116,16 +140,22 @@
       "explanation": "Helfen takes a dative object, so Schwester appears as meiner Schwester."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I help my sister.” in German?",
-      "answer": "Ich helfe meiner Schwester.",
+      "choices": [
+        "Ich helfe meine Schwester.",
+        "Ich helfe meiner Schwester.",
+        "Ich helfe meinem Schwester.",
+        "Ich helfe meinen Schwester."
+      ],
+      "correctIndex": 1,
+      "explanation": "Helfen takes a dative object, so Schwester appears as meiner Schwester.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "cases",
         "dative"
-      ],
-      "explanation": "Helfen takes a dative object, so Schwester appears as meiner Schwester."
+      ]
     },
     {
       "type": "flashcard",
@@ -140,16 +170,22 @@
       "explanation": "Danken governs the dative case."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “We thank the doctor.” in German?",
-      "answer": "Wir danken dem Arzt.",
+      "choices": [
+        "Wir danken den Arzt.",
+        "Wir danken der Arzt.",
+        "Wir danken dem Arzt.",
+        "Wir danken des Arztes."
+      ],
+      "correctIndex": 2,
+      "explanation": "Danken governs the dative case.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "cases",
         "dative"
-      ],
-      "explanation": "Danken governs the dative case."
+      ]
     },
     {
       "type": "flashcard",
@@ -164,16 +200,22 @@
       "explanation": "Gegenüber commonly takes the dative and can follow the noun phrase."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “opposite the train station” in German?",
-      "answer": "gegenüber dem Bahnhof",
+      "choices": [
+        "gegenüber den Bahnhof",
+        "gegenüber dem Bahnhof",
+        "gegenüber der Bahnhof",
+        "gegenüber das Bahnhof"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gegenüber commonly takes the dative and can follow the noun phrase.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "dative"
-      ],
-      "explanation": "Gegenüber commonly takes the dative and can follow the noun phrase."
+      ]
     },
     {
       "type": "flashcard",
@@ -188,16 +230,22 @@
       "explanation": "A stationary location uses dative after a two-way preposition."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “at the corner” in German?",
-      "answer": "an der Ecke",
+      "choices": [
+        "an die Ecke",
+        "an dem Ecke",
+        "in die Ecke",
+        "an der Ecke"
+      ],
+      "correctIndex": 3,
+      "explanation": "A stationary location uses dative after a two-way preposition.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "location"
-      ],
-      "explanation": "A stationary location uses dative after a two-way preposition."
+      ]
     },
     {
       "type": "flashcard",
@@ -212,16 +260,22 @@
       "explanation": "Movement toward a destination uses accusative after in."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “into the city” in German?",
-      "answer": "in die Stadt",
+      "choices": [
+        "in der Stadt",
+        "in den Stadt",
+        "in die Stadt",
+        "ins Stadt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Movement toward a destination uses accusative after in.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "accusative"
-      ],
-      "explanation": "Movement toward a destination uses accusative after in."
+      ]
     },
     {
       "type": "flashcard",
@@ -236,16 +290,22 @@
       "explanation": "A stationary position uses dative after auf."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “on the table” in German?",
-      "answer": "auf dem Tisch",
+      "choices": [
+        "auf dem Tisch",
+        "auf den Tisch",
+        "auf der Tisch",
+        "auf das Tisch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A stationary position uses dative after auf.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "location"
-      ],
-      "explanation": "A stationary position uses dative after auf."
+      ]
     },
     {
       "type": "flashcard",
@@ -260,16 +320,22 @@
       "explanation": "A change of location answers wohin and uses accusative after auf."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I put the bottle on the table.” in German?",
-      "answer": "Ich stelle die Flasche auf den Tisch.",
+      "choices": [
+        "Ich stelle die Flasche auf dem Tisch.",
+        "Ich stelle die Flasche auf den Tisch.",
+        "Ich stehe die Flasche auf den Tisch.",
+        "Ich stelle der Flasche auf den Tisch."
+      ],
+      "correctIndex": 1,
+      "explanation": "A change of location answers wohin and uses accusative after auf.",
       "difficulty": "easy",
       "tags": [
         "a2",
         "prepositions",
         "movement"
-      ],
-      "explanation": "A change of location answers wohin and uses accusative after auf."
+      ]
     },
     {
       "type": "flashcard",
@@ -284,16 +350,22 @@
       "explanation": "A fixed location answers wo and uses dative after auf."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The bottle is standing on the table.” in German?",
-      "answer": "Die Flasche steht auf dem Tisch.",
+      "choices": [
+        "Die Flasche steht auf den Tisch.",
+        "Die Flasche stellt auf dem Tisch.",
+        "Die Flasche steht auf der Tisch.",
+        "Die Flasche steht auf dem Tisch."
+      ],
+      "correctIndex": 3,
+      "explanation": "A fixed location answers wo and uses dative after auf.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "location"
-      ],
-      "explanation": "A fixed location answers wo and uses dative after auf."
+      ]
     },
     {
       "type": "flashcard",
@@ -308,16 +380,22 @@
       "explanation": "Sich erinnern is reflexive and commonly combines with an plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to remember” in German?",
-      "answer": "sich erinnern an",
+      "choices": [
+        "sich erinnern auf",
+        "sich erinnern von",
+        "sich erinnern an",
+        "sich erinnern über"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich erinnern is reflexive and commonly combines with an plus accusative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "reflexive",
         "verb-preposition"
-      ],
-      "explanation": "Sich erinnern is reflexive and commonly combines with an plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -332,16 +410,22 @@
       "explanation": "Sich freuen auf refers to a future event and takes an plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to look forward to” in German?",
-      "answer": "sich freuen auf",
+      "choices": [
+        "sich freuen auf",
+        "sich freuen über",
+        "sich freuen für",
+        "sich freuen nach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sich freuen auf refers to a future event and takes an plus accusative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "reflexive",
         "verb-preposition"
-      ],
-      "explanation": "Sich freuen auf refers to a future event and takes an plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -356,16 +440,22 @@
       "explanation": "Sich interessieren für takes für plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to be interested in” in German?",
-      "answer": "sich interessieren für",
+      "choices": [
+        "sich interessieren an",
+        "sich interessieren für",
+        "sich interessieren über",
+        "sich interessieren in"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sich interessieren für takes für plus accusative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "reflexive",
         "verb-preposition"
-      ],
-      "explanation": "Sich interessieren für takes für plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -380,16 +470,22 @@
       "explanation": "The perfect uses haben with vergessen because the verb does not describe a change of location."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I forgot my keys.” in German?",
-      "answer": "Ich habe meine Schlüssel vergessen.",
+      "choices": [
+        "Ich bin meine Schlüssel vergessen.",
+        "Ich habe meine Schlüssel vergesst.",
+        "Ich habe meine Schlüssel gevergessen.",
+        "Ich habe meine Schlüssel vergessen."
+      ],
+      "correctIndex": 3,
+      "explanation": "The perfect uses haben with vergessen because the verb does not describe a change of location.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "perfect",
         "past"
-      ],
-      "explanation": "The perfect uses haben with vergessen because the verb does not describe a change of location."
+      ]
     },
     {
       "type": "flashcard",
@@ -404,16 +500,22 @@
       "explanation": "Movement from one place to another commonly uses sein in the perfect."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “She went to Berlin.” in German?",
-      "answer": "Sie ist nach Berlin gefahren.",
+      "choices": [
+        "Sie hat nach Berlin gefahren.",
+        "Sie ist nach Berlin gefahrt.",
+        "Sie ist nach Berlin gefahren.",
+        "Sie ist zu Berlin gefahren."
+      ],
+      "correctIndex": 2,
+      "explanation": "Movement from one place to another commonly uses sein in the perfect.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "perfect",
         "past"
-      ],
-      "explanation": "Movement from one place to another commonly uses sein in the perfect."
+      ]
     },
     {
       "type": "flashcard",
@@ -428,16 +530,22 @@
       "explanation": "Warten forms the perfect with haben: haben gewartet."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “We waited for a long time.” in German?",
-      "answer": "Wir haben lange gewartet.",
+      "choices": [
+        "Wir haben lange gewartet.",
+        "Wir sind lange gewartet.",
+        "Wir haben lange gewarten.",
+        "Wir haben lange wartet."
+      ],
+      "correctIndex": 0,
+      "explanation": "Warten forms the perfect with haben: haben gewartet.",
       "difficulty": "easy",
       "tags": [
         "a2",
         "perfect",
         "past"
-      ],
-      "explanation": "Warten forms the perfect with haben: haben gewartet."
+      ]
     },
     {
       "type": "flashcard",
@@ -452,16 +560,22 @@
       "explanation": "War is the simple past of sein and is frequent in everyday narration."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “He was ill yesterday.” in German?",
-      "answer": "Er war gestern krank.",
+      "choices": [
+        "Er ist gestern krank.",
+        "Er war gestern krank.",
+        "Er warst gestern krank.",
+        "Er wäre gestern krank."
+      ],
+      "correctIndex": 1,
+      "explanation": "War is the simple past of sein and is frequent in everyday narration.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "preterite",
         "past"
-      ],
-      "explanation": "War is the simple past of sein and is frequent in everyday narration."
+      ]
     },
     {
       "type": "flashcard",
@@ -476,16 +590,22 @@
       "explanation": "Hatte is the simple past of haben."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I had no time.” in German?",
-      "answer": "Ich hatte keine Zeit.",
+      "choices": [
+        "Ich hatte keinen Zeit.",
+        "Ich habe keine Zeit.",
+        "Ich hätte keine Zeit.",
+        "Ich hatte keine Zeit."
+      ],
+      "correctIndex": 3,
+      "explanation": "Hatte is the simple past of haben.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "preterite",
         "past"
-      ],
-      "explanation": "Hatte is the simple past of haben."
+      ]
     },
     {
       "type": "flashcard",
@@ -500,16 +620,22 @@
       "explanation": "Musste is the simple past of müssen."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “had to” in German?",
-      "answer": "musste",
+      "choices": [
+        "müsste",
+        "muss",
+        "musste",
+        "mussen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Musste is the simple past of müssen.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "modal-verbs",
         "preterite"
-      ],
-      "explanation": "Musste is the simple past of müssen."
+      ]
     },
     {
       "type": "flashcard",
@@ -524,16 +650,22 @@
       "explanation": "Konnte is the simple past of können."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “could / was able to” in German?",
-      "answer": "konnte",
+      "choices": [
+        "konnte",
+        "kann",
+        "gekonnt",
+        "konnt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Konnte is the simple past of können.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "modal-verbs",
         "preterite"
-      ],
-      "explanation": "Konnte is the simple past of können."
+      ]
     },
     {
       "type": "flashcard",
@@ -547,15 +679,21 @@
       "explanation": "Comparative forms are followed by als when comparing two things."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “better than” in German?",
-      "answer": "besser als",
+      "choices": [
+        "besser wie",
+        "besser als",
+        "gut als",
+        "mehr gut als"
+      ],
+      "correctIndex": 1,
+      "explanation": "Comparative forms are followed by als when comparing two things.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "comparison"
-      ],
-      "explanation": "Comparative forms are followed by als when comparing two things."
+      ]
     },
     {
       "type": "flashcard",
@@ -569,15 +707,21 @@
       "explanation": "Equal comparison uses so ... wie."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “as fast as” in German?",
-      "answer": "so schnell wie",
+      "choices": [
+        "so schnell als",
+        "so schneller wie",
+        "schneller wie",
+        "so schnell wie"
+      ],
+      "correctIndex": 3,
+      "explanation": "Equal comparison uses so ... wie.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "comparison"
-      ],
-      "explanation": "Equal comparison uses so ... wie."
+      ]
     },
     {
       "type": "flashcard",
@@ -591,15 +735,21 @@
       "explanation": "The superlative used predicatively or adverbially is often formed with am ... -sten."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the cheapest” in German?",
-      "answer": "am billigsten",
+      "choices": [
+        "am billigste",
+        "am billigeren",
+        "am billigsten",
+        "am billigst"
+      ],
+      "correctIndex": 2,
+      "explanation": "The superlative used predicatively or adverbially is often formed with am ... -sten.",
       "difficulty": "easy",
       "tags": [
         "a2",
         "comparison"
-      ],
-      "explanation": "The superlative used predicatively or adverbially is often formed with am ... -sten."
+      ]
     },
     {
       "type": "flashcard",
@@ -614,16 +764,22 @@
       "explanation": "Weil introduces a subordinate clause, so the finite verb moves to the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “because I am tired” in German?",
-      "answer": "weil ich müde bin",
+      "choices": [
+        "weil ich müde bin",
+        "weil ich bin müde",
+        "weil bin ich müde",
+        "weil ich müde ist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weil introduces a subordinate clause, so the finite verb moves to the end.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "subordinate-clauses",
         "word-order"
-      ],
-      "explanation": "Weil introduces a subordinate clause, so the finite verb moves to the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -638,16 +794,22 @@
       "explanation": "Dass introduces a subordinate clause with the finite verb at the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “that he is coming today” in German?",
-      "answer": "dass er heute kommt",
+      "choices": [
+        "dass er kommt heute",
+        "dass er heute kommt",
+        "dass kommt er heute",
+        "das er heute kommt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dass introduces a subordinate clause with the finite verb at the end.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "subordinate-clauses",
         "word-order"
-      ],
-      "explanation": "Dass introduces a subordinate clause with the finite verb at the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -662,16 +824,22 @@
       "explanation": "Wenn can introduce a condition or a repeated temporal situation."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “if / when I have time” in German?",
-      "answer": "wenn ich Zeit habe",
+      "choices": [
+        "wenn ich habe Zeit",
+        "wenn habe ich Zeit",
+        "wann ich Zeit habe",
+        "wenn ich Zeit habe"
+      ],
+      "correctIndex": 3,
+      "explanation": "Wenn can introduce a condition or a repeated temporal situation.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "subordinate-clauses",
         "word-order"
-      ],
-      "explanation": "Wenn can introduce a condition or a repeated temporal situation."
+      ]
     },
     {
       "type": "flashcard",
@@ -685,15 +853,21 @@
       "explanation": "Obwohl introduces a concessive subordinate clause and sends the finite verb to the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “although it is raining” in German?",
-      "answer": "obwohl es regnet",
+      "choices": [
+        "obwohl es regnen",
+        "obwohl regnet es",
+        "obwohl es regnet",
+        "obwohl es ist regnet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Obwohl introduces a concessive subordinate clause and sends the finite verb to the end.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "subordinate-clauses"
-      ],
-      "explanation": "Obwohl introduces a concessive subordinate clause and sends the finite verb to the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -872,16 +1046,22 @@
       "explanation": "The person experiencing pain is expressed with dative mir; the body part is the subject."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “My back hurts.” in German?",
-      "answer": "Mir tut der Rücken weh.",
+      "choices": [
+        "Mir tut der Rücken weh.",
+        "Mich tut der Rücken weh.",
+        "Mir tut den Rücken weh.",
+        "Ich tue der Rücken weh."
+      ],
+      "correctIndex": 0,
+      "explanation": "The person experiencing pain is expressed with dative mir; the body part is the subject.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "health",
         "dative"
-      ],
-      "explanation": "The person experiencing pain is expressed with dative mir; the body part is the subject."
+      ]
     },
     {
       "type": "flashcard",
@@ -896,16 +1076,22 @@
       "explanation": "Sich fühlen is reflexive; the pronoun agrees with the subject."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I feel better.” in German?",
-      "answer": "Ich fühle mich besser.",
+      "choices": [
+        "Ich fühle mir besser.",
+        "Ich fühle besser.",
+        "Ich fühle mich mehr gut.",
+        "Ich fühle mich besser."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich fühlen is reflexive; the pronoun agrees with the subject.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "health",
         "reflexive"
-      ],
-      "explanation": "Sich fühlen is reflexive; the pronoun agrees with the subject."
+      ]
     },
     {
       "type": "flashcard",
@@ -1012,16 +1198,22 @@
       "explanation": "Während is commonly used with a genitive phrase in careful standard German."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “during the trip” in German?",
-      "answer": "während der Reise",
+      "choices": [
+        "während die Reise",
+        "während der Reise",
+        "während dem Reise",
+        "während den Reise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Während is commonly used with a genitive phrase in careful standard German.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "prepositions",
         "time"
-      ],
-      "explanation": "Während is commonly used with a genitive phrase in careful standard German."
+      ]
     },
     {
       "type": "flashcard",

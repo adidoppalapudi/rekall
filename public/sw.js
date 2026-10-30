@@ -3,9 +3,9 @@
  * after it has been loaded once.
  *
  * How it works:
- *  - On install it downloads index.html, finds the scripts and styles that
- *    page refers to, and caches them together with the icons and the manifest
- *    (the "app shell"). Starter decks are cached the first time they're opened.
+ *  - On install it downloads index.html, finds the scripts, styles and
+ *    starter decks that page refers to, and caches them together with the
+ *    icons and the manifest (the "app shell").
  *  - Opening the app goes to the network first, so you get updates as soon as
  *    they are deployed. If the network fails or takes more than a few seconds,
  *    the cached copy is used instead.
@@ -40,7 +40,7 @@ function isAppPage(url) {
   return url.pathname === SCOPE_PATH || url.pathname === `${SCOPE_PATH}index.html`;
 }
 
-/** Same-origin URLs of the scripts, styles and icons that index.html refers to. */
+/** Same-origin URLs of the scripts, styles, icons and starter decks that index.html refers to. */
 function referencedUrls(html) {
   const urls = new Set();
   for (const match of html.matchAll(/\b(?:src|href)="([^"#?]+)/g)) {
@@ -73,7 +73,7 @@ async function cacheAppShell(htmlResponse) {
   );
 
   if (!unchanged) {
-    // Drop scripts and styles from older builds.
+    // Drop scripts, styles and starter decks from older builds.
     for (const request of await cache.keys()) {
       if (isHashedAsset(request.url) && !wanted.has(request.url)) await cache.delete(request);
     }

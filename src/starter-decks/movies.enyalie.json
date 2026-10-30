@@ -57,12 +57,13 @@
     },
     {
       "type": "true_false",
-      "prompt": "The Godfather (1972) was directed by Francis Ford Coppola.",
-      "answer": true,
+      "prompt": "The Godfather (1972) was directed by Martin Scorsese.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "directors"
-      ]
+      ],
+      "explanation": "Francis Ford Coppola directed The Godfather. Scorsese’s best-known 1970s films include Mean Streets and Taxi Driver."
     },
     {
       "type": "multiple_choice",
@@ -74,6 +75,7 @@
         "Brad Pitt"
       ],
       "correctIndex": 0,
+      "explanation": "Kate Winslet played Rose opposite him. Titanic won 11 Oscars, including Best Picture.",
       "difficulty": "easy",
       "tags": [
         "actors"
@@ -147,6 +149,7 @@
         "Guy Ritchie"
       ],
       "correctIndex": 0,
+      "explanation": "Pulp Fiction won the Palme d'Or at Cannes in 1994. Tarantino shared the Best Original Screenplay Oscar with Roger Avary.",
       "difficulty": "easy",
       "tags": [
         "directors"
@@ -154,9 +157,9 @@
     },
     {
       "type": "true_false",
-      "prompt": "Parasite (2019) was the first non-English-language film to win the Oscar for Best Picture.",
-      "answer": true,
-      "explanation": "The South Korean film was directed by Bong Joon-ho.",
+      "prompt": "Roma (2018) was the first non-English-language film to win the Oscar for Best Picture.",
+      "answer": false,
+      "explanation": "Roma won Best Director, Cinematography and Foreign Language Film but lost Best Picture to Green Book. Parasite (2019) was the first non-English-language Best Picture winner.",
       "difficulty": "medium",
       "tags": [
         "oscars"
@@ -188,6 +191,7 @@
         "Isao Takahata"
       ],
       "correctIndex": 0,
+      "explanation": "Spirited Away won the Oscar for Best Animated Feature in 2003.",
       "difficulty": "medium",
       "tags": [
         "directors"
@@ -245,6 +249,7 @@
         "Jared Leto"
       ],
       "correctIndex": 0,
+      "explanation": "Jack Nicholson played the Joker in Batman (1989), and Joaquin Phoenix played him in Joker (2019).",
       "difficulty": "easy",
       "tags": [
         "actors"
@@ -270,6 +275,7 @@
         "James Cameron"
       ],
       "correctIndex": 2,
+      "explanation": "Nolan also directed the Dark Knight trilogy and Oppenheimer (2023).",
       "difficulty": "easy",
       "tags": [
         "directors"
@@ -317,6 +323,7 @@
         "Bill Murray"
       ],
       "correctIndex": 1,
+      "explanation": "Hanks won Best Actor for the role, his second win in a row after Philadelphia.",
       "difficulty": "easy",
       "tags": [
         "actors"
@@ -324,9 +331,9 @@
     },
     {
       "type": "true_false",
-      "prompt": "Tom Hanks won the Best Actor Oscar two years in a row.",
-      "answer": true,
-      "explanation": "For Philadelphia (1993) and Forrest Gump (1994).",
+      "prompt": "Tom Hanks won the Best Actor Oscar for Cast Away (2000).",
+      "answer": false,
+      "explanation": "He was nominated for Cast Away but lost to Russell Crowe for Gladiator. Hanks won Best Actor two years in a row, for Philadelphia (1993) and Forrest Gump (1994).",
       "difficulty": "hard",
       "tags": [
         "oscars"
@@ -1060,13 +1067,13 @@
     },
     {
       "type": "true_false",
-      "prompt": "The Wizard of Oz (1939) begins in sepia tone and switches to Technicolor when Dorothy arrives in Oz.",
-      "answer": true,
+      "prompt": "The Wizard of Oz (1939) is in Technicolor from start to finish.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "scenes"
       ],
-      "explanation": "The Kansas scenes are sepia-toned. The change to color when Dorothy opens the farmhouse door is one of the film's best-known moments."
+      "explanation": "The Kansas scenes are sepia-toned. The film switches to Technicolor when Dorothy opens the farmhouse door in Oz."
     },
     {
       "type": "multiple_choice",

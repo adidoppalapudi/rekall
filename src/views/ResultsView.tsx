@@ -26,6 +26,14 @@ export function ResultsView() {
   // Recording is safe to repeat for the same quiz, so it can run while rendering.
   const newBests = useMemo(() => (session && isFinished(session) ? recordResult(session) : []), [session]);
 
+  // Mastery counts each quiz once, so a reload or a second effect run changes nothing.
+  useEffect(() => {
+    if (!session || !isFinished(session)) return;
+    store
+      .recordQuiz(session)
+      .catch((failure) => notify(`Couldn't save your progress: ${errorMessage(failure)}`, 'error'));
+  }, [session, notify]);
+
   useEffect(
     () => () => {
       pending.current = false;
@@ -54,19 +62,20 @@ export function ResultsView() {
     pending.current = true;
     setStarting(true);
     try {
-      const [questions, decks] =
+      const [questions, decks, progress] =
         session.source.kind === 'deck'
           ? await Promise.all([
               store.listQuestions(session.source.deckId),
               store.getDeck(session.source.deckId).then((deck) => (deck ? [deck] : [])),
+              store.loadProgress(session.source.deckId),
             ])
-          : await Promise.all([store.listAllQuestions(), store.listDecks()]);
+          : await Promise.all([store.listAllQuestions(), store.listDecks(), undefined]);
       if (!pending.current) return;
       if (session.source.kind === 'deck' && decks.length === 0) {
         notify('This deck no longer exists.', 'info');
         return;
       }
-      const items = buildQuizItems(questions, session.settings);
+      const items = buildQuizItems(questions, session.settings, { progress });
       if (items.length === 0) {
         notify('No questions match these quiz settings.', 'info');
         return;

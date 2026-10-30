@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react';
+import { useRef, useState, type ReactNode } from 'react';
 import { useQuiz } from '../app/QuizContext';
 import { navigate } from '../app/router';
 import { useStatus } from '../app/StatusContext';
@@ -15,10 +15,18 @@ import { deckCategory, filterDecks } from '../lib/deckCatalog';
 import { formatDate, plural } from '../lib/format';
 import { cyclePalette } from '../lib/palette';
 import { requestPersistentStorage } from '../lib/storage';
-import { QUICK_PLAY_SETTINGS, buildQuizItems, createSession } from '../quiz/engine';
+import { loadStarterDeck } from '../io/starterDecks';
+import { DEFAULT_SETTINGS, QUICK_PLAY_SETTINGS, buildQuizItems, createSession } from '../quiz/engine';
 import { StarterDecksDialog } from './parts/StarterDecksDialog';
 import { useDeckActions } from './parts/useDeckActions';
 import { useDeckImport } from './parts/useDeckImport';
+
+/** One tap on an empty library adds one of these starter decks and starts a quiz from it. */
+const STARTER_QUIZZES = [
+  { file: 'world-geography', label: 'play world geography' },
+  { file: 'trivia-easy', label: 'play anything goes' },
+  { file: 'trivia-hard', label: 'play deep cuts' },
+];
 
 export function LibraryView() {
   const quiz = useQuiz();
@@ -29,6 +37,8 @@ export function LibraryView() {
   const [browsingStarters, setBrowsingStarters] = useState(false);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
+  const [startingStarter, setStartingStarter] = useState(false);
+  const starting = useRef(false);
 
   const deckActions = useDeckActions({ onEdited: reload, onDuplicated: reload, onDeleted: reload });
   const importer = useDeckImport({
@@ -61,11 +71,48 @@ export function LibraryView() {
     }
   }
 
+  /** Adds a starter deck to the empty library and starts a 10-question quiz from it. */
+  async function playStarter(file: string) {
+    if (starting.current) return;
+    starting.current = true;
+    setStartingStarter(true);
+    try {
+      const deck = await store.importDeck(await loadStarterDeck(file), { asNewDeck: false });
+      requestPersistentStorage();
+      const questions = await store.listQuestions(deck.id);
+      quiz.start(
+        createSession({
+          title: deck.name,
+          source: { kind: 'deck', deckId: deck.id },
+          settings: DEFAULT_SETTINGS,
+          items: buildQuizItems(questions, DEFAULT_SETTINGS),
+          deckNames: { [deck.id]: deck.name },
+        }),
+      );
+      navigate({ name: 'quiz' });
+    } catch (failure) {
+      notify(`Couldn't start the quiz: ${errorMessage(failure)}`, 'error');
+      reload();
+    } finally {
+      starting.current = false;
+      setStartingStarter(false);
+    }
+  }
+
+  // On an empty library, quick play starts the first starter quiz instead.
+  const emptyLibrary = decks?.length === 0;
+
   const actions: KeyAction[] = [
     { label: 'new deck', hotkey: 'n', onAction: () => setCreating(true) },
     { label: 'import', hotkey: 'i', onAction: importer.chooseFile },
     { label: 'colors', hotkey: 'c', onAction: () => notify(`Switched to the ${cyclePalette()} palette.`, 'info') },
-    { label: 'quick play', hotkey: 'q', onAction: startQuickPlay, disabled: totalQuestions === 0, primary: true },
+    {
+      label: 'quick play',
+      hotkey: 'q',
+      onAction: emptyLibrary ? () => playStarter(STARTER_QUIZZES[0].file) : startQuickPlay,
+      disabled: emptyLibrary ? startingStarter : totalQuestions === 0,
+      primary: true,
+    },
   ];
 
   let body: ReactNode;
@@ -85,12 +132,23 @@ export function LibraryView() {
   } else if (decks.length === 0) {
     body = (
       <Notice title="No decks yet.">
-        <p>
-          Pick some ready-made starter decks, create a deck of your own, or import deck files you exported
-          earlier.
-        </p>
+        <p>Try a few starter quizzes:</p>
         <p className="button-row">
-          <button type="button" className="btn btn-primary" onClick={() => setBrowsingStarters(true)}>
+          {STARTER_QUIZZES.map(({ file, label }) => (
+            <button
+              key={file}
+              type="button"
+              className="btn btn-primary"
+              disabled={startingStarter}
+              onClick={() => playStarter(file)}
+            >
+              {label}
+            </button>
+          ))}
+        </p>
+        <p>Browse the starter decks, or create or import your own.</p>
+        <p className="button-row">
+          <button type="button" className="btn" onClick={() => setBrowsingStarters(true)}>
             starter decks
           </button>
           <button type="button" className="btn" onClick={() => setCreating(true)}>

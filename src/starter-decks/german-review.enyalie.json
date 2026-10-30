@@ -129,15 +129,20 @@
       "explanation": "Diminutive nouns ending in -chen are neuter, regardless of natural gender."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “the girl” in German?",
-      "answer": "das Mädchen",
+      "choices": [
+        "der Mädchen",
+        "die Mädchen",
+        "das Mädchen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diminutive nouns ending in -chen are neuter, regardless of natural gender.",
       "difficulty": "hard",
       "tags": [
         "review",
         "gender"
-      ],
-      "explanation": "Diminutive nouns ending in -chen are neuter, regardless of natural gender."
+      ]
     },
     {
       "type": "flashcard",
@@ -152,16 +157,21 @@
       "explanation": "Tür is feminine; its plural is Türen."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “the door” in German?",
-      "answer": "die Tür",
+      "choices": [
+        "der Tür",
+        "die Tür",
+        "das Tür"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tür is feminine; its plural is Türen.",
       "difficulty": "medium",
       "tags": [
         "review",
         "gender",
         "plural"
-      ],
-      "explanation": "Tür is feminine; its plural is Türen."
+      ]
     },
     {
       "type": "flashcard",
@@ -175,15 +185,20 @@
       "explanation": "Käse is masculine in standard German."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “the cheese” in German?",
-      "answer": "der Käse",
+      "choices": [
+        "der Käse",
+        "die Käse",
+        "das Käse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Käse is masculine in standard German.",
       "difficulty": "medium",
       "tags": [
         "review",
         "gender"
-      ],
-      "explanation": "Käse is masculine in standard German."
+      ]
     },
     {
       "type": "flashcard",
@@ -197,15 +212,21 @@
       "explanation": "Bücher is the umlaut plural of das Buch."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “the books” in German?",
-      "answer": "die Bücher",
+      "choices": [
+        "die Buchs",
+        "die Büchern",
+        "das Bücher",
+        "die Bücher"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bücher is the umlaut plural of das Buch.",
       "difficulty": "medium",
       "tags": [
         "review",
         "plural"
-      ],
-      "explanation": "Bücher is the umlaut plural of das Buch."
+      ]
     },
     {
       "type": "flashcard",
@@ -219,15 +240,21 @@
       "explanation": "Eltern is normally used in the plural."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “the parents” in German?",
-      "answer": "die Eltern",
+      "choices": [
+        "die Elters",
+        "die Elteren",
+        "das Eltern",
+        "die Eltern"
+      ],
+      "correctIndex": 3,
+      "explanation": "Eltern is normally used in the plural.",
       "difficulty": "medium",
       "tags": [
         "review",
         "plural"
-      ],
-      "explanation": "Eltern is normally used in the plural."
+      ]
     },
     {
       "type": "flashcard",
@@ -241,15 +268,21 @@
       "explanation": "The direct masculine object is accusative: den Hund."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I see the dog.” in German?",
-      "answer": "Ich sehe den Hund.",
+      "choices": [
+        "Ich sehe der Hund.",
+        "Ich sehe dem Hund.",
+        "Ich sehe des Hundes.",
+        "Ich sehe den Hund."
+      ],
+      "correctIndex": 3,
+      "explanation": "The direct masculine object is accusative: den Hund.",
       "difficulty": "easy",
       "tags": [
         "review",
         "cases"
-      ],
-      "explanation": "The direct masculine object is accusative: den Hund."
+      ]
     },
     {
       "type": "flashcard",
@@ -263,15 +296,21 @@
       "explanation": "The recipient is dative and the thing given is accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I give the child a book.” in German?",
-      "answer": "Ich gebe dem Kind ein Buch.",
+      "choices": [
+        "Ich gebe das Kind ein Buch.",
+        "Ich gebe den Kind ein Buch.",
+        "Ich gebe dem Kind einen Buch.",
+        "Ich gebe dem Kind ein Buch."
+      ],
+      "correctIndex": 3,
+      "explanation": "The recipient is dative and the thing given is accusative.",
       "difficulty": "medium",
       "tags": [
         "review",
         "cases"
-      ],
-      "explanation": "The recipient is dative and the thing given is accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -285,15 +324,21 @@
       "explanation": "The possessor is genitive masculine singular: meines Bruders."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “my brother’s car” in German?",
-      "answer": "Das Auto meines Bruders",
+      "choices": [
+        "Das Auto meiner Bruders",
+        "Das Auto meines Bruders",
+        "Das Auto meines Bruder",
+        "Das Auto mein Bruders"
+      ],
+      "correctIndex": 1,
+      "explanation": "The possessor is genitive masculine singular: meines Bruders.",
       "difficulty": "hard",
       "tags": [
         "review",
         "genitive"
-      ],
-      "explanation": "The possessor is genitive masculine singular: meines Bruders."
+      ]
     },
     {
       "type": "flashcard",
@@ -307,15 +352,21 @@
       "explanation": "Mit governs dative; feminine dative possessive is meiner."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “with my sister” in German?",
-      "answer": "mit meiner Schwester",
+      "choices": [
+        "mit meine Schwester",
+        "mit meinen Schwester",
+        "mit meinem Schwester",
+        "mit meiner Schwester"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mit governs dative; feminine dative possessive is meiner.",
       "difficulty": "medium",
       "tags": [
         "review",
         "cases"
-      ],
-      "explanation": "Mit governs dative; feminine dative possessive is meiner."
+      ]
     },
     {
       "type": "flashcard",
@@ -329,15 +380,21 @@
       "explanation": "Kein negates a noun and takes the same endings as ein."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I have no coffee.” in German?",
-      "answer": "Ich habe keinen Kaffee.",
+      "choices": [
+        "Ich habe nicht Kaffee.",
+        "Ich habe kein Kaffee.",
+        "Ich habe keinen Kaffee.",
+        "Ich habe keine Kaffee."
+      ],
+      "correctIndex": 2,
+      "explanation": "Kein negates a noun and takes the same endings as ein.",
       "difficulty": "medium",
       "tags": [
         "review",
         "negation"
-      ],
-      "explanation": "Kein negates a noun and takes the same endings as ein."
+      ]
     },
     {
       "type": "flashcard",
@@ -399,15 +456,21 @@
       "explanation": "The perfect uses haben plus the past participle gelesen."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I read / have read the book.” in German?",
-      "answer": "Ich habe das Buch gelesen.",
+      "choices": [
+        "Ich bin das Buch gelesen.",
+        "Ich habe das Buch gelest.",
+        "Ich habe gelesen das Buch.",
+        "Ich habe das Buch gelesen."
+      ],
+      "correctIndex": 3,
+      "explanation": "The perfect uses haben plus the past participle gelesen.",
       "difficulty": "easy",
       "tags": [
         "review",
         "perfect"
-      ],
-      "explanation": "The perfect uses haben plus the past participle gelesen."
+      ]
     },
     {
       "type": "flashcard",
@@ -421,15 +484,21 @@
       "explanation": "A change of state uses sein in the perfect."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I fell asleep.” in German?",
-      "answer": "Ich bin eingeschlafen.",
+      "choices": [
+        "Ich habe eingeschlafen.",
+        "Ich bin eingeschlafen.",
+        "Ich bin eingeschlaft.",
+        "Ich bin geeinschlafen."
+      ],
+      "correctIndex": 1,
+      "explanation": "A change of state uses sein in the perfect.",
       "difficulty": "medium",
       "tags": [
         "review",
         "perfect"
-      ],
-      "explanation": "A change of state uses sein in the perfect."
+      ]
     },
     {
       "type": "flashcard",
@@ -443,15 +512,21 @@
       "explanation": "Anrufen is separable; an moves to the end of the main clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I will call you tomorrow.” in German?",
-      "answer": "Ich rufe dich morgen an.",
+      "choices": [
+        "Ich rufe dich morgen an.",
+        "Ich anrufe dich morgen.",
+        "Ich rufe an dich morgen.",
+        "Ich rufe morgen an dich."
+      ],
+      "correctIndex": 0,
+      "explanation": "Anrufen is separable; an moves to the end of the main clause.",
       "difficulty": "medium",
       "tags": [
         "review",
         "separable-verbs"
-      ],
-      "explanation": "Anrufen is separable; an moves to the end of the main clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -465,15 +540,21 @@
       "explanation": "Besuchen is inseparable; its be- prefix stays attached."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I will visit you tomorrow.” in German?",
-      "answer": "Ich besuche dich morgen.",
+      "choices": [
+        "Ich suche dich morgen be.",
+        "Ich besuche dir morgen.",
+        "Ich besuche dich morgen.",
+        "Ich besuchte dich morgen."
+      ],
+      "correctIndex": 2,
+      "explanation": "Besuchen is inseparable; its be- prefix stays attached.",
       "difficulty": "medium",
       "tags": [
         "review",
         "prefix-verbs"
-      ],
-      "explanation": "Besuchen is inseparable; its be- prefix stays attached."
+      ]
     },
     {
       "type": "flashcard",
@@ -487,15 +568,21 @@
       "explanation": "Subordinate clauses introduced by weil are verb-final."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “because I have no time” in German?",
-      "answer": "weil ich keine Zeit habe",
+      "choices": [
+        "weil ich habe keine Zeit",
+        "weil habe ich keine Zeit",
+        "weil ich keine Zeit hat",
+        "weil ich keine Zeit habe"
+      ],
+      "correctIndex": 3,
+      "explanation": "Subordinate clauses introduced by weil are verb-final.",
       "difficulty": "medium",
       "tags": [
         "review",
         "word-order"
-      ],
-      "explanation": "Subordinate clauses introduced by weil are verb-final."
+      ]
     },
     {
       "type": "flashcard",
@@ -509,15 +596,21 @@
       "explanation": "If a time phrase occupies position one, the finite verb remains in position two."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “Tomorrow I am travelling to Cologne.” in German?",
-      "answer": "Morgen fahre ich nach Köln.",
+      "choices": [
+        "Morgen ich fahre nach Köln.",
+        "Morgen fahre ich nach Köln.",
+        "Morgen fahre ich zu Köln.",
+        "Morgen ich nach Köln fahre."
+      ],
+      "correctIndex": 1,
+      "explanation": "If a time phrase occupies position one, the finite verb remains in position two.",
       "difficulty": "medium",
       "tags": [
         "review",
         "word-order"
-      ],
-      "explanation": "If a time phrase occupies position one, the finite verb remains in position two."
+      ]
     },
     {
       "type": "flashcard",
@@ -531,15 +624,21 @@
       "explanation": "Dass introduces a subordinate clause with verb-final order."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I know that he is coming.” in German?",
-      "answer": "Ich weiß, dass er kommt.",
+      "choices": [
+        "Ich weiß, dass er kommt.",
+        "Ich weiß, dass kommt er.",
+        "Ich weiß, dass er kommen.",
+        "Ich weiß, das er kommt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dass introduces a subordinate clause with verb-final order.",
       "difficulty": "medium",
       "tags": [
         "review",
         "word-order"
-      ],
-      "explanation": "Dass introduces a subordinate clause with verb-final order."
+      ]
     },
     {
       "type": "flashcard",
@@ -553,15 +652,21 @@
       "explanation": "A subordinate clause can precede the main clause; the main clause then begins with the finite verb."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “If I have time, I will come.” in German?",
-      "answer": "Wenn ich Zeit habe, komme ich.",
+      "choices": [
+        "Wenn ich Zeit habe, ich komme.",
+        "Wenn ich habe Zeit, komme ich.",
+        "Wenn ich Zeit habe, komme ich.",
+        "Wenn habe ich Zeit, komme ich."
+      ],
+      "correctIndex": 2,
+      "explanation": "A subordinate clause can precede the main clause; the main clause then begins with the finite verb.",
       "difficulty": "easy",
       "tags": [
         "review",
         "word-order"
-      ],
-      "explanation": "A subordinate clause can precede the main clause; the main clause then begins with the finite verb."
+      ]
     },
     {
       "type": "flashcard",
@@ -575,15 +680,21 @@
       "explanation": "Sich erinnern an takes an plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “to remember” in German?",
-      "answer": "sich erinnern an",
+      "choices": [
+        "sich erinnern auf",
+        "sich erinnern von",
+        "sich erinnern über",
+        "sich erinnern an"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich erinnern an takes an plus accusative.",
       "difficulty": "hard",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Sich erinnern an takes an plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -597,15 +708,21 @@
       "explanation": "Abhängen von takes von plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “to depend on” in German?",
-      "answer": "abhängen von",
+      "choices": [
+        "abhängen auf",
+        "abhängen von",
+        "abhängen an",
+        "abhängen mit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abhängen von takes von plus dative.",
       "difficulty": "hard",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Abhängen von takes von plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -619,15 +736,21 @@
       "explanation": "Warten auf takes auf plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “to wait for” in German?",
-      "answer": "warten auf",
+      "choices": [
+        "warten auf",
+        "warten für",
+        "warten an",
+        "warten nach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Warten auf takes auf plus accusative.",
       "difficulty": "hard",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Warten auf takes auf plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -641,15 +764,21 @@
       "explanation": "Sprechen mit takes mit plus dative when naming the conversation partner."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “to speak with” in German?",
-      "answer": "sprechen mit",
+      "choices": [
+        "sprechen bei",
+        "sprechen auf",
+        "sprechen mit",
+        "sprechen an"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sprechen mit takes mit plus dative when naming the conversation partner.",
       "difficulty": "hard",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Sprechen mit takes mit plus dative when naming the conversation partner."
+      ]
     },
     {
       "type": "flashcard",
@@ -818,16 +947,22 @@
       "explanation": "The formal pronoun Sie is capitalized and uses third-person plural verb forms."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “formal you” in German?",
-      "answer": "Sie",
+      "choices": [
+        "du",
+        "Sie",
+        "ihr",
+        "euch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The formal pronoun Sie is capitalized and uses third-person plural verb forms.",
       "difficulty": "medium",
       "tags": [
         "review",
         "register",
         "pronouns"
-      ],
-      "explanation": "The formal pronoun Sie is capitalized and uses third-person plural verb forms."
+      ]
     },
     {
       "type": "flashcard",
@@ -842,16 +977,22 @@
       "explanation": "Du is used with friends, family, children, and in settings where informal address is established."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “informal singular you” in German?",
-      "answer": "du",
+      "choices": [
+        "Sie",
+        "ihr",
+        "wir",
+        "du"
+      ],
+      "correctIndex": 3,
+      "explanation": "Du is used with friends, family, children, and in settings where informal address is established.",
       "difficulty": "medium",
       "tags": [
         "review",
         "register",
         "pronouns"
-      ],
-      "explanation": "Du is used with friends, family, children, and in settings where informal address is established."
+      ]
     },
     {
       "type": "flashcard",
@@ -1094,16 +1235,22 @@
       "explanation": "Es gibt always takes an accusative noun phrase."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “there is / there are” in German?",
-      "answer": "Es gibt",
+      "choices": [
+        "Es geben",
+        "Es gebt",
+        "Es gibt",
+        "Es gab"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es gibt always takes an accusative noun phrase.",
       "difficulty": "medium",
       "tags": [
         "review",
         "grammar",
         "cases"
-      ],
-      "explanation": "Es gibt always takes an accusative noun phrase."
+      ]
     },
     {
       "type": "flashcard",
@@ -1118,16 +1265,22 @@
       "explanation": "German uses gefallen with the thing as subject and the experiencer in dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I like it.” in German?",
-      "answer": "Das gefällt mir.",
+      "choices": [
+        "Das gefällt mir.",
+        "Das gefällt mich.",
+        "Ich gefalle das.",
+        "Das gefalle ich."
+      ],
+      "correctIndex": 0,
+      "explanation": "German uses gefallen with the thing as subject and the experiencer in dative.",
       "difficulty": "hard",
       "tags": [
         "review",
         "dative",
         "verbs"
-      ],
-      "explanation": "German uses gefallen with the thing as subject and the experiencer in dative."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -1414,16 +1567,21 @@
       "explanation": "Nummer is feminine and contains a doubled consonant in standard spelling."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “number” in German?",
-      "answer": "die Nummer",
+      "choices": [
+        "der Nummer",
+        "die Nummer",
+        "das Nummer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nummer is feminine and contains a doubled consonant in standard spelling.",
       "difficulty": "medium",
       "tags": [
         "review",
         "spelling",
         "gender"
-      ],
-      "explanation": "Nummer is feminine and contains a doubled consonant in standard spelling."
+      ]
     },
     {
       "type": "flashcard",
@@ -1438,16 +1596,21 @@
       "explanation": "Handy is a German false friend; in German it means mobile phone."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “mobile phone” in German?",
-      "answer": "das Handy",
+      "choices": [
+        "das Handy",
+        "der Handy",
+        "die Handy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Handy is a German false friend; in German it means mobile phone.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "daily-life"
-      ],
-      "explanation": "Handy is a German false friend; in German it means mobile phone."
+      ]
     },
     {
       "type": "flashcard",
@@ -1462,16 +1625,21 @@
       "explanation": "Chef is masculine and means boss; it does not mean chef in the English culinary sense."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “boss” in German?",
-      "answer": "der Chef",
+      "choices": [
+        "die Chef",
+        "das Chef",
+        "der Chef"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chef is masculine and means boss; it does not mean chef in the English culinary sense.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "work"
-      ],
-      "explanation": "Chef is masculine and means boss; it does not mean chef in the English culinary sense."
+      ]
     },
     {
       "type": "flashcard",
@@ -1486,16 +1654,21 @@
       "explanation": "Fabrik is feminine and is the German word for factory."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “factory” in German?",
-      "answer": "die Fabrik",
+      "choices": [
+        "der Fabrik",
+        "die Fabrik",
+        "das Fabrik"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fabrik is feminine and is the German word for factory.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "work"
-      ],
-      "explanation": "Fabrik is feminine and is the German word for factory."
+      ]
     },
     {
       "type": "flashcard",
@@ -1510,16 +1683,21 @@
       "explanation": "Brief is masculine and means a written letter, not a short brief in every context."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “letter” in German?",
-      "answer": "der Brief",
+      "choices": [
+        "der Brief",
+        "die Brief",
+        "das Brief"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brief is masculine and means a written letter, not a short brief in every context.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "communication"
-      ],
-      "explanation": "Brief is masculine and means a written letter, not a short brief in every context."
+      ]
     },
     {
       "type": "flashcard",
@@ -1534,16 +1712,21 @@
       "explanation": "Mappe is a folder or portfolio; Karte is a card or map depending on context."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “folder / portfolio” in German?",
-      "answer": "die Mappe",
+      "choices": [
+        "der Mappe",
+        "das Mappe",
+        "die Mappe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mappe is a folder or portfolio; Karte is a card or map depending on context.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "daily-life"
-      ],
-      "explanation": "Mappe is a folder or portfolio; Karte is a card or map depending on context."
+      ]
     },
     {
       "type": "flashcard",
@@ -1558,16 +1741,21 @@
       "explanation": "Gift means poison in German; present means Geschenk."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “poison” in German?",
-      "answer": "das Gift",
+      "choices": [
+        "der Gift",
+        "das Gift",
+        "die Gift"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gift means poison in German; present means Geschenk.",
       "difficulty": "medium",
       "tags": [
         "review",
         "false-friends",
         "safety"
-      ],
-      "explanation": "Gift means poison in German; present means Geschenk."
+      ]
     },
     {
       "type": "flashcard",
@@ -1582,16 +1770,21 @@
       "explanation": "Chefkoch combines Chef and Koch; the compound is masculine."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “head chef” in German?",
-      "answer": "der Chefkoch",
+      "choices": [
+        "der Chefkoch",
+        "die Chefkoch",
+        "das Chefkoch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chefkoch combines Chef and Koch; the compound is masculine.",
       "difficulty": "medium",
       "tags": [
         "review",
         "compounds",
         "work"
-      ],
-      "explanation": "Chefkoch combines Chef and Koch; the compound is masculine."
+      ]
     },
     {
       "type": "flashcard",
@@ -1606,16 +1799,22 @@
       "explanation": "After a quantity expression, the material noun often remains without an article."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “a piece of cake” in German?",
-      "answer": "ein Stück Kuchen",
+      "choices": [
+        "ein Stück Kuchens",
+        "ein Stück des Kuchen",
+        "eine Stück Kuchen",
+        "ein Stück Kuchen"
+      ],
+      "correctIndex": 3,
+      "explanation": "After a quantity expression, the material noun often remains without an article.",
       "difficulty": "medium",
       "tags": [
         "review",
         "food",
         "cases"
-      ],
-      "explanation": "After a quantity expression, the material noun often remains without an article."
+      ]
     },
     {
       "type": "flashcard",
@@ -1630,16 +1829,22 @@
       "explanation": "The container noun is plural; Wasser is an uncountable substance noun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “two glasses of water” in German?",
-      "answer": "zwei Gläser Wasser",
+      "choices": [
+        "zwei Glase Wasser",
+        "zwei Gläser Wassers",
+        "zwei Gläsern Wasser",
+        "zwei Gläser Wasser"
+      ],
+      "correctIndex": 3,
+      "explanation": "The container noun is plural; Wasser is an uncountable substance noun.",
       "difficulty": "medium",
       "tags": [
         "review",
         "food",
         "plural"
-      ],
-      "explanation": "The container noun is plural; Wasser is an uncountable substance noun."
+      ]
     },
     {
       "type": "flashcard",
@@ -1653,15 +1858,21 @@
       "explanation": "Sich interessieren für takes für plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I am interested in music.” in German?",
-      "answer": "Ich interessiere mich für Musik.",
+      "choices": [
+        "Ich interessiere mich an Musik.",
+        "Ich interessiere mir für Musik.",
+        "Ich interessiere mich für Musik.",
+        "Ich interessiere für Musik."
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich interessieren für takes für plus accusative.",
       "difficulty": "medium",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Sich interessieren für takes für plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1675,15 +1886,21 @@
       "explanation": "Sich freuen auf refers to a future event and takes accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I am looking forward to the weekend.” in German?",
-      "answer": "Ich freue mich auf das Wochenende.",
+      "choices": [
+        "Ich freue mich über das Wochenende.",
+        "Ich freue mich für das Wochenende.",
+        "Ich freue mir auf das Wochenende.",
+        "Ich freue mich auf das Wochenende."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich freuen auf refers to a future event and takes accusative.",
       "difficulty": "medium",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Sich freuen auf refers to a future event and takes accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1697,15 +1914,21 @@
       "explanation": "Sich freuen über refers to an existing event or information."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I am happy about the message.” in German?",
-      "answer": "Ich freue mich über die Nachricht.",
+      "choices": [
+        "Ich freue mich auf die Nachricht.",
+        "Ich freue mich über die Nachricht.",
+        "Ich freue mich von der Nachricht.",
+        "Ich freue mir über die Nachricht."
+      ],
+      "correctIndex": 1,
+      "explanation": "Sich freuen über refers to an existing event or information.",
       "difficulty": "medium",
       "tags": [
         "review",
         "verb-preposition"
-      ],
-      "explanation": "Sich freuen über refers to an existing event or information."
+      ]
     },
     {
       "type": "flashcard",
@@ -1720,16 +1943,22 @@
       "explanation": "Mit takes dative; masculine dem follows the preposition."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “We travel by bus.” in German?",
-      "answer": "Wir fahren mit dem Bus.",
+      "choices": [
+        "Wir fahren mit den Bus.",
+        "Wir fahren mit der Bus.",
+        "Wir fahren bei dem Bus.",
+        "Wir fahren mit dem Bus."
+      ],
+      "correctIndex": 3,
+      "explanation": "Mit takes dative; masculine dem follows the preposition.",
       "difficulty": "medium",
       "tags": [
         "review",
         "prepositions",
         "dative"
-      ],
-      "explanation": "Mit takes dative; masculine dem follows the preposition."
+      ]
     },
     {
       "type": "flashcard",
@@ -1744,16 +1973,22 @@
       "explanation": "Country names with an article use the appropriate preposition and case."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “We are travelling to Switzerland.” in German?",
-      "answer": "Wir fahren in die Schweiz.",
+      "choices": [
+        "Wir fahren nach Schweiz.",
+        "Wir fahren nach der Schweiz.",
+        "Wir fahren in die Schweiz.",
+        "Wir fahren in der Schweiz."
+      ],
+      "correctIndex": 2,
+      "explanation": "Country names with an article use the appropriate preposition and case.",
       "difficulty": "medium",
       "tags": [
         "review",
         "prepositions",
         "travel"
-      ],
-      "explanation": "Country names with an article use the appropriate preposition and case."
+      ]
     },
     {
       "type": "flashcard",
@@ -1768,16 +2003,22 @@
       "explanation": "Most country names without an article use in without an article for location."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “I live in Germany.” in German?",
-      "answer": "Ich wohne in Deutschland.",
+      "choices": [
+        "Ich wohne in Deutschland.",
+        "Ich wohne nach Deutschland.",
+        "Ich wohne im Deutschland.",
+        "Ich wohne in die Deutschland."
+      ],
+      "correctIndex": 0,
+      "explanation": "Most country names without an article use in without an article for location.",
       "difficulty": "medium",
       "tags": [
         "review",
         "prepositions",
         "geography"
-      ],
-      "explanation": "Most country names without an article use in without an article for location."
+      ]
     },
     {
       "type": "flashcard",
@@ -1792,16 +2033,22 @@
       "explanation": "Am combines an and dem in a time expression."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “on Monday morning” in German?",
-      "answer": "am Montagmorgen",
+      "choices": [
+        "im Montagmorgen",
+        "am Montagmorgen",
+        "um Montagmorgen",
+        "an Montagmorgen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Am combines an and dem in a time expression.",
       "difficulty": "medium",
       "tags": [
         "review",
         "time",
         "contractions"
-      ],
-      "explanation": "Am combines an and dem in a time expression."
+      ]
     },
     {
       "type": "flashcard",
@@ -1816,16 +2063,22 @@
       "explanation": "German halb acht means half an hour before eight, unlike English half past eight."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “around half past seven” in German?",
-      "answer": "gegen halb acht",
+      "choices": [
+        "gegen halb sieben",
+        "um halb sieben",
+        "gegen halb neun",
+        "gegen halb acht"
+      ],
+      "correctIndex": 3,
+      "explanation": "German halb acht means half an hour before eight, unlike English half past eight.",
       "difficulty": "medium",
       "tags": [
         "review",
         "time",
         "false-friends"
-      ],
-      "explanation": "German halb acht means half an hour before eight, unlike English half past eight."
+      ]
     },
     {
       "type": "flashcard",
@@ -1839,15 +2092,21 @@
       "explanation": "Vor expresses the remaining time before the next hour."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Review check — How do you say “quarter to nine” in German?",
-      "answer": "Viertel vor neun",
+      "choices": [
+        "Viertel nach neun",
+        "Viertel vor acht",
+        "Viertel vor neun",
+        "Viertel nach acht"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vor expresses the remaining time before the next hour.",
       "difficulty": "medium",
       "tags": [
         "review",
         "time"
-      ],
-      "explanation": "Vor expresses the remaining time before the next hour."
+      ]
     }
   ]
 }

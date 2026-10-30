@@ -111,7 +111,7 @@
         "His account proves that Musa's spending permanently collapsed Cairo's currency and ruined its long-distance trade",
         "Because he wrote decades later, al-Umari's report cannot tell us anything about Mali's diplomatic connections",
         "The story establishes that every person in Mali followed Islam and that most of them joined the pilgrimage",
-        "The pilgrimage displayed Mali's wealth and linked its ruler to Islamic networks while al-Umari's account remained secondhand"
+        "The pilgrimage displayed Mali's wealth and linked its ruler to Islamic networks, but the account is secondhand"
       ],
       "correctIndex": 3,
       "difficulty": "hard",
@@ -414,8 +414,8 @@
       "type": "multiple_choice",
       "prompt": "Which feature characterized many Swahili Coast city-states?",
       "choices": [
-        "They developed as inland capitals with little contact with overseas merchants",
-        "They were governed as provinces appointed by the Abbasid caliphate",
+        "They developed as inland capitals far from the coast, with little contact with overseas merchants or ships",
+        "They were governed as provinces whose rulers were appointed directly by the Abbasid caliphate",
         "They remained isolated from Arab and Persian trade and religious influences",
         "They combined African cultural foundations with Indian Ocean commercial and Islamic connections"
       ],
@@ -454,7 +454,7 @@
       "prompt": "Why did merchants use credit instruments and partnerships in long-distance trade?",
       "choices": [
         "They could finance costly voyages and share risks without carrying all wealth as coin",
-        "Partnerships pooled investment but required merchants to bear losses alone",
+        "Partnerships pooled investment but still required each merchant to bear every loss alone",
         "Credit was used only for local purchases rather than long-distance ventures",
         "Trading contracts let governments guarantee profits on overseas shipments"
       ],
@@ -472,7 +472,7 @@
       "type": "multiple_choice",
       "prompt": "What was one effect of the movement of crops through Afro-Eurasian trade networks?",
       "choices": [
-        "Every society immediately abandoned local crops",
+        "Every society that received new crops immediately abandoned its local ones",
         "Crop diffusion ended long-distance trade",
         "Only rulers, not ordinary farmers, could cultivate introduced crops",
         "New crops could support population growth and change regional agriculture"
@@ -492,7 +492,7 @@
       "type": "multiple_choice",
       "prompt": "Which statement best describes the relationship between Eurasian connectivity and the Black Death?",
       "choices": [
-        "Trade aided movement, but harvest failure alone caused the plague to spread across Eurasia",
+        "Trade aided movement, but harvest failure alone caused the plague to spread from city to city across Eurasia",
         "Caravan routes moved plague into cities, while ports and sea travel played no role",
         "Connected trade and travel routes helped the plague spread, while local conditions shaped its impact",
         "Population density explains outbreaks, so human travel patterns did not matter"
@@ -571,7 +571,7 @@
       "type": "multiple_choice",
       "prompt": "Which comparison between the Silk Roads and Indian Ocean network is strongest?",
       "choices": [
-        "Silk Roads moved bulk cargo cheaply over land, while ocean shipping served only nearby ports",
+        "The Silk Roads moved bulk cargo more cheaply over land, while ocean shipping served only ports close to one another",
         "Only maritime merchants moved religions and technologies between distant societies",
         "Both moved goods and ideas, but maritime trade could carry bulkier cargoes at lower cost over long distances",
         "Both networks depended on identical caravan routes and avoided state protection"
@@ -775,8 +775,8 @@
       "type": "multiple_choice",
       "prompt": "Abu'l Fazl's account praises Akbar as a ruler who sought order among diverse religious communities. What is a careful use of this source?",
       "choices": [
-        "Treat it as a neutral survey of beliefs held by every Mughal subject across the empire",
-        "Use its praise as proof that all religious groups held equal political status",
+        "Treat it as a neutral survey of the beliefs held by every Mughal subject in every province across the empire",
+        "Use its praise as proof that all religious groups held equal political status and offices at Akbar's court",
         "Read it as a tax record proving Akbar ended revenue collection in every province",
         "It reveals how Akbar's court framed imperial ideals while the author's courtly purpose calls for caution"
       ],
@@ -876,7 +876,7 @@
       "type": "multiple_choice",
       "prompt": "What role did zamindars often play in Mughal administration?",
       "choices": [
-        "They served as army officers but had no role in collecting land revenue",
+        "They served as cavalry officers in the imperial army but had no role in collecting any land revenue",
         "They were religious judges appointed to interpret law in every province",
         "They helped collect land revenue and mediate between imperial officials and rural communities",
         "They controlled village taxes independently and owed no duties to the emperor"
@@ -1243,10 +1243,10 @@
       "type": "multiple_choice",
       "prompt": "Why did plantation economies in the Caribbean and Brazil import large numbers of enslaved Africans?",
       "choices": [
-        "Indigenous populations expanded after epidemics and supplied most plantation labor",
-        "European law prohibited coerced labor so planters relied on free wage workers",
+        "Indigenous populations expanded after the epidemics and supplied most of the labor on sugar plantations",
+        "European law prohibited coerced labor in the colonies, so planters relied on free wage workers from Europe",
         "High-mortality labor systems and expanding sugar production created intense demand for coerced labor",
-        "Sugar production depended on skilled artisans rather than large agricultural workforces"
+        "Sugar production depended on a few skilled artisans rather than on large agricultural workforces in the fields"
       ],
       "correctIndex": 2,
       "difficulty": "medium",
@@ -1265,7 +1265,7 @@
       "choices": [
         "Encomienda granted claims to Indigenous tribute or labor; hacienda was a large landed estate",
         "Both were land grants with the same legal structure and labor requirements",
-        "Encomienda granted estate ownership while hacienda assigned tribute from communities",
+        "Encomienda granted outright estate ownership, while hacienda assigned tribute from Indigenous communities",
         "Hacienda was a labor draft while encomienda referred to a landed estate"
       ],
       "correctIndex": 0,
@@ -1283,9 +1283,9 @@
       "type": "multiple_choice",
       "prompt": "How did American silver link the Spanish Empire to Asian markets?",
       "choices": [
-        "Silver reached Europe but Spanish law prohibited shipment across the Pacific",
+        "Silver reached Spain and Europe, but Spanish law prohibited any shipment of it across the Pacific to Asia",
         "Silver from the Americas crossed the Pacific through Manila and was exchanged for Asian goods",
-        "Manila ships carried Asian goods across the Atlantic without American silver",
+        "Manila galleons carried Asian goods across the Atlantic to Spain without carrying any American silver",
         "Chinese merchants paid mainly with African gold instead of American silver"
       ],
       "correctIndex": 1,
@@ -1303,7 +1303,7 @@
       "type": "multiple_choice",
       "prompt": "What was a common goal of mercantilist policies?",
       "choices": [
-        "To let colonies trade freely with rival states without metropolitan regulation",
+        "To let colonies trade freely with rival states and ports without any metropolitan regulation",
         "To reduce tariffs and end state involvement in overseas commerce",
         "To prioritize local subsistence over imperial revenue and competition",
         "To increase state wealth and power by regulating trade and securing colonial resources"
@@ -1341,10 +1341,10 @@
       "type": "multiple_choice",
       "prompt": "Which example best illustrates Indigenous resistance to European colonization?",
       "choices": [
-        "The Taki Onqoy movement opposed Spanish rule in the Andes during the 16th century",
+        "The encomienda system assigned Indigenous labor and tribute to Spanish colonists in the Andes and Mexico",
         "The Pueblo Revolt of 1680 temporarily expelled Spanish authorities from much of New Mexico",
-        "The Tupac Amaru II revolt challenged Spanish rule in Peru in the 18th century",
-        "Maroon communities resisted slavery in Brazil and the Caribbean"
+        "The Columbian Exchange carried maize and potatoes from the Americas to Europe and Asia",
+        "The Treaty of Tordesillas divided newly claimed lands between Spain and Portugal in 1494"
       ],
       "correctIndex": 1,
       "difficulty": "hard",
@@ -1361,7 +1361,7 @@
       "prompt": "In a 16th-century account, Bartolome de las Casas condemned Spanish violence against Indigenous people. What does his purpose help explain?",
       "choices": [
         "His criticism can document abuses while reflecting his campaign to change Spanish colonial policy",
-        "His account defended the encomienda and opposed reform of colonial labor policy",
+        "His account defended the encomienda system and opposed any reform of Spanish colonial labor policy in the Americas",
         "His writing is a neutral census proving every official used identical abuses",
         "His criticism shows forced labor ended across Spanish America by the mid-1500s"
       ],
@@ -1753,7 +1753,7 @@
       "type": "multiple_choice",
       "prompt": "Why did labor reform movements grow during industrialization?",
       "choices": [
-        "Industrial workers organized chiefly to restore rural customs and village land rights",
+        "Industrial workers organized chiefly to restore rural customs and village land rights they had left behind",
         "Rural elites organized to restore village land rights and end urban manufacturing",
         "Factory owners led campaigns against labor laws to defend workers' wages",
         "Workers organized over long hours and unsafe conditions and sought greater political influence"
@@ -1810,7 +1810,7 @@
       "type": "multiple_choice",
       "prompt": "Which comparison among the Atlantic revolutions is most accurate?",
       "choices": [
-        "They all abolished slavery and established universal suffrage by the end of the 18th century",
+        "They all abolished slavery and established universal suffrage for adult men and women by the end of the 18th century",
         "They drew on ideas of rights and sovereignty but produced different outcomes for slavery and social hierarchy",
         "They preserved monarchies and left the political order unchanged across the Atlantic",
         "They were led by a common alliance of European monarchs against colonial rule"
@@ -2016,7 +2016,7 @@
       "prompt": "How did Social Darwinist ideas function in some imperial arguments?",
       "choices": [
         "They misapplied ideas about natural selection to portray racial hierarchy and domination as inevitable",
-        "They provided scientific evidence that all peoples were equal and should govern themselves",
+        "They provided scientific evidence that all peoples were equal and should therefore govern themselves freely",
         "They supported anti-imperial movements by stressing cooperation over competition among nations",
         "They described a Mughal system for ranking nobles by military rank and land revenue"
       ],
@@ -2209,7 +2209,7 @@
       "choices": [
         "Export industries diversified manufacturing and left colonial governments in control",
         "Colonies produced mainly for local markets and avoided dependence on world prices",
-        "Imperial trade distributed investment evenly and reduced reliance on imported manufactures",
+        "Imperial trade distributed investment evenly across colonies and reduced their reliance on imported manufactures",
         "Colonies often supplied primary goods to global markets which limited local control over development"
       ],
       "correctIndex": 3,
@@ -2226,7 +2226,7 @@
       "type": "multiple_choice",
       "prompt": "Which comparison of imperialism in Africa and Asia is most accurate?",
       "choices": [
-        "European powers applied the same administrative system across every African and Asian colony",
+        "European powers applied exactly the same administrative system across every one of their African and Asian colonies",
         "Both involved coercive expansion, but local political structures and colonial strategies varied by region",
         "Colonial rule in Asia involved no resistance, unlike every territory in Africa",
         "All African states were conquered at once, while Asia avoided territorial rule"
@@ -2389,8 +2389,8 @@
       "prompt": "Which factor best explains why a regional crisis in 1914 became a wider war?",
       "choices": [
         "League of Nations rules required every member state to join the fighting",
-        "A United Nations resolution authorized a joint invasion of Serbia",
-        "Cold War blocs divided Europe into two rival nuclear-armed camps",
+        "A United Nations Security Council resolution authorized a joint invasion of Serbia",
+        "Cold War blocs had already divided Europe into two rival camps armed with nuclear weapons",
         "Alliance commitments and mobilization plans drew additional powers into the conflict"
       ],
       "correctIndex": 3,
@@ -2523,7 +2523,7 @@
       "type": "multiple_choice",
       "prompt": "Which development was part of Japan's expansion in Asia before and during World War II?",
       "choices": [
-        "Japan seized Manchuria in 1931, then withdrew after the League condemned it",
+        "Japan seized Manchuria in 1931, then withdrew its army after the League of Nations condemned it",
         "Japanese leaders confined expansion to the Pacific and avoided war in China",
         "Japan joined the Axis but renounced territorial expansion across Asia",
         "Japan seized Manchuria in 1931 and later launched wider wars in China and the Pacific"
@@ -2562,7 +2562,7 @@
       "type": "multiple_choice",
       "prompt": "Which statement accurately describes the Holocaust?",
       "choices": [
-        "Nazi authorities murdered six million Jews, most as prisoners of war in combat",
+        "Nazi authorities killed six million Jews, most of them as prisoners of war captured in combat on the Eastern Front",
         "It was wartime persecution of Jewish communities, but not a state-organized genocide",
         "Nazi Germany and its collaborators systematically murdered six million Jews and persecuted other groups",
         "German forces killed Jewish civilians only after the war ended in Europe"
@@ -2581,10 +2581,10 @@
       "type": "multiple_choice",
       "prompt": "In a paraphrase of Wilson's Fourteen Points, the U.S. president calls for open diplomacy and a league of nations. What does the source most directly show?",
       "choices": [
-        "It shows that all Allied governments accepted every proposal in Wilson's program",
+        "Proof that all Allied governments accepted every proposal in Wilson's program at the peace conference",
         "An effort to frame the postwar settlement around principles intended to reduce future conflict",
-        "It supports secret alliances and a permanent disarmament of smaller states",
-        "It proves the League of Nations operated before the armistice in 1918"
+        "Support for secret alliances and for the permanent disarmament of smaller states after the war",
+        "Evidence that the League of Nations was already operating before the armistice in 1918"
       ],
       "correctIndex": 1,
       "difficulty": "expert",
@@ -2725,7 +2725,7 @@
         "A Soviet-led collective-defense pact for Eastern Europe formed in 1955",
         "A U.S. aid program funding Western European reconstruction after World War II",
         "A UN peacekeeping agency administering independence for European colonies",
-        "It committed the United States and several Western European states to collective defense"
+        "A U.S.-led collective-defense alliance with Western European states"
       ],
       "correctIndex": 3,
       "difficulty": "easy",
@@ -2742,7 +2742,7 @@
       "prompt": "Why are the Korean and Vietnam wars often described as proxy conflicts?",
       "choices": [
         "Outside powers supported opposing sides, while local political struggles remained central",
-        "Outside powers supplied weapons, but domestic political struggles had no effect",
+        "Outside powers supplied weapons, but domestic political struggles had no effect on how the wars went",
         "NATO and Warsaw Pact armies fought direct battles on European territory",
         "Local governments fought alone, without outside arms or intervention"
       ],
@@ -2800,8 +2800,8 @@
       "prompt": "Why is Ghana's independence in 1957 historically significant?",
       "choices": [
         "It became the first sub-Saharan African colony to gain independence from British rule in the postwar period",
-        "It was the first African state independent from any empire including Ethiopia and Liberia",
-        "It ended British rule across West Africa and created a regional federation in 1957",
+        "It was the first African state ever to be independent of any empire, earlier even than Ethiopia and Liberia",
+        "It ended British rule across all of West Africa at once and created a regional federation of former colonies in 1957",
         "It became a French-speaking republic after joining the Non-Aligned Movement"
       ],
       "correctIndex": 0,
@@ -2819,8 +2819,8 @@
       "type": "multiple_choice",
       "prompt": "A paraphrase of the 1955 Bandung Conference statement emphasizes sovereignty and opposition to colonialism. What does this suggest?",
       "choices": [
-        "Leaders pledged to join a military alliance led by the Soviet Union",
-        "Delegates supported continued European empires when they brought economic growth",
+        "Leaders pledged to join a military alliance led by the Soviet Union against the United States and its partners",
+        "Delegates supported continued European empires in Asia and Africa whenever colonial rule brought economic growth",
         "Newly independent and non-Western states sought cooperation without simply joining either Cold War bloc",
         "Participants rejected Asian-African cooperation and aligned themselves with NATO"
       ],
@@ -2842,7 +2842,7 @@
         "U.S. leaders believed a NATO treaty obligation required them to defend South Vietnam from Soviet attack",
         "U.S. leaders aimed to restore French colonial rule in Indochina after France's defeat at Dien Bien Phu",
         "U.S. leaders wanted to keep Vietnam out of the United Nations until a peace treaty with China was signed",
-        "U.S. leaders sought to contain communist expansion during a conflict rooted in Vietnamese anticolonial and civil struggles"
+        "U.S. leaders sought to contain communism in a conflict rooted in Vietnamese anticolonial and civil struggles"
       ],
       "correctIndex": 3,
       "difficulty": "medium",
@@ -2879,10 +2879,10 @@
       "type": "multiple_choice",
       "prompt": "Which development contributed to the end of the Soviet Union in 1991?",
       "choices": [
-        "The Soviet Union ended the Warsaw Pact but kept its republics under one central government",
+        "The Soviet Union dissolved the Warsaw Pact but kept all fifteen of its republics under one strong central government",
         "Economic difficulties and political reforms weakened the central government as republics asserted sovereignty",
         "The USSR was partitioned by Allied powers after defeat in World War II",
-        "Political reforms strengthened central control and ended republic independence movements"
+        "Political reforms strengthened central control in Moscow and ended the independence movements in the republics"
       ],
       "correctIndex": 1,
       "difficulty": "medium",
@@ -2898,7 +2898,7 @@
       "type": "multiple_choice",
       "prompt": "What was a goal of the Non-Aligned Movement?",
       "choices": [
-        "To enter both NATO and the Warsaw Pact while coordinating a shared military command",
+        "To enter both NATO and the Warsaw Pact at once while coordinating a single shared military command",
         "To restore European colonial rule through a joint defense organization",
         "To preserve policy independence rather than formally align with either Cold War superpower bloc",
         "To replace national governments with an international administration"
@@ -2919,7 +2919,7 @@
       "prompt": "Which statement best explains a continuity after formal decolonization?",
       "choices": [
         "New states gained sovereignty but often faced economic dependency and borders inherited from colonial rule",
-        "Independence ended colonial borders and transferred former export sectors to local ownership",
+        "Independence ended colonial borders and quickly transferred all former export sectors to local ownership and control",
         "Postcolonial states lost sovereignty and had no role in shaping domestic policy",
         "Political independence eliminated every source of regional conflict"
       ],
@@ -3059,10 +3059,10 @@
       "type": "multiple_choice",
       "prompt": "What was one effect of the spread of the internet and mobile communication?",
       "choices": [
-        "All states lost the ability to regulate communication",
-        "International migration ended",
+        "All states lost the ability to regulate communication within their borders",
+        "International migration ended as people could work remotely",
         "Information and communication could move rapidly across borders",
-        "Printed books disappeared everywhere"
+        "Printed books and newspapers disappeared everywhere"
       ],
       "correctIndex": 2,
       "difficulty": "medium",
@@ -3116,7 +3116,7 @@
       "type": "multiple_choice",
       "prompt": "How has global travel affected the spread of infectious diseases?",
       "choices": [
-        "Faster travel shortened journeys but made cross-border transmission less likely",
+        "Faster travel shortened journeys but made the cross-border transmission of infectious diseases less likely than before",
         "It can move pathogens between regions quickly and make international public-health coordination necessary",
         "Modern epidemics stayed within national borders and needed no international coordination",
         "Public-health planning could rely on national data without tracking global movement"
@@ -3135,7 +3135,7 @@
       "type": "multiple_choice",
       "prompt": "Why is climate change considered a global issue?",
       "choices": [
-        "Climate impacts stay within the national borders where greenhouse gases are emitted",
+        "Climate impacts stay inside the national borders of the countries where the greenhouse gases are emitted",
         "Only high-emitting countries experience effects from industrial energy use",
         "National air currents prevent emissions from mixing across the atmosphere",
         "Greenhouse gases affect a shared atmosphere and climate impacts cross borders and vary by region"
@@ -3173,7 +3173,7 @@
       "type": "multiple_choice",
       "prompt": "Which is one way migration contributes to cultural globalization?",
       "choices": [
-        "Migration carries family ties abroad but prevents cultural practices from changing locally",
+        "Migration carries family ties abroad but prevents cultural practices in either place from changing over time",
         "People leave cultural practices behind, so only imported goods transmit global culture",
         "Migrants maintain and create cultural ties across borders through families, food, language, and media",
         "International media spreads culture, while migrant communities have little influence"
@@ -3193,9 +3193,9 @@
       "prompt": "What was an important effect of the Green Revolution in parts of the 20th-century world?",
       "choices": [
         "High-yield seeds and inputs increased crop production but brought uneven benefits and environmental costs",
-        "Mechanization replaced seed research and closed regional gaps in food production",
-        "High-yield seeds eliminated irrigation and fertilizer in most growing regions",
-        "Higher crop yields equalized food access and ended hunger across affected regions"
+        "Mechanization replaced seed research entirely and closed regional gaps in food production worldwide",
+        "High-yield seeds eliminated the need for irrigation and chemical fertilizer in most of the regions that adopted them",
+        "Higher crop yields equalized food access between rich and poor farmers and ended hunger across affected regions"
       ],
       "correctIndex": 0,
       "difficulty": "hard",
@@ -3253,7 +3253,7 @@
         "International institutions made national governments obsolete after 1900, as borders lost their importance",
         "Trade and finance expanded while cross-border communication and migration declined steadily over the century",
         "States stopped regulating borders and markets as global institutions grew stronger and took over their roles",
-        "Global connections intensified through technology and trade while states continued to regulate borders and markets"
+        "Global connections intensified through technology and trade, while states still regulated borders and markets"
       ],
       "correctIndex": 3,
       "difficulty": "expert",

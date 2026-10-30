@@ -11,12 +11,12 @@
       "type": "multiple_choice",
       "prompt": "A marsh contains reeds, fish, bacteria, water, and dissolved oxygen. Which listed component is abiotic?",
       "choices": [
+        "Dissolved oxygen",
         "Decomposer bacteria",
         "Small fish",
-        "Dissolved oxygen",
         "Rooted reeds"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "difficulty": "easy",
       "tags": [
         "unit-1",
@@ -50,11 +50,11 @@
       "prompt": "A legume field gains biologically available nitrogen after root-nodule bacteria become active. Which process most directly explains the change?",
       "choices": [
         "Denitrification converts nitrate in the soil to N₂ gas, which roots take up",
-        "Nitrogen fixation converts atmospheric N₂ to ammonia, which becomes ammonium",
         "Assimilation releases nitrogen from dead tissue into the soil as nitrate",
+        "Nitrogen fixation converts atmospheric N₂ to ammonia, which becomes ammonium",
         "Nitrification converts atmospheric N₂ directly into plant protein"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-1",
@@ -68,12 +68,12 @@
       "type": "multiple_choice",
       "prompt": "Which statement best explains why less energy is available at higher trophic levels?",
       "choices": [
-        "Decomposers recycle that energy back up the food chain completely",
-        "Organisms use much of the energy they take in for metabolism and release heat",
-        "Consumers make new energy as they grow, so less is passed upward",
-        "Producers absorb part of their energy back from the consumers"
+        "Decomposers recycle all of that energy back up the food chain to the top consumers",
+        "Consumers make new energy as they grow, so less of it is passed upward",
+        "Producers absorb part of their energy back from the consumers that eat them",
+        "Organisms use much of the energy they take in for metabolism and release heat"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-1",
@@ -125,12 +125,12 @@
       "type": "multiple_choice",
       "prompt": "In a pond food web, algae → zooplankton → small fish → bass, while algae also support insect larvae eaten by small fish. If zooplankton decline sharply, which outcome is best supported?",
       "choices": [
-        "Bass must disappear immediately",
+        "Bass must disappear immediately because their main food chain is broken",
+        "Algae must decline because fewer zooplankton are grazing on them",
         "Small fish may partly compensate by eating more insect larvae",
-        "Algae must decline because fewer zooplankton graze",
-        "Energy flow from algae stops"
+        "Energy flow from algae to every consumer in the pond stops"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "hard",
       "tags": [
         "unit-1",
@@ -146,10 +146,10 @@
       "choices": [
         "More infiltration and less runoff",
         "Less runoff because impervious surfaces store water",
-        "More surface runoff and less infiltration",
-        "No change to water movement"
+        "No change to water movement",
+        "More surface runoff and less infiltration"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-1",
@@ -163,12 +163,12 @@
       "type": "multiple_choice",
       "prompt": "A freshwater lake receives phosphorus-rich runoff. A bloom follows, then dissolved oxygen falls after the bloom collapses. Which sequence best explains the change?",
       "choices": [
-        "Phosphorus stimulates producer growth; decomposers consume oxygen while breaking down dead biomass",
         "Phosphorus stimulates producers, and all resulting oxygen is permanently stored in the lake",
+        "Phosphorus stimulates producer growth; decomposers consume oxygen while breaking down dead biomass",
         "Phosphorus directly removes dissolved oxygen before any organisms respond",
         "Phosphorus causes denitrification to stop, which immediately kills fish"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "expert",
       "tags": [
         "unit-1",
@@ -260,12 +260,12 @@
       "type": "multiple_choice",
       "prompt": "A conservation survey finds several varieties of a native wildflower that differ in inherited drought tolerance. Which level of biodiversity is directly described?",
       "choices": [
-        "Genetic diversity",
         "Species richness",
         "Ecosystem diversity",
-        "Trophic diversity"
+        "Trophic diversity",
+        "Genetic diversity"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-2",
@@ -298,12 +298,12 @@
       "type": "multiple_choice",
       "prompt": "A proposed reserve plan compares two habitat patches: Patch X is large and near a source forest; Patch Y is small and isolated. Island biogeography predicts that, all else equal, X will tend to support:",
       "choices": [
-        "Fewer species because large patches prevent immigration",
-        "More species because immigration is easier and extinction risk is lower",
+        "Fewer species because large patches prevent immigration from the nearby forest",
         "The same species count because patch area never matters",
+        "More species because immigration is easier and extinction risk is lower",
         "Fewer species because nearby sources increase competition only"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-2",
@@ -317,12 +317,12 @@
       "type": "multiple_choice",
       "prompt": "Which is a regulating ecosystem service provided by a wetland?",
       "choices": [
-        "Harvesting wild rice and fish for local markets",
+        "Harvesting wild rice and fish to sell at local markets",
+        "Recreation, birdwatching and outdoor education for visitors",
         "Floodwater storage that reduces downstream flood peaks",
-        "Recreation, birdwatching and outdoor education",
         "Spiritual and aesthetic inspiration for visitors"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-2",
@@ -336,12 +336,12 @@
       "type": "multiple_choice",
       "prompt": "A stream insect survives at dissolved oxygen levels of 4–12 mg/L, grows best at 8 mg/L, and disappears below 4 mg/L. A new discharge lowers oxygen from 8 to 5 mg/L. What is the strongest inference?",
       "choices": [
-        "The population is already outside its tolerance range",
-        "The population remains within its tolerance range but below its optimum",
-        "The population must increase because oxygen is lower",
-        "The species has genetically adapted within one generation"
+        "The population is already outside its tolerance range and will soon disappear",
+        "The population must increase because lower oxygen reduces its predators",
+        "The species has genetically adapted to low oxygen within one generation",
+        "The population remains within its tolerance range but below its optimum"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-2",
@@ -355,12 +355,12 @@
       "type": "multiple_choice",
       "prompt": "After a low-intensity fire, a grassland regains plant cover in two growing seasons, but a nearby burned forest takes decades to recover. Which property does the grassland show?",
       "choices": [
-        "Lower resilience to the disturbance described",
         "Greater resilience under the disturbance described",
+        "Lower resilience to the disturbance described",
         "Primary succession after the disturbance",
         "Higher species richness than the forest by definition"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "medium",
       "tags": [
         "unit-2",
@@ -393,12 +393,12 @@
       "type": "multiple_choice",
       "prompt": "A field report states: “Since highway construction divided one forest into small isolated patches, monitoring found fewer animal crossings and smaller local groups.” Which process most directly could raise extinction risk?",
       "choices": [
-        "Increased gene flow between fragments",
-        "Reduced habitat area and reduced movement among populations",
+        "Increased gene flow between the newly separated forest fragments",
         "Increased interior habitat in each small fragment",
-        "Elimination of all edge effects"
+        "Reduced habitat area and reduced movement among populations",
+        "Elimination of all edge effects along the highway corridor"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-2",
@@ -413,11 +413,11 @@
       "prompt": "A warming stream favors insects that mature earlier. Which evidence would best support the claim that the population adapted through natural selection?",
       "choices": [
         "Every individual changed its genes during its lifetime",
-        "Earlier maturation is heritable and became more common across generations",
         "The stream warmed, so all insects immediately became earlier-maturing",
-        "The number of insect species increased after one season"
+        "The number of insect species increased after one season",
+        "Earlier maturation is heritable and became more common across generations"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "expert",
       "tags": [
         "unit-2",
@@ -509,12 +509,12 @@
       "type": "multiple_choice",
       "prompt": "A raccoon eats many foods and lives in cities, forests, and wetlands. Which label best describes this species?",
       "choices": [
-        "Specialist",
         "Generalist",
+        "Specialist",
         "Indicator species",
         "Keystone species"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "easy",
       "tags": [
         "unit-3",
@@ -528,12 +528,12 @@
       "type": "multiple_choice",
       "prompt": "A graph description shows most individuals of a species surviving to old age, followed by a steep decline late in life. Which survivorship curve is most consistent?",
       "choices": [
-        "Type I",
         "Type II",
+        "Type I",
         "Type III",
         "J-shaped population-growth curve"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-3",
@@ -547,12 +547,12 @@
       "type": "multiple_choice",
       "prompt": "A deer population in a fenced reserve rises from 80 to 240, then fluctuates between 190 and 220 as forage becomes scarce. What is the best estimate of carrying capacity?",
       "choices": [
-        "About 80 deer",
         "About 200 deer",
+        "About 80 deer",
         "About 240 deer",
         "It cannot be estimated from resource limits"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "medium",
       "tags": [
         "unit-3",
@@ -586,11 +586,11 @@
       "prompt": "Which description best identifies logistic population growth?",
       "choices": [
         "Growth accelerates without limit as population size rises",
-        "Growth slows as the population approaches carrying capacity",
         "Population size declines at a constant rate",
-        "Births and deaths are absent"
+        "Births and deaths are absent",
+        "Growth slows as the population approaches carrying capacity"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-3",
@@ -642,12 +642,12 @@
       "type": "multiple_choice",
       "prompt": "A country’s age-structure diagram has a broad base and narrows quickly at older ages. If birth and death rates remain similar, what is most likely?",
       "choices": [
+        "The population will shrink right away because death rates stay high across every age group",
+        "Most people are already past reproductive age, so population growth will stop within a few years",
         "A large cohort of young people will enter reproductive ages, supporting future growth",
-        "The population will shrink right away because death rates stay high",
-        "Most people are already past reproductive age, so growth will stop",
         "The narrow top shows strong net emigration of working-age adults"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-3",
@@ -661,10 +661,10 @@
       "type": "multiple_choice",
       "prompt": "A demographic summary states: “Death rates have fallen after sanitation improved, while birth rates remain high.” Which demographic-transition stage is most consistent?",
       "choices": [
-        "Stage 1, with high birth and death rates",
+        "Stage 1, with high birth and death rates and slow growth",
         "Stage 2, with declining death rates and rapid growth",
-        "Stage 4, with low birth and death rates",
-        "Stage 5, with no births"
+        "Stage 4, with low birth and death rates and slow growth",
+        "Stage 5, with birth rates that fall below death rates"
       ],
       "correctIndex": 1,
       "difficulty": "hard",
@@ -681,11 +681,11 @@
       "prompt": "In one year a region records 12,000 births, 8,000 deaths, 3,000 immigrants, and 5,000 emigrants. What is the net population change?",
       "choices": [
         "−2,000 people",
-        "+2,000 people",
         "+4,000 people",
-        "+8,000 people"
+        "+8,000 people",
+        "+2,000 people"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-3",
@@ -699,12 +699,12 @@
       "type": "multiple_choice",
       "prompt": "Researchers test whether food supply affects reproduction in a small mammal. They randomly assign equal-age females to high- and low-food enclosures, keep temperature and enclosure size constant, and count surviving offspring. Which is the dependent variable?",
       "choices": [
+        "Number of surviving offspring",
         "Food level assigned to each enclosure",
         "Temperature held in each enclosure",
-        "Number of surviving offspring",
         "Age of the females at the start"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "difficulty": "expert",
       "tags": [
         "unit-3",
@@ -718,12 +718,12 @@
       "type": "multiple_choice",
       "prompt": "Region A has 10 million residents using 5 resource units per person annually. Region B has 2 million residents using 20 units per person. Which has the larger annual resource demand by this simplified measure?",
       "choices": [
-        "Region A, 50 million units",
         "Region B, 40 million units",
         "They are equal at 10 million units",
+        "Region A, 50 million units",
         "Cannot compare without population density"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "expert",
       "tags": [
         "unit-3",
@@ -737,12 +737,12 @@
       "type": "multiple_choice",
       "prompt": "Which factor can lower total fertility rates by increasing people’s ability to plan family size?",
       "choices": [
-        "Access to education and family planning",
         "Higher infant mortality rates alone",
         "Reduced access to healthcare services",
-        "A higher crude death rate among adults"
+        "A higher crude death rate among adults",
+        "Access to education and family planning"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-3",
@@ -756,12 +756,12 @@
       "type": "multiple_choice",
       "prompt": "A severe late frost kills seedlings across a forest regardless of how crowded each plot is. The frost is best classified as:",
       "choices": [
-        "A density-dependent factor such as competition",
         "A density-independent factor such as a severe frost",
+        "A density-dependent factor such as competition",
         "A density-dependent factor such as disease spread in crowded plots",
         "A density-dependent factor such as territorial behavior"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "easy",
       "tags": [
         "unit-3",
@@ -775,12 +775,12 @@
       "type": "multiple_choice",
       "prompt": "An oyster releases millions of larvae; few survive the first days, but survivors may live for years. Which curve and strategy best match this pattern?",
       "choices": [
+        "Type III; many offspring with high early mortality",
         "Type I; few offspring and high parental care",
         "Type II; constant mortality and moderate parental investment",
-        "Type III; many offspring with high early mortality",
         "Type I; high juvenile survival followed by mortality late in life"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "difficulty": "hard",
       "tags": [
         "unit-3",
@@ -924,12 +924,12 @@
       "type": "multiple_choice",
       "prompt": "Which statement correctly combines atmospheric composition and the layer containing most weather?",
       "choices": [
-        "The troposphere contains most weather and water vapor, while dry air is mostly nitrogen followed by oxygen",
-        "The stratosphere contains most weather, and dry air is mostly carbon dioxide followed by water vapor",
+        "The stratosphere contains most weather, and dry air is mostly carbon dioxide, followed by argon and then oxygen",
         "The mesosphere contains most water vapor, while dry air is mostly hydrogen followed by helium",
-        "The thermosphere contains most weather, while dry air is mostly ozone followed by nitrogen"
+        "The thermosphere contains most weather, while dry air is mostly ozone followed by nitrogen",
+        "The troposphere contains most weather and water vapor, while dry air is mostly nitrogen followed by oxygen"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-4",
@@ -982,11 +982,11 @@
       "prompt": "A parcel of air moving northward in the Northern Hemisphere is deflected to the right relative to its direction of travel. Which effect explains this?",
       "choices": [
         "A pressure gradient force",
-        "The Coriolis effect from Earth’s rotation",
         "The greenhouse effect",
+        "The Coriolis effect from Earth’s rotation",
         "Convection caused by local surface heating"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-4",
@@ -1000,12 +1000,12 @@
       "type": "multiple_choice",
       "prompt": "Moist air rises over a mountain, cools, and releases precipitation on the western slope. The eastern slope is much drier. What best explains the dry eastern slope?",
       "choices": [
-        "A rain shadow as descending air warms and dries",
         "A cold ocean current that removes precipitation on the leeward slope",
         "A sea breeze carrying moist air away from the mountain",
-        "A temperature inversion that forces all water vapor downward"
+        "A temperature inversion that forces all water vapor downward",
+        "A rain shadow as descending air warms and dries"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-4",
@@ -1038,12 +1038,12 @@
       "type": "multiple_choice",
       "prompt": "A farm leaves bare soil on a steep slope through the rainy season. Which change would most directly reduce soil erosion?",
       "choices": [
+        "Increasing the length of the bare slope",
         "Planting cover crops and contouring rows",
-        "Increasing the length of the slope",
-        "Removing vegetation at field edges",
+        "Removing the remaining vegetation at field edges",
         "Tilling rows up and down the slope"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "medium",
       "tags": [
         "unit-4",
@@ -1057,12 +1057,12 @@
       "type": "multiple_choice",
       "prompt": "Why does a location near the equator generally receive more direct solar energy per unit area than a high-latitude location?",
       "choices": [
+        "Earth's orbit brings the equator closer to the Sun than it brings the poles",
+        "The equator has more hours of daylight than the poles on every day of the year",
         "Sunlight arrives at a higher angle and is concentrated over a smaller surface area",
-        "Earth's orbit brings the equator closer to the Sun than the poles",
-        "The equator has more hours of daylight on every day of the year",
-        "Thinner air over the equator lets far more sunlight reach the ground"
+        "Thinner air over the equator lets far more of the incoming sunlight reach the ground"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-4",
@@ -1076,12 +1076,12 @@
       "type": "multiple_choice",
       "prompt": "A fisheries bulletin states: “During El Niño, weakened trade winds allow warm surface water to spread eastward across the tropical Pacific.” Which local change is likely off western South America?",
       "choices": [
-        "Stronger cold-water upwelling and greater nutrient supply",
-        "Reduced upwelling and often lower nutrient supply to surface waters",
-        "No change because surface winds do not affect currents",
-        "Permanent cooling of the entire Pacific"
+        "Stronger cold-water upwelling and greater nutrient supply to the coast",
+        "No change, because surface winds do not affect ocean currents or upwelling",
+        "Permanent cooling of the entire Pacific",
+        "Reduced upwelling and often lower nutrient supply to surface waters"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-4",
@@ -1095,12 +1095,12 @@
       "type": "multiple_choice",
       "prompt": "A coastal current brings cold, nutrient-rich deep water to the surface. Which process is being described?",
       "choices": [
-        "Downwelling",
         "Upwelling",
+        "Downwelling",
         "Thermal inversion",
         "Subduction of continental crust"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "hard",
       "tags": [
         "unit-4",
@@ -1133,12 +1133,12 @@
       "type": "multiple_choice",
       "prompt": "Two equal-size watersheds receive the same 25 mm storm. Forest basin runoff is 6 mm; urban basin runoff is 18 mm. What is the best interpretation?",
       "choices": [
+        "Forest runoff was three times urban runoff, suggesting that forest soils absorbed less of the storm",
+        "Runoff was equal in both basins because the rainfall depth was the same",
         "Urban runoff was three times forest runoff, consistent with less infiltration from impervious cover",
-        "Forest runoff was three times urban runoff, suggesting greater forest infiltration",
-        "Runoff was equal because rainfall depth was equal",
-        "The data establish that the urban basin had no infiltration"
+        "The data establish that the urban basin had no infiltration at all during the storm"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "expert",
       "tags": [
         "unit-4",
@@ -1152,12 +1152,12 @@
       "type": "multiple_choice",
       "prompt": "A temperature profile shows air temperature decreasing with altitude from the surface to 10 km, then increasing from 10 to 50 km. Which layer and process best explain the reversal?",
       "choices": [
-        "Tropopause; ozone absorption of ultraviolet radiation warms the stratosphere aloft",
-        "Mesopause; reflected sunlight from the surface warms the mesosphere",
-        "Stratopause; heat released by clouds warms the upper troposphere",
-        "Thermopause; heat carried by ocean currents warms the stratosphere"
+        "Mesopause; sunlight reflected off the surface and clouds warms the mesosphere aloft",
+        "Stratopause; latent heat released by clouds warms the upper troposphere and above",
+        "Thermopause; heat carried upward from warm ocean currents warms the stratosphere above",
+        "Tropopause; ozone absorption of ultraviolet radiation warms the stratosphere aloft"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "expert",
       "tags": [
         "unit-4",
@@ -1190,12 +1190,12 @@
       "type": "multiple_choice",
       "prompt": "Which process returns liquid water from plant leaves to the atmosphere?",
       "choices": [
-        "Transpiration",
         "Infiltration",
+        "Transpiration",
         "Percolation",
         "Condensation"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-4",
@@ -1358,12 +1358,12 @@
       "type": "multiple_choice",
       "prompt": "A farmer cooperative report says: “High-yield seed and irrigation raised harvests, but fertilizer and pesticide use also increased.” Which conclusion is best supported?",
       "choices": [
+        "The report establishes that fertilizer alone caused the entire harvest increase across the region",
         "Input-intensive methods can raise yields while creating runoff and chemical-exposure trade-offs",
-        "The report establishes that fertilizer alone caused the entire harvest increase",
-        "The report shows that every farm will have the same yield response",
+        "The report shows that every farm will have the same yield response to new seed and irrigation",
         "The increased harvest proves that pesticide use has no environmental cost"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-5",
@@ -1377,12 +1377,12 @@
       "type": "multiple_choice",
       "prompt": "Which irrigation method generally delivers water directly near plant roots and can reduce evaporation compared with broad surface flooding?",
       "choices": [
-        "Drip irrigation",
         "Flood irrigation",
         "Unlined canal seepage",
+        "Drip irrigation",
         "Overhead spraying at midday"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-5",
@@ -1396,12 +1396,12 @@
       "type": "multiple_choice",
       "prompt": "A farm plants one crop species across thousands of hectares. What is a common ecological risk of this monoculture?",
       "choices": [
-        "A specialist pest may spread readily through a large area of similar host plants",
-        "The field necessarily contains more crop species as its area grows",
-        "Uniform planting prevents pests from moving between plants",
-        "The crop becomes resistant to every disease without selection"
+        "The field necessarily contains more crop species as the planted area keeps growing",
+        "Uniform planting prevents pests from moving between plants of the same species",
+        "The crop becomes resistant to every disease without any selection taking place",
+        "A specialist pest may spread readily through a large area of similar host plants"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-5",
@@ -1434,12 +1434,12 @@
       "type": "multiple_choice",
       "prompt": "A dry-region field is irrigated repeatedly with salty groundwater, and evaporation is high. Why can soil salinity rise?",
       "choices": [
-        "Water evaporates while dissolved salts remain and accumulate in the root zone",
-        "Plants convert dissolved salts into nitrogen fertilizer that builds up",
+        "Plants convert the dissolved salts into nitrogen fertilizer that builds up in the soil",
         "Salts evaporate faster than water and settle back onto the soil surface",
+        "Water evaporates while dissolved salts remain and accumulate in the root zone",
         "Irrigation always flushes salts away, even where there is no drainage"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-5",
@@ -1453,12 +1453,12 @@
       "type": "multiple_choice",
       "prompt": "A grower monitors pest abundance, sets an action threshold, encourages beneficial insects, and sprays only if needed. Which approach is being used?",
       "choices": [
-        "Integrated pest management",
         "Calendar-based spraying",
         "Single-method biocontrol",
-        "Rotation without monitoring"
+        "Rotation without monitoring",
+        "Integrated pest management"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-5",
@@ -1492,9 +1492,9 @@
       "prompt": "A grazing report states: “Pasture sections were rested between grazing periods, and vegetation cover improved; runoff still increased near a stream crossing.” Which interpretation is strongest?",
       "choices": [
         "Rotational grazing improved cover in this case, but livestock access can still create localized runoff",
-        "The report proves that rotational grazing removes every environmental impact on the land",
-        "More vegetation cover proves that no runoff occurred anywhere on the pasture sections",
-        "A stream crossing has no relation to erosion, so the runoff must come from rainfall alone"
+        "The report proves that rotational grazing removes every environmental impact on the land and stream",
+        "More vegetation cover proves that no runoff occurred anywhere on the rested pasture sections at all",
+        "A stream crossing has no relation to erosion, so the extra runoff must come from heavier rainfall alone"
       ],
       "correctIndex": 0,
       "difficulty": "medium",
@@ -1510,12 +1510,12 @@
       "type": "multiple_choice",
       "prompt": "Which practice is most likely to retain more habitat structure than clear-cutting an entire forest stand?",
       "choices": [
-        "Selective harvesting of chosen trees while retaining much of the stand canopy",
         "Clear-cutting the entire stand in one operation",
-        "Removing mature trees in a shelterwood harvest",
-        "Harvesting all trees in a small patch while leaving adjacent patches"
+        "Selective harvesting of chosen trees while retaining much of the stand canopy",
+        "Removing all mature trees in stages through a shelterwood harvest",
+        "Harvesting every tree in a series of small patches until the whole stand is cut"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "medium",
       "tags": [
         "unit-5",
@@ -1529,12 +1529,12 @@
       "type": "multiple_choice",
       "prompt": "A mine is proposed near a stream. Which management choice most directly reduces the risk of acid mine drainage?",
       "choices": [
-        "Store sulfide-bearing waste in covered, lined areas and collect drainage for treatment",
-        "Allow tailings to contact air and runoff, then monitor only after fish decline",
+        "Allow tailings to contact air and runoff, then begin monitoring only after fish decline",
         "Dilute acidic drainage downstream without controlling its source",
+        "Store sulfide-bearing waste in covered, lined areas and collect drainage for treatment",
         "Remove riparian vegetation to speed water flow past the mine"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "hard",
       "tags": [
         "unit-5",
@@ -1548,12 +1548,12 @@
       "type": "multiple_choice",
       "prompt": "A fishery reports declining catch per unit effort and many juvenile fish in the catch. Which management response best addresses the likely problem?",
       "choices": [
-        "Set evidence-based catch limits and protect nursery habitat or juvenile fish",
-        "Increase harvest quotas using a single year of high catch data",
-        "Open additional fishing grounds while keeping total effort unchanged",
-        "Use gear that targets juveniles while leaving total catch unlimited"
+        "Increase harvest quotas based on a single year of unusually high catch data",
+        "Open additional fishing grounds while keeping total fishing effort unchanged",
+        "Switch to gear that targets juvenile fish while leaving the total catch unlimited",
+        "Set evidence-based catch limits and protect nursery habitat or juvenile fish"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-5",
@@ -1605,12 +1605,12 @@
       "type": "multiple_choice",
       "prompt": "A city compares concrete drains with permeable pavement, trees, and restored wetlands. Which evaluation is strongest?",
       "choices": [
+        "Concrete drains move water away quickly, so they remove all downstream flood risk for the city and its neighbors",
+        "Permeable pavement works equally well on every soil type and at any water table depth, so no site testing is needed",
         "Green infrastructure can capture and infiltrate runoff and add habitat, but needs suitable sites and maintenance",
-        "Concrete drains move water away quickly, so they remove all downstream flood risk for the city",
-        "Permeable pavement works equally well on every soil type and at any water table depth",
         "Wetlands need no land, upkeep, or storm-capacity planning once they have been restored"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "expert",
       "tags": [
         "unit-5",
@@ -1756,10 +1756,10 @@
       "choices": [
         "Wind",
         "Sunlight",
-        "Coal",
-        "Geothermal heat"
+        "Geothermal heat",
+        "Coal"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-6",
@@ -1773,12 +1773,12 @@
       "type": "multiple_choice",
       "prompt": "Which option is a renewable energy source when managed so use does not exceed regeneration?",
       "choices": [
-        "Uranium ore from mines",
-        "Biomass from regrowing forests",
+        "Uranium ore from open-pit mines",
         "Coal from deep seams",
-        "Oil from offshore wells"
+        "Biomass from regrowing forests",
+        "Oil pumped from deep offshore wells"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-6",
@@ -1811,12 +1811,12 @@
       "type": "multiple_choice",
       "prompt": "Which fossil fuel generally produces the greatest carbon dioxide emissions per unit of energy when burned?",
       "choices": [
-        "Coal",
         "Natural gas",
+        "Coal",
         "Hydrogen",
         "Wind"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-6",
@@ -1866,12 +1866,12 @@
     },
     {
       "type": "multiple_choice",
-      "prompt": "Which of these is a potential environmental impact of hydraulic fracturing?",
+      "prompt": "Which statement about the environmental impacts of hydraulic fracturing is accurate?",
       "choices": [
-        "Groundwater contamination if poorly managed",
-        "Methane leakage from wells and pipelines",
-        "Induced seismicity from wastewater disposal",
-        "All of the above are possible impacts"
+        "Its only documented impact is temporary noise and truck traffic near the well pad",
+        "It cannot affect groundwater at all, because every well is lined with steel and cement",
+        "Induced earthquakes from wastewater disposal occur only in volcanic regions",
+        "Groundwater contamination, methane leakage and induced seismicity are all possible impacts"
       ],
       "correctIndex": 3,
       "difficulty": "medium",
@@ -1888,8 +1888,8 @@
       "prompt": "Which statement accurately describes nuclear fission power generation?",
       "choices": [
         "Fission releases heat that can make steam to turn a turbine, while producing radioactive waste that requires management",
-        "Fission burns uranium like a fuel and releases carbon dioxide, but produces no long-lived waste",
-        "Fission converts matter directly into electricity, so the plant needs no turbines or cooling water",
+        "Fission burns uranium like a chemical fuel and releases carbon dioxide, but it produces no long-lived radioactive waste",
+        "Fission converts matter directly into electricity, so the plant needs no turbines, no steam and no cooling water at all",
         "Fission splits water molecules to release hydrogen, which is then burned to spin a generator"
       ],
       "correctIndex": 0,
@@ -1906,12 +1906,12 @@
       "type": "multiple_choice",
       "prompt": "A building uses south-facing windows and thermal mass to capture and store sunlight without photovoltaic panels. This is primarily:",
       "choices": [
-        "Passive solar design",
         "Active solar heating",
         "Photovoltaic generation",
+        "Passive solar design",
         "Solar water heating"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-6",
@@ -1925,12 +1925,12 @@
       "type": "multiple_choice",
       "prompt": "A wind farm’s output falls when wind speeds are very low. Which grid strategy can help manage this variability?",
       "choices": [
-        "Combine wind with storage, transmission, demand response, and other generation sources",
-        "Build more wind turbines without adding any flexibility or new transmission",
+        "Build more wind turbines without adding any flexibility, storage or new transmission lines",
         "Rely on a single storage technology sized for every possible weather event",
-        "Curtail all other generation sources whenever wind output changes at all"
+        "Curtail all other generation sources whenever wind output changes at all",
+        "Combine wind with storage, transmission, demand response, and other generation sources"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-6",
@@ -1944,12 +1944,12 @@
       "type": "multiple_choice",
       "prompt": "A proposed dam would provide dispatchable electricity but flood a forest valley and block fish migration. Which evaluation is most complete?",
       "choices": [
-        "Compare reliability and low operating emissions with habitat, sediment, flow, and community impacts",
-        "Count annual electricity alone and assume reservoir conditions never change",
+        "Count annual electricity output alone and assume reservoir, sediment and river conditions never change",
         "Compare only fish passage costs while ignoring displaced communities and inundated habitat",
-        "Assume hydropower has no ecological effects because it is renewable"
+        "Assume hydropower has no ecological effects because the water that drives it is renewable",
+        "Compare reliability and low operating emissions with habitat, sediment, flow, and community impacts"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-6",
@@ -1964,8 +1964,8 @@
       "prompt": "A forestry brief claims: “Burning harvested wood is carbon-neutral because new trees regrow.” Which evidence is most important to evaluate?",
       "choices": [
         "Whether regrowth timing and supply-chain emissions offset combustion and land-use emissions",
-        "Whether the harvested wood contains more carbon than coal does",
-        "Whether the replanted tree species photosynthesize faster than the original",
+        "Whether the harvested wood contains more carbon per tonne than the same mass of coal does",
+        "Whether the replanted tree species photosynthesize faster than the species that were cut down",
         "Whether the wood can be transported to the power plant by rail"
       ],
       "correctIndex": 0,
@@ -1982,12 +1982,12 @@
       "type": "multiple_choice",
       "prompt": "A geothermal plant is proposed where underground heat is abundant but water is scarce. Which concern should planners evaluate?",
       "choices": [
+        "Whether the plant can collect enough sunlight to keep its turbines running through the winter months",
+        "Whether the underground heat is being replenished by coal combustion at a nearby power plant",
         "Whether the system can meet its water needs and manage subsurface fluids at this water-limited site",
-        "Whether the plant can collect enough sunlight to keep running during the winter months",
-        "Whether the underground heat is being replenished by coal combustion at a nearby plant",
         "Whether the turbines can run for several decades without any maintenance or inspection"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "hard",
       "tags": [
         "unit-6",
@@ -2020,12 +2020,12 @@
       "type": "multiple_choice",
       "prompt": "A utility planning note says: “Wind output varies by hour; demand peaks after sunset; transmission links and storage are under review.” Which portfolio choice best responds to this evidence?",
       "choices": [
-        "Combine efficiency, suitable renewables, storage or flexible demand, transmission, and firm low-carbon generation where appropriate",
         "Rely on wind alone and accept outages whenever output drops after sunset, since storage and new transmission are costly",
         "Build generation only for average demand and let evening peaks go unserved until the transmission review is finished",
-        "Raise demand during windy hours so existing equipment runs more often, and postpone any decisions about storage"
+        "Raise demand during windy hours so existing equipment runs more often, and postpone any decisions about storage",
+        "Combine efficiency, suitable renewables, storage or flexible demand, transmission, and firm low-carbon power"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "expert",
       "tags": [
         "unit-6",
@@ -2169,12 +2169,12 @@
       "type": "multiple_choice",
       "prompt": "Which is a primary air pollutant emitted directly from a source?",
       "choices": [
-        "Sulfur dioxide from a power plant stack",
         "Ground-level ozone formed in sunlight",
         "Acid deposition formed from atmospheric reactions",
+        "Sulfur dioxide from a power plant stack",
         "Photochemical smog as a mixture"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-7",
@@ -2188,12 +2188,12 @@
       "type": "multiple_choice",
       "prompt": "Ground-level ozone in photochemical smog forms most readily when which conditions occur together?",
       "choices": [
-        "Nitrogen oxides and volatile organic compounds react in sunlight",
         "Sulfur dioxide and particulate matter settle out during rain",
+        "Nitrogen oxides and volatile organic compounds react in sunlight",
         "Carbon monoxide reacts with radon in cold air",
         "Methane reacts with water vapor in darkness"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-7",
@@ -2245,12 +2245,12 @@
       "type": "multiple_choice",
       "prompt": "A monitor records PM₂.₅ concentrations of 12, 28, and 24 µg/m³ on three consecutive days. Which conclusion is supported?",
       "choices": [
-        "The concentration peaked on the second day and declined on the third",
         "The three-day mean concentration was exactly 24 µg/m³",
         "The lowest concentration of the three occurred on the second day",
+        "The concentration peaked on the second day and declined on the third",
         "The day-to-day pattern identifies road traffic as the main source"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-7",
@@ -2264,12 +2264,12 @@
       "type": "multiple_choice",
       "prompt": "A county air-quality plan explains: “The Clean Air Act authorizes EPA to set ambient standards for common pollutants; states develop plans to attain them.” Which conclusion follows?",
       "choices": [
-        "The standards address outdoor air quality, with federal standards and state implementation roles",
-        "The Clean Air Act sets only indoor radon standards, which each state then enforces",
+        "The Clean Air Act sets only indoor radon limits, which each state then enforces in homes and schools",
         "NAAQS regulate vehicle tailpipe emissions but not ambient pollutant concentrations",
-        "The same numeric standard applies worldwide to all greenhouse gases and pollutants"
+        "The same numeric standard applies worldwide to all greenhouse gases and pollutants",
+        "The standards address outdoor air quality, with federal standards and state implementation roles"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-7",
@@ -2284,9 +2284,9 @@
       "prompt": "A lake’s pH declines near a region that burns sulfur-rich coal. Which atmospheric pathway most directly contributes?",
       "choices": [
         "SO₂ can form sulfuric acid compounds that return in wet or dry deposition",
-        "CO₂ dissolves in seawater and lowers ocean pH",
-        "NOx and VOCs react in sunlight to form ground-level ozone",
-        "CFCs release chlorine that destroys stratospheric ozone"
+        "CO₂ dissolves in seawater and lowers ocean pH, which then spreads to inland lakes",
+        "NOx and VOCs react in sunlight to form ground-level ozone downwind of the coal plant",
+        "CFCs release chlorine that destroys stratospheric ozone above the region"
       ],
       "correctIndex": 0,
       "difficulty": "hard",
@@ -2302,12 +2302,12 @@
       "type": "multiple_choice",
       "prompt": "An airtight home has elevated radon, a radioactive gas that can enter from soil through foundation gaps. Which action most directly reduces exposure?",
       "choices": [
-        "Test for radon and install a system that vents soil gas outdoors",
         "Use a HEPA filter to remove radon gas from room air",
+        "Test for radon and install a system that vents soil gas outdoors",
         "Open a window once and assume long-term levels are controlled",
         "Seal foundation cracks without testing or checking whether pressure changes"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "hard",
       "tags": [
         "unit-7",
@@ -2418,12 +2418,12 @@
       "type": "multiple_choice",
       "prompt": "Which is a point source of water pollution?",
       "choices": [
-        "A wastewater pipe discharging into a river",
         "Fertilizer washed from many fields",
         "Sediment runoff from scattered construction sites",
+        "A wastewater pipe discharging into a river",
         "Oil residues washed from many streets"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-8",
@@ -2437,12 +2437,12 @@
       "type": "multiple_choice",
       "prompt": "Which measurement directly reports the amount of oxygen dissolved in a water sample?",
       "choices": [
-        "Dissolved oxygen concentration",
-        "Biochemical oxygen demand",
+        "Biochemical oxygen demand (BOD)",
         "Turbidity only",
-        "Fecal coliform count"
+        "Fecal coliform bacteria count",
+        "Dissolved oxygen concentration"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-8",
@@ -2456,12 +2456,12 @@
       "type": "multiple_choice",
       "prompt": "Which action follows the most preferred levels of the waste hierarchy?",
       "choices": [
-        "Reduce unnecessary packaging before relying on disposal",
         "Recycle materials after they have become waste",
         "Incinerate waste before considering material recovery",
-        "Landfill usable items rather than preventing waste"
+        "Landfill usable items rather than preventing waste",
+        "Reduce unnecessary packaging before relying on disposal"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-8",
@@ -2475,12 +2475,12 @@
       "type": "multiple_choice",
       "prompt": "Two stream samples start at 8 mg/L dissolved oxygen. After five days, Sample A has 2 mg/L and Sample B has 6 mg/L. Which sample had the greater approximate BOD over the test period?",
       "choices": [
-        "Sample A, about 6 mg/L oxygen consumed",
         "Sample B, about 2 mg/L oxygen consumed",
+        "Sample A, about 6 mg/L oxygen consumed",
         "Both samples, about 6 mg/L because initial oxygen was equal",
         "Cannot compare because starting oxygen is unknown"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "medium",
       "tags": [
         "unit-8",
@@ -2494,12 +2494,12 @@
       "type": "multiple_choice",
       "prompt": "A lake receives excess phosphorus fertilizer runoff. Which sequence most directly leads to a fish kill?",
       "choices": [
-        "Nutrient input → algal growth → decomposition → dissolved oxygen decline",
         "Nutrient input → increased plant growth → permanent increase in dissolved oxygen",
         "Nutrient input → lower algal growth → decomposition stops",
+        "Nutrient input → algal growth → decomposition → dissolved oxygen decline",
         "Nutrient input → water clarification → immediate fish mortality"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-8",
@@ -2513,12 +2513,12 @@
       "type": "multiple_choice",
       "prompt": "Which wastewater-treatment step primarily uses microorganisms to break down dissolved organic matter?",
       "choices": [
-        "Secondary treatment",
         "Screening in preliminary treatment",
         "Primary sedimentation only",
+        "Secondary treatment",
         "Chlorine disinfection only"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-8",
@@ -2532,12 +2532,12 @@
       "type": "multiple_choice",
       "prompt": "A power plant releases warmed cooling water into a stream. Which effect is most likely downstream?",
       "choices": [
-        "Warmer water holds less dissolved oxygen and can increase metabolic demand",
-        "Warmer water holds more dissolved oxygen and lowers metabolic demand",
+        "Warmer water holds more dissolved oxygen and lowers the metabolic demand of fish",
         "Temperature changes affect only water density, not organisms",
-        "All aquatic species have identical temperature tolerances"
+        "All aquatic species have identical temperature tolerances",
+        "Warmer water holds less dissolved oxygen and can increase metabolic demand"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-8",
@@ -2570,12 +2570,12 @@
       "type": "multiple_choice",
       "prompt": "A city bans some single-use plastic bags. Which additional action most directly addresses plastic entering a river from storm drains?",
       "choices": [
-        "Capture litter at storm drains and improve collection before plastic reaches waterways",
         "Rely on beach cleanups after plastic has moved downstream",
+        "Capture litter at storm drains and improve collection before plastic reaches waterways",
         "Replace bags with a different single-use item that is not collected",
-        "Assume all plastic entering rivers breaks down rapidly into harmless compounds"
+        "Assume that all plastic entering rivers breaks down rapidly into harmless compounds"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "medium",
       "tags": [
         "unit-8",
@@ -2589,12 +2589,12 @@
       "type": "multiple_choice",
       "prompt": "A persistent pollutant has concentrations of 0.02 ppm in plankton, 0.2 ppm in small fish, 1.5 ppm in large fish, and 4.0 ppm in fish-eating birds. Which pattern is shown?",
       "choices": [
+        "Biodegradation by microbes in the water",
+        "Dilution as the pollutant moves to higher trophic levels",
         "Biomagnification across trophic levels",
-        "Biodegradation",
-        "Dilution at higher trophic levels",
         "Nutrient cycling"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "hard",
       "tags": [
         "unit-8",
@@ -2608,12 +2608,12 @@
       "type": "multiple_choice",
       "prompt": "In a controlled toxicity study with the same test species and exposure period, Substance X has an LD₅₀ of 5 mg/kg and Substance Y has an LD₅₀ of 50 mg/kg. What does this suggest?",
       "choices": [
-        "X is more acutely toxic under the tested conditions",
-        "Y is ten times more acutely toxic than X",
+        "Y is ten times more acutely toxic than X in this test",
         "Both have identical acute toxicity overall",
-        "The values describe chronic effects only"
+        "The values describe chronic, not acute, effects only",
+        "X is more acutely toxic under the tested conditions"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-8",
@@ -2628,8 +2628,8 @@
       "prompt": "A team tests whether a constructed wetland removes nitrate from farm runoff. Which design best isolates the wetland’s effect?",
       "choices": [
         "Measure nitrate entering and leaving the wetland and compare with a similar untreated channel over the same period",
-        "Measure nitrate once downstream after a large storm and compare it with a published average",
-        "Change nitrate input, flow rate and sampling time together, without any untreated comparison",
+        "Measure nitrate once downstream after a large storm and compare that single value with a published regional average",
+        "Change nitrate input, flow rate and sampling time together during the study, without any untreated comparison channel",
         "Sample a different watershed for each measurement and compare them without matching conditions"
       ],
       "correctIndex": 0,
@@ -2750,12 +2750,12 @@
       "type": "multiple_choice",
       "prompt": "What is an important consequence of stratospheric ozone depletion?",
       "choices": [
+        "Less ultraviolet-B radiation reaches the surface, so organisms there receive less exposure",
         "More ultraviolet-B radiation can reach Earth’s surface, increasing exposure for organisms",
-        "Less ultraviolet-B radiation reaches the surface because ozone absorbs less",
-        "Ground-level ozone immediately disappears when stratospheric ozone declines",
-        "The effect is limited to human health and does not affect ecosystems"
+        "Ground-level ozone immediately disappears everywhere when stratospheric ozone declines",
+        "The effect is limited to human health and does not affect plants, plankton or ecosystems"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-9",
@@ -2769,12 +2769,12 @@
       "type": "multiple_choice",
       "prompt": "A science bulletin reports: “After countries phased out many CFC uses under the Montreal Protocol, emissions of ozone-depleting substances fell; recovery of the ozone layer takes time.” Which claim is supported?",
       "choices": [
-        "Coordinated phaseout reduced a major cause of ozone depletion, but recovery is gradual",
         "The agreement immediately removed ozone-depleting chemicals already in the atmosphere",
         "The agreement primarily phased out carbon dioxide from power plants",
+        "Coordinated phaseout reduced a major cause of ozone depletion, but recovery is gradual",
         "The agreement replaced ozone monitoring with climate monitoring"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-9",
@@ -2788,12 +2788,12 @@
       "type": "multiple_choice",
       "prompt": "Which statement best describes the natural greenhouse effect?",
       "choices": [
-        "Atmospheric gases absorb and re-emit outgoing infrared radiation, warming the surface and lower atmosphere",
-        "Greenhouse gases mainly reflect incoming visible sunlight back to space, cooling the upper atmosphere",
+        "Greenhouse gases mainly reflect incoming visible sunlight back to space, which cools the upper atmosphere",
         "The ozone layer traps nearly all incoming solar energy close to the surface, warming the ground",
-        "Clouds absorb all incoming ultraviolet radiation before it reaches Earth and re-emit it as heat"
+        "Clouds absorb all incoming ultraviolet radiation before it reaches Earth and re-emit it as heat",
+        "Atmospheric gases absorb and re-emit outgoing infrared radiation, warming the surface and lower atmosphere"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "easy",
       "tags": [
         "unit-9",
@@ -2826,12 +2826,12 @@
       "type": "multiple_choice",
       "prompt": "Corals commonly bleach when stressed by unusually warm water because they:",
       "choices": [
-        "They lose or expel symbiotic algae that normally provide much of their energy",
         "They convert their calcium carbonate skeleton into oxygen that escapes into the water",
+        "They lose or expel symbiotic algae that normally provide much of their energy",
         "They develop their own chlorophyll to replace the symbiotic algae they normally host",
         "They stop exchanging dissolved substances with the seawater around their tissues"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": [
         "unit-9",
@@ -2845,12 +2845,12 @@
       "type": "multiple_choice",
       "prompt": "Which action is an example of climate adaptation?",
       "choices": [
-        "Raising critical equipment above projected flood levels",
         "Replacing coal-fired generation with new wind power",
         "Capturing carbon dioxide from a power plant smokestack",
+        "Raising critical equipment above projected flood levels",
         "Reducing methane leakage from natural gas pipelines"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "easy",
       "tags": [
         "unit-9",
@@ -2864,12 +2864,12 @@
       "type": "multiple_choice",
       "prompt": "A study reports annual mean temperature anomalies of 0.2°C in 1990, 0.5°C in 2000, 0.8°C in 2010, and 1.1°C in 2020 relative to the same baseline. What trend is supported?",
       "choices": [
-        "The anomaly increased by about 0.3°C per decade in these observations",
-        "The mean anomaly across the four observations was 0.5°C",
-        "The anomaly increased by 0.9°C in each decade",
-        "The data establish an identical trend at every location"
+        "The mean anomaly across the four observations was exactly 0.5°C above baseline",
+        "The anomaly increased by 0.9°C in each decade between 1990 and 2020",
+        "The data establish an identical warming trend at every location on Earth",
+        "The anomaly increased by about 0.3°C per decade in these observations"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -2921,12 +2921,12 @@
       "type": "multiple_choice",
       "prompt": "As Arctic sea ice melts, darker ocean water absorbs more solar energy than reflective ice. What type of feedback can this create?",
       "choices": [
-        "Positive feedback that amplifies initial warming",
         "Negative feedback that counteracts the initial warming",
         "No feedback because melting ice does not change reflectivity",
+        "Positive feedback that amplifies initial warming",
         "A feedback that changes ocean salinity but not energy absorption"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -2940,12 +2940,12 @@
       "type": "multiple_choice",
       "prompt": "A mountain species is observed at progressively higher elevations during warmer decades, while suitable habitat shrinks near the summit. Which risk is most directly suggested?",
       "choices": [
-        "Habitat loss as the species runs out of cooler high-elevation area",
-        "Unlimited expansion of its range",
-        "No relationship between temperature and distribution",
-        "Reduced extinction risk for every species"
+        "Unlimited expansion of its range as the climate continues to warm",
+        "No relationship between temperature and the species' distribution",
+        "Reduced extinction risk for every species living on the mountain slopes",
+        "Habitat loss as the species runs out of cooler high-elevation area"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -2978,12 +2978,12 @@
       "type": "multiple_choice",
       "prompt": "A highway divides two habitat patches used by a wide-ranging mammal. Which design may improve movement while maintaining nearby development?",
       "choices": [
+        "A crossing placed far from any habitat, with no cover on either approach",
         "A wildlife crossing placed along a movement route and linked to suitable habitat",
-        "A crossing placed far from habitat with no approach cover",
-        "More fencing without any crossing where animals already attempt to cross",
-        "A narrow vegetated strip ending at the highway barrier"
+        "More fencing, with no crossing, at the places where animals already try to cross",
+        "A narrow vegetated strip that leads animals up to the highway barrier and ends there"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -2997,12 +2997,12 @@
       "type": "multiple_choice",
       "prompt": "An analyst writes: “Because greenhouse gases mix in the atmosphere, a country’s emissions affect people beyond its borders.” Which rationale for international agreements does this statement support?",
       "choices": [
+        "Countries can use agreements to stop greenhouse gases from crossing national borders",
+        "An agreement automatically enforces every national target it contains",
         "Countries can coordinate reductions and assistance for a shared global problem",
-        "Countries can prevent greenhouse gases from crossing national borders",
-        "An agreement automatically enforces every national target",
-        "International agreements remove all economic trade-offs"
+        "International agreements remove all economic trade-offs between countries"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -3016,12 +3016,12 @@
       "type": "multiple_choice",
       "prompt": "A transit agency report states: “New electric buses use electricity from a lower-carbon grid mix than the diesel buses they replaced.” Which climate benefit is intended?",
       "choices": [
-        "Reduce lifecycle greenhouse-gas emissions from transportation",
         "Reduce tailpipe emissions of nitrogen oxides and particulate matter",
         "Reduce fuel use per passenger trip",
-        "Reduce traffic noise along the bus route"
+        "Reduce traffic noise along the bus route",
+        "Reduce lifecycle greenhouse-gas emissions from transportation"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "medium",
       "tags": [
         "unit-9",
@@ -3035,7 +3035,7 @@
       "type": "multiple_choice",
       "prompt": "Researchers test whether elevated seawater temperature increases coral bleaching. Which design best supports a causal conclusion?",
       "choices": [
-        "Randomly assign similar coral fragments to replicated control and warmer tanks, hold other conditions constant, and measure bleaching",
+        "Randomly assign similar coral fragments to replicated control and warmer tanks with other conditions held constant",
         "Compare one naturally warm reef with one different cooler reef and assume temperature is the only difference between them",
         "Change temperature, pH, light, and salinity together in one tank and measure how much the corals bleach afterward",
         "Measure bleaching only once at the end of the experiment, without a baseline or an untreated comparison group"
@@ -3073,12 +3073,12 @@
       "type": "multiple_choice",
       "prompt": "A small endemic frog population occupies one wetland that is being drained and also faces a newly introduced pathogen. Why is extinction risk especially high?",
       "choices": [
+        "Its large range makes it vulnerable only to competition from other frogs in the same wetland",
+        "The pathogen increases population size by reducing competition among the surviving frogs",
         "Its narrow range and small population make it vulnerable to habitat loss and disease",
-        "Its large range makes it vulnerable only to competition",
-        "The pathogen increases population size by reducing competition",
         "Wetland protection guarantees the population cannot become extinct"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "difficulty": "hard",
       "tags": [
         "unit-9",
@@ -3092,12 +3092,12 @@
       "type": "multiple_choice",
       "prompt": "A marine heat wave raises water temperature for several weeks. Which combination of effects is plausible?",
       "choices": [
-        "Heat stress may cause bleaching and shifts in species distributions",
         "Higher temperature guarantees greater dissolved oxygen at every depth",
         "A brief heat wave reverses ocean acidification globally",
-        "Ocean thermal inertia prevents organisms from responding"
+        "Ocean thermal inertia prevents organisms from responding",
+        "Heat stress may cause bleaching and shifts in species distributions"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "difficulty": "hard",
       "tags": [
         "unit-9",
@@ -3112,8 +3112,8 @@
       "prompt": "A conservation plan protects a large reserve but ignores the surrounding agricultural landscape. Which addition may improve persistence for wide-ranging species?",
       "choices": [
         "Add habitat connections and wildlife-friendly practices beyond the reserve boundary",
-        "Remove buffer habitat to reduce edge length",
-        "Increase isolation to prevent all species movement",
+        "Remove buffer habitat around the reserve to reduce the total length of habitat edge",
+        "Increase the reserve's isolation so that no species can move in or out across its boundary",
         "Focus only on visitor access while leaving habitat links unchanged"
       ],
       "correctIndex": 0,
@@ -3130,12 +3130,12 @@
       "type": "multiple_choice",
       "prompt": "A coastal city compares a seawall and restored wetlands for flood risk. The wall protects dense infrastructure but may shift erosion; wetlands can store surge water and support habitat but need space and time to establish. What is the strongest recommendation?",
       "choices": [
+        "Choose the seawall, because a hard structure removes all future flood risk for the protected area and needs no review",
         "Compare site-specific flood projections, costs, habitat, maintenance, equity, and hybrid options before selecting measures",
-        "Choose the seawall, because hard structures remove all future flood risk for the protected area",
-        "Choose wetlands, because natural defenses need no land, maintenance or time to become effective",
+        "Choose wetlands, because natural defenses need no land, maintenance or time to become effective against storm surge",
         "Reject both options, because local flooding depends only on rainfall and not on sea level rise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "difficulty": "expert",
       "tags": [
         "unit-9",

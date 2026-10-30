@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { seededRandom } from '../src/lib/random';
+import type { QuestionProgress } from '../src/models/types';
 import {
   DEFAULT_SETTINGS,
   QUICK_PLAY_SETTINGS,
@@ -13,7 +14,7 @@ import {
   isCorrect,
   isFinished,
   mistakesSession,
-  pointsFor,
+  pointParts,
   replaySession,
   revealCurrent,
   summarize,
@@ -30,7 +31,7 @@ function newSession(settings: QuizSettings = noShuffle): QuizSession {
     title: 'test',
     source: { kind: 'deck', deckId: 'deck-1' },
     settings,
-    items: buildQuizItems(sampleQuestions(), settings, seededRandom(1)),
+    items: buildQuizItems(sampleQuestions(), settings, { random: seededRandom(1) }),
     now: 0,
   });
 }
@@ -97,8 +98,8 @@ describe('choosing questions', () => {
   it('shuffles questions and choices deterministically for a given random source', () => {
     const questions = sampleQuestions();
     const settings: QuizSettings = { ...DEFAULT_SETTINGS, count: 'all' };
-    const first = buildQuizItems(questions, settings, seededRandom(42));
-    const second = buildQuizItems(questions, settings, seededRandom(42));
+    const first = buildQuizItems(questions, settings, { random: seededRandom(42) });
+    const second = buildQuizItems(questions, settings, { random: seededRandom(42) });
     expect(first.map((i) => i.question.id)).toEqual(second.map((i) => i.question.id));
     expect([...first.map((i) => i.question.id)].sort()).toEqual([...questions.map((q) => q.id)].sort());
     for (const item of first) {
@@ -110,8 +111,31 @@ describe('choosing questions', () => {
 
   it('quick play takes up to 10 questions of any type and difficulty', () => {
     const twelve = [...sampleQuestions(), ...sampleQuestions()];
-    expect(buildQuizItems(twelve, QUICK_PLAY_SETTINGS, seededRandom(3))).toHaveLength(10);
-    expect(buildQuizItems(sampleQuestions(), QUICK_PLAY_SETTINGS, seededRandom(3))).toHaveLength(6);
+    expect(buildQuizItems(twelve, QUICK_PLAY_SETTINGS, { random: seededRandom(3) })).toHaveLength(10);
+    expect(buildQuizItems(sampleQuestions(), QUICK_PLAY_SETTINGS, { random: seededRandom(3) })).toHaveLength(6);
+  });
+
+  it("picks by the deck's mastery only when shuffling questions", () => {
+    const questions = sampleQuestions();
+    const resting: QuestionProgress = {
+      questionId: questions[0].id,
+      deckId: 'deck-1',
+      level: 2,
+      promotionDay: 0,
+      weightAfter: 0.2,
+      answeredDay: 0,
+      rightRound: 3,
+      dropDay: null,
+      seen: 1,
+      right: 1,
+    };
+    const ids = (settings: QuizSettings) =>
+      buildQuizItems(questions, settings, { progress: { records: [resting], rounds: 3 }, random: seededRandom(1) }).map(
+        (item) => item.question.id,
+      );
+
+    expect(ids({ ...DEFAULT_SETTINGS, count: 5 })).not.toContain(questions[0].id);
+    expect(ids({ ...noShuffle, count: 5 })).toEqual(questions.slice(0, 5).map((question) => question.id));
   });
 
   it('refuses to create an empty quiz', () => {
@@ -132,11 +156,9 @@ describe('answering and scoring', () => {
   });
 
   it('gives 100 points per correct answer plus a capped streak bonus', () => {
-    expect(pointsFor(false, 0)).toBe(0);
-    expect(pointsFor(true, 1)).toBe(100);
-    expect(pointsFor(true, 2)).toBe(110);
-    expect(pointsFor(true, 6)).toBe(150);
-    expect(pointsFor(true, 20)).toBe(150);
+    expect(pointParts(false, 0)).toEqual({ answer: 0, streak: 0, speed: 0 });
+    expect(pointParts(true, 1)).toEqual({ answer: 100, streak: 0, speed: 0 });
+    expect([2, 6, 20].map((streak) => pointParts(true, streak).streak)).toEqual([10, 50, 50]);
   });
 
   it('tracks score, streak and best streak', () => {
@@ -223,6 +245,14 @@ describe('timed mode', () => {
     expect(deadline(newSession())).toBeNull();
   });
 
+  it('records where each answer\'s points came from', () => {
+    let session = newSession(timed);
+    for (let i = 0; i < 3; i++) session = advance(answerCurrent(session, respond(session, true), 0), 0);
+    session = answerCurrent(session, respond(session, true), 6_000);
+    expect(session.answers[3]).toMatchObject({ points: 165, parts: { answer: 100, streak: 30, speed: 35 } });
+    expect(pointParts(false, 3, 1)).toEqual({ answer: 0, streak: 0, speed: 0 });
+  });
+
   it('adds a speed bonus of up to 50 in proportion to the time left', () => {
     const session = newSession(timed);
     expect(deadline(session)).toBe(20_000);
@@ -235,7 +265,12 @@ describe('timed mode', () => {
     let session = advance(answerCurrent(newSession(timed), { type: 'multiple_choice', choice: 1 }, 1_000), 1_000);
     expect(session.streak).toBe(1);
     session = answerCurrent(session, respond(session, true), 21_000);
-    expect(session.answers[1]).toEqual({ response: { type: 'timeout' }, correct: false, points: 0 });
+    expect(session.answers[1]).toEqual({
+      response: { type: 'timeout' },
+      correct: false,
+      points: 0,
+      parts: { answer: 0, streak: 0, speed: 0 },
+    });
     expect(session.streak).toBe(0);
   });
 

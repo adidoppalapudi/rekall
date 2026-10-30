@@ -3,7 +3,7 @@ import { deckCategory, filterDecks, isFeaturedDeck } from '../src/lib/deckCatalo
 
 const decks = [
   { id: 'deck-nature', name: 'Nature', description: 'Animals and habitats' },
-  { id: 'deck-botany', name: 'Botany', description: 'Plant cells and growth' },
+  { id: 'deck-oceans-water-bodies', name: 'Oceans & Water Bodies', description: 'Seas, rivers and lakes' },
   { id: 'deck-nba', name: 'NBA', description: 'Basketball history' },
   { id: 'custom-deck', name: 'My study notes', description: 'Things to remember' },
 ];
@@ -16,8 +16,8 @@ describe('deck browsing', () => {
   });
 
   it('combines the search and category, including an empty result', () => {
-    expect(filterDecks(decks, 'growth', 'Science').map((deck) => deck.id)).toEqual(['deck-botany']);
-    expect(filterDecks(decks, 'growth', 'Sports')).toEqual([]);
+    expect(filterDecks(decks, 'rivers', 'Science').map((deck) => deck.id)).toEqual(['deck-oceans-water-bodies']);
+    expect(filterDecks(decks, 'rivers', 'Sports')).toEqual([]);
     expect(filterDecks(decks, '', '')).toHaveLength(4);
   });
 

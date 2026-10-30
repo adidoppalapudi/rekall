@@ -13,8 +13,10 @@ import {
   toContent,
   type DeckInput,
   type Difficulty,
+  type MasteryLevel,
   type QuestionContent,
   type QuestionType,
+  type SavedProgress,
 } from './types';
 
 export const LIMITS = {
@@ -285,4 +287,35 @@ export function validateQuestionList(questions: readonly unknown[]): ValidationR
       );
   });
   return errors.length > 0 ? { ok: false, errors } : { ok: true, value: values };
+}
+
+const isWhole = (value: unknown): value is number => Number.isInteger(value);
+
+/**
+ * Reads one question's progress from a backup. Unlike the validators above, it
+ * reports no errors. Progress is optional, so a record that doesn't fit is
+ * dropped and that question starts fresh. A right answer's round can't be past
+ * the deck's `rounds`.
+ */
+export function readSavedProgress(value: unknown, rounds: number): SavedProgress | undefined {
+  if (!isRecord(value)) return undefined;
+  const { level, promotionDay, weightAfter, answeredDay, rightRound, dropDay, seen, right } = value;
+  const fits =
+    isWhole(level) &&
+    level >= 1 &&
+    level <= 5 &&
+    isWhole(promotionDay) &&
+    typeof weightAfter === 'number' &&
+    Number.isFinite(weightAfter) &&
+    weightAfter > 0 &&
+    isWhole(answeredDay) &&
+    (rightRound === null || (isWhole(rightRound) && rightRound >= 1 && rightRound <= rounds)) &&
+    (dropDay === null || isWhole(dropDay)) &&
+    isWhole(seen) &&
+    seen >= 1 &&
+    isWhole(right) &&
+    right >= 0 &&
+    right <= seen;
+  if (!fits) return undefined;
+  return { level: level as MasteryLevel, promotionDay, weightAfter, answeredDay, rightRound, dropDay, seen, right };
 }

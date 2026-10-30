@@ -8,112 +8,166 @@
   },
   "questions": [
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “I”?",
-      "answer": "ich",
+      "choices": [
+        "du",
+        "er",
+        "wir",
+        "ich"
+      ],
+      "correctIndex": 3,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for informal singular “you”?",
-      "answer": "du",
+      "choices": [
+        "Sie",
+        "du",
+        "ihr",
+        "ich"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for formal “you”?",
-      "answer": "Sie",
+      "choices": [
+        "du",
+        "ihr",
+        "Sie",
+        "er"
+      ],
+      "correctIndex": 2,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “he”?",
-      "answer": "er",
+      "choices": [
+        "es",
+        "sie",
+        "ihr",
+        "er"
+      ],
+      "correctIndex": 3,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “she”?",
-      "answer": "sie",
+      "choices": [
+        "sie",
+        "er",
+        "es",
+        "ihr"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “it”?",
-      "answer": "es",
+      "choices": [
+        "er",
+        "es",
+        "sie",
+        "ihr"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “we”?",
-      "answer": "wir",
+      "choices": [
+        "ihr",
+        "sie",
+        "wir",
+        "uns"
+      ],
+      "correctIndex": 2,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for informal plural “you”?",
-      "answer": "ihr",
+      "choices": [
+        "du",
+        "Sie",
+        "euch",
+        "ihr"
+      ],
+      "correctIndex": 3,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the nominative pronoun for “they”?",
-      "answer": "sie",
+      "choices": [
+        "sie",
+        "ihr",
+        "wir",
+        "ihnen"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "pronouns",
         "grammar"
-      ],
-      "explanation": "This is a nominative personal pronoun; the form must agree with the person and number of the subject."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -332,328 +386,490 @@
       "explanation": "The present-tense form of haben must agree with the subject: sie/Sie takes haben."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of lernen with ich?",
-      "answer": "lerne",
+      "choices": [
+        "lernst",
+        "lerne",
+        "lernt",
+        "lernen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regular German verbs use a stem plus a person ending; ich takes the ending shown in lerne.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; ich takes the ending shown in lerne."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of lernen with du?",
-      "answer": "lernst",
+      "choices": [
+        "lerne",
+        "lernt",
+        "lernst",
+        "lernen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regular German verbs use a stem plus a person ending; du takes the ending shown in lernst.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; du takes the ending shown in lernst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of lernen with er?",
-      "answer": "lernt",
+      "choices": [
+        "lerne",
+        "lernst",
+        "lernen",
+        "lernt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Regular German verbs use a stem plus a person ending; er takes the ending shown in lernt.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; er takes the ending shown in lernt."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of machen with wir?",
-      "answer": "machen",
+      "choices": [
+        "machen",
+        "mache",
+        "machst",
+        "macht"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regular German verbs use a stem plus a person ending; wir takes the ending shown in machen.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; wir takes the ending shown in machen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of machen with ihr?",
-      "answer": "macht",
+      "choices": [
+        "mache",
+        "macht",
+        "machst",
+        "machen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regular German verbs use a stem plus a person ending; ihr takes the ending shown in macht.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; ihr takes the ending shown in macht."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of machen with sie?",
-      "answer": "machen",
+      "choices": [
+        "mache",
+        "machst",
+        "machen",
+        "macht"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regular German verbs use a stem plus a person ending; sie takes the ending shown in machen.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; sie takes the ending shown in machen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of wohnen with ich?",
-      "answer": "wohne",
+      "choices": [
+        "wohnst",
+        "wohnt",
+        "wohnen",
+        "wohne"
+      ],
+      "correctIndex": 3,
+      "explanation": "Regular German verbs use a stem plus a person ending; ich takes the ending shown in wohne.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; ich takes the ending shown in wohne."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of wohnen with du?",
-      "answer": "wohnst",
+      "choices": [
+        "wohnst",
+        "wohne",
+        "wohnt",
+        "wohnen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regular German verbs use a stem plus a person ending; du takes the ending shown in wohnst.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; du takes the ending shown in wohnst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of arbeiten with er?",
-      "answer": "arbeitet",
+      "choices": [
+        "arbeitt",
+        "arbeitet",
+        "arbeite",
+        "arbeitest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regular German verbs use a stem plus a person ending; er takes the ending shown in arbeitet.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; er takes the ending shown in arbeitet."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of spielen with wir?",
-      "answer": "spielen",
+      "choices": [
+        "spiele",
+        "spielst",
+        "spielen",
+        "spielt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regular German verbs use a stem plus a person ending; wir takes the ending shown in spielen.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; wir takes the ending shown in spielen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of fragen with ihr?",
-      "answer": "fragt",
+      "choices": [
+        "frage",
+        "fragst",
+        "fragen",
+        "fragt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Regular German verbs use a stem plus a person ending; ihr takes the ending shown in fragt.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; ihr takes the ending shown in fragt."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of kommen with sie?",
-      "answer": "kommen",
+      "choices": [
+        "kommen",
+        "komme",
+        "kommst",
+        "kommt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regular German verbs use a stem plus a person ending; sie takes the ending shown in kommen.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "verbs"
-      ],
-      "explanation": "Regular German verbs use a stem plus a person ending; sie takes the ending shown in kommen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of fahren with du?",
-      "answer": "fährst",
+      "choices": [
+        "fahrst",
+        "fährst",
+        "fährt",
+        "fahren"
+      ],
+      "correctIndex": 1,
+      "explanation": "The stem vowel changes in the second- and third-person singular of many strong verbs; fahren becomes fährst with du.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "The stem vowel changes in the second- and third-person singular of many strong verbs; fahren becomes fährst with du."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of lesen with er?",
-      "answer": "liest",
+      "choices": [
+        "lest",
+        "lesen",
+        "liest",
+        "lese"
+      ],
+      "correctIndex": 2,
+      "explanation": "lesen changes e to ie in the third-person singular: er liest.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "lesen changes e to ie in the third-person singular: er liest."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of sprechen with du?",
-      "answer": "sprichst",
+      "choices": [
+        "sprechst",
+        "spricht",
+        "sprechen",
+        "sprichst"
+      ],
+      "correctIndex": 3,
+      "explanation": "sprechen changes e to i in the second- and third-person singular: du sprichst.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "sprechen changes e to i in the second- and third-person singular: du sprichst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of essen with er?",
-      "answer": "isst",
+      "choices": [
+        "isst",
+        "esst",
+        "essen",
+        "esse"
+      ],
+      "correctIndex": 0,
+      "explanation": "essen changes e to i and drops the stem s pattern in the third-person singular: er isst.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "essen changes e to i and drops the stem s pattern in the third-person singular: er isst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of nehmen with du?",
-      "answer": "nimmst",
+      "choices": [
+        "nehmst",
+        "nimmst",
+        "nimmt",
+        "nehmen"
+      ],
+      "correctIndex": 1,
+      "explanation": "nehmen changes e to i in the second-person singular: du nimmst.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "nehmen changes e to i in the second-person singular: du nimmst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of sehen with er?",
-      "answer": "sieht",
+      "choices": [
+        "seht",
+        "siehst",
+        "sieht",
+        "sehen"
+      ],
+      "correctIndex": 2,
+      "explanation": "sehen changes e to ie in the third-person singular: er sieht.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "sehen changes e to ie in the third-person singular: er sieht."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of geben with du?",
-      "answer": "gibst",
+      "choices": [
+        "gebst",
+        "gibt",
+        "geben",
+        "gibst"
+      ],
+      "correctIndex": 3,
+      "explanation": "geben changes e to i in the second-person singular: du gibst.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "geben changes e to i in the second-person singular: du gibst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of schlafen with er?",
-      "answer": "schläft",
+      "choices": [
+        "schläft",
+        "schlaft",
+        "schläfst",
+        "schlafen"
+      ],
+      "correctIndex": 0,
+      "explanation": "schlafen changes a to ä in the third-person singular: er schläft.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "schlafen changes a to ä in the third-person singular: er schläft."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of laufen with du?",
-      "answer": "läufst",
+      "choices": [
+        "laufst",
+        "läufst",
+        "läuft",
+        "laufen"
+      ],
+      "correctIndex": 1,
+      "explanation": "laufen changes au to äu in the second-person singular: du läufst.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "laufen changes au to äu in the second-person singular: du läufst."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of tragen with er?",
-      "answer": "trägt",
+      "choices": [
+        "tragt",
+        "trägst",
+        "trägt",
+        "tragen"
+      ],
+      "correctIndex": 2,
+      "explanation": "tragen changes a to ä in the third-person singular: er trägt.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "tragen changes a to ä in the third-person singular: er trägt."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of lesen with du?",
-      "answer": "liest",
+      "choices": [
+        "liesst",
+        "lesst",
+        "lest",
+        "liest"
+      ],
+      "correctIndex": 3,
+      "explanation": "lesen changes e to ie in the second-person singular: du liest.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "lesen changes e to ie in the second-person singular: du liest."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of helfen with er?",
-      "answer": "hilft",
+      "choices": [
+        "hilft",
+        "helft",
+        "hilfst",
+        "helfen"
+      ],
+      "correctIndex": 0,
+      "explanation": "helfen changes e to i in the third-person singular: er hilft.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "helfen changes e to i in the third-person singular: er hilft."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of wissen with ich?",
-      "answer": "weiß",
+      "choices": [
+        "wisse",
+        "weiß",
+        "weißt",
+        "wissen"
+      ],
+      "correctIndex": 1,
+      "explanation": "wissen has the irregular first-person form ich weiß.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "wissen has the irregular first-person form ich weiß."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of sein with wir?",
-      "answer": "sind",
+      "choices": [
+        "seid",
+        "sein",
+        "sind",
+        "ist"
+      ],
+      "correctIndex": 2,
+      "explanation": "sein is highly irregular; the first-person plural is wir sind.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "sein is highly irregular; the first-person plural is wir sind."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the present-tense form of werden with du?",
-      "answer": "wirst",
+      "choices": [
+        "werdst",
+        "wird",
+        "werdet",
+        "wirst"
+      ],
+      "correctIndex": 3,
+      "explanation": "werden has the irregular second-person singular form du wirst.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "present-tense",
         "irregular-verbs"
-      ],
-      "explanation": "werden has the irregular second-person singular form du wirst."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -980,256 +1196,382 @@
       "explanation": "The noun Ei has grammatical gender das in standard German; article and noun must agree."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “___ Mann kommt.”?",
-      "answer": "Ein",
+      "choices": [
+        "Ein",
+        "Eine",
+        "Einen",
+        "Einem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Ein is the correct form here.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "articles",
         "nominative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Ein is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “___ Frau kommt.”?",
-      "answer": "Eine",
+      "choices": [
+        "Ein",
+        "Einen",
+        "Einer",
+        "Eine"
+      ],
+      "correctIndex": 3,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Eine is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "nominative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Eine is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “___ Kind kommt.”?",
-      "answer": "Ein",
+      "choices": [
+        "Ein",
+        "Eine",
+        "Einen",
+        "Einem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Ein is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "nominative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: Ein is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich sehe ___ Mann.”?",
-      "answer": "einen",
+      "choices": [
+        "ein",
+        "einen",
+        "eine",
+        "einem"
+      ],
+      "correctIndex": 1,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einen is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "accusative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einen is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich sehe ___ Frau.”?",
-      "answer": "eine",
+      "choices": [
+        "ein",
+        "einen",
+        "eine",
+        "einer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: eine is the correct form here.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "articles",
         "accusative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: eine is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich sehe ___ Kind.”?",
-      "answer": "ein",
+      "choices": [
+        "eine",
+        "einen",
+        "einem",
+        "ein"
+      ],
+      "correctIndex": 3,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: ein is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "accusative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: ein is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich helfe ___ Mann.”?",
-      "answer": "einem",
+      "choices": [
+        "einem",
+        "einen",
+        "einer",
+        "ein"
+      ],
+      "correctIndex": 0,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einem is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "dative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einem is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich helfe ___ Frau.”?",
-      "answer": "einer",
+      "choices": [
+        "eine",
+        "einer",
+        "einem",
+        "einen"
+      ],
+      "correctIndex": 1,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einer is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "dative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einer is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which indefinite article completes “Ich helfe ___ Kind.”?",
-      "answer": "einem",
+      "choices": [
+        "ein",
+        "einen",
+        "einem",
+        "einer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einem is the correct form here.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "articles",
         "dative"
-      ],
-      "explanation": "The article form reflects the noun’s gender and the case required by the sentence: einem is the correct form here."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “das Buch”?",
-      "answer": "die Bücher",
+      "choices": [
+        "die Buchs",
+        "die Büche",
+        "die Bucher",
+        "die Bücher"
+      ],
+      "correctIndex": 3,
+      "explanation": "The plural form is die Bücher; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Bücher; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “der Tisch”?",
-      "answer": "die Tische",
+      "choices": [
+        "die Tische",
+        "die Tischen",
+        "die Tischer",
+        "die Tischs"
+      ],
+      "correctIndex": 0,
+      "explanation": "The plural form is die Tische; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Tische; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “die Lampe”?",
-      "answer": "die Lampen",
+      "choices": [
+        "die Lampes",
+        "die Lampen",
+        "die Lämpe",
+        "die Lamper"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plural form is die Lampen; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "hard",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Lampen; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “das Kind”?",
-      "answer": "die Kinder",
+      "choices": [
+        "die Kinde",
+        "die Kinds",
+        "die Kinder",
+        "die Kinden"
+      ],
+      "correctIndex": 2,
+      "explanation": "The plural form is die Kinder; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Kinder; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “der Apfel”?",
-      "answer": "die Äpfel",
+      "choices": [
+        "die Apfel",
+        "die Apfeln",
+        "die Äpfeln",
+        "die Äpfel"
+      ],
+      "correctIndex": 3,
+      "explanation": "The plural form is die Äpfel; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Äpfel; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “die Stadt”?",
-      "answer": "die Städte",
+      "choices": [
+        "die Städte",
+        "die Stadte",
+        "die Städten",
+        "die Stadts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The plural form is die Städte; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Städte; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “das Auto”?",
-      "answer": "die Autos",
+      "choices": [
+        "die Auto",
+        "die Autos",
+        "die Auten",
+        "die Autoen"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plural form is die Autos; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Autos; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “die Frau”?",
-      "answer": "die Frauen",
+      "choices": [
+        "die Fraus",
+        "die Fräue",
+        "die Frauen",
+        "die Frauer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The plural form is die Frauen; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Frauen; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “der Freund”?",
-      "answer": "die Freunde",
+      "choices": [
+        "die Freunden",
+        "die Freunds",
+        "die Freunder",
+        "die Freunde"
+      ],
+      "correctIndex": 3,
+      "explanation": "The plural form is die Freunde; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Freunde; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “das Fenster”?",
-      "answer": "die Fenster",
+      "choices": [
+        "die Fenster",
+        "die Fenstern",
+        "die Fensters",
+        "die Fenstere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The plural form is die Fenster; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "easy",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Fenster; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “der Name”?",
-      "answer": "die Namen",
+      "choices": [
+        "die Name",
+        "die Namen",
+        "die Names",
+        "die Namens"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plural form is die Namen; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Namen; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What is the plural of “die Mutter”?",
-      "answer": "die Mütter",
+      "choices": [
+        "die Mutters",
+        "die Müttern",
+        "die Mütter",
+        "die Mutteren"
+      ],
+      "correctIndex": 2,
+      "explanation": "The plural form is die Mütter; German plural patterns vary, so the article and plural should be learned with the noun.",
       "difficulty": "medium",
       "tags": [
         "a1",
         "nouns",
         "plural"
-      ],
-      "explanation": "The plural form is die Mütter; German plural patterns vary, so the article and plural should be learned with the noun."
+      ]
     },
     {
       "type": "multiple_choice",

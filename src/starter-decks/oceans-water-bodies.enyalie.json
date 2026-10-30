@@ -17,6 +17,7 @@
         "Pacific"
       ],
       "correctIndex": 3,
+      "explanation": "The Pacific covers more area than all of Earth's land put together.",
       "difficulty": "easy",
       "tags": [
         "oceans"
@@ -32,6 +33,7 @@
         "Arctic"
       ],
       "correctIndex": 3,
+      "explanation": "The Arctic is also the shallowest ocean, and sea ice covers much of it.",
       "difficulty": "easy",
       "tags": [
         "oceans"
@@ -95,6 +97,7 @@
         "71%"
       ],
       "correctIndex": 3,
+      "explanation": "The ocean also holds about 97% of Earth's water.",
       "difficulty": "easy",
       "tags": [
         "oceans"
@@ -158,6 +161,7 @@
         "Daily changes in salinity"
       ],
       "correctIndex": 0,
+      "explanation": "Wave size depends on wind speed, how long the wind blows, and the fetch, the stretch of open water it blows across.",
       "difficulty": "easy",
       "tags": [
         "waves"
@@ -173,6 +177,7 @@
         "Steady evaporation from the sea"
       ],
       "correctIndex": 1,
+      "explanation": "A tsunami can cross an ocean about as fast as a jet plane and grows taller as it reaches shallow water.",
       "difficulty": "medium",
       "tags": [
         "waves"
@@ -188,6 +193,7 @@
         "A steep slope beneath an ocean ridge"
       ],
       "correctIndex": 1,
+      "explanation": "Shelves are usually less than about 200 m deep and hold many of the world's richest fishing grounds.",
       "difficulty": "medium",
       "tags": [
         "seafloor"
@@ -219,6 +225,7 @@
         "Southern"
       ],
       "correctIndex": 0,
+      "explanation": "Its Challenger Deep, nearly 11,000 m down, is the deepest known point in the ocean.",
       "difficulty": "easy",
       "tags": [
         "seafloor"
@@ -250,6 +257,7 @@
         "Wind speed and cloud cover"
       ],
       "correctIndex": 1,
+      "explanation": "Cold, salty water is denser and sinks, which helps drive the deep currents known as the global conveyor belt.",
       "difficulty": "hard",
       "tags": [
         "currents"
@@ -265,6 +273,7 @@
         "Oxbow lake"
       ],
       "correctIndex": 2,
+      "explanation": "Chesapeake Bay is the largest estuary in the United States.",
       "difficulty": "easy",
       "tags": [
         "coasts"
@@ -280,6 +289,7 @@
         "A layer of freshwater above solid ice"
       ],
       "correctIndex": 2,
+      "explanation": "Estuaries and mangrove swamps often hold brackish water.",
       "difficulty": "medium",
       "tags": [
         "seawater"
@@ -295,6 +305,7 @@
         "Sinkhole"
       ],
       "correctIndex": 1,
+      "explanation": "The Nile and Mississippi deltas are well-known examples. The name comes from the triangular Greek letter Δ.",
       "difficulty": "easy",
       "tags": [
         "rivers"
@@ -310,6 +321,7 @@
         "A spring flowing from an aquifer"
       ],
       "correctIndex": 1,
+      "explanation": "The Missouri River, for example, is a tributary of the Mississippi.",
       "difficulty": "medium",
       "tags": [
         "rivers"
@@ -325,6 +337,7 @@
         "A channel dug to connect two lakes"
       ],
       "correctIndex": 2,
+      "explanation": "A watershed, also called a drainage basin, can be as small as a creek's or as large as the Mississippi's.",
       "difficulty": "medium",
       "tags": [
         "rivers"
@@ -388,6 +401,7 @@
         "Bering Strait"
       ],
       "correctIndex": 0,
+      "explanation": "At its narrowest the strait is only about 13 km (8 miles) wide.",
       "difficulty": "medium",
       "tags": [
         "waterways"
@@ -433,6 +447,7 @@
       "type": "flashcard",
       "prompt": "What is upwelling?",
       "answer": "The rise of deeper water toward the surface, often bringing nutrients into sunlit water.",
+      "explanation": "Upwelling off Peru and California supports some of the world's most productive fisheries.",
       "difficulty": "medium",
       "tags": [
         "currents"
@@ -442,6 +457,7 @@
       "type": "flashcard",
       "prompt": "What is the water cycle?",
       "answer": "The ongoing movement of water through processes such as evaporation, condensation, precipitation and runoff.",
+      "explanation": "The Sun's energy drives evaporation, and gravity brings water back down as precipitation and runoff.",
       "difficulty": "easy",
       "tags": [
         "water-cycle"

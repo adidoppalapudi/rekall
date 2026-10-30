@@ -759,15 +759,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "The periodic table is organized by increasing atomic number.",
-      "answer": true,
+      "prompt": "The modern periodic table is organized by increasing atomic mass.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "periodic-chemistry",
         "periodic-table"
       ],
-      "explanation": "Modern periodic order follows proton number."
+      "explanation": "Mendeleev’s early table mostly followed atomic mass, but the modern table orders elements by atomic number, the proton count."
     },
     {
       "type": "true_false",
@@ -795,27 +795,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "A bidentate ligand has two donor atoms that can bind to a metal.",
-      "answer": true,
+      "prompt": "A bidentate ligand binds to a metal through a single donor atom.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "coordination-chemistry",
         "denticity"
       ],
-      "explanation": "“Bi” refers to two donor sites."
+      "explanation": "“Bi” refers to two donor sites. A ligand that binds through one donor atom is monodentate."
     },
     {
       "type": "true_false",
-      "prompt": "Octahedral complexes commonly have coordination number six.",
-      "answer": true,
+      "prompt": "Octahedral complexes commonly have coordination number four.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "coordination-chemistry",
         "geometry"
       ],
-      "explanation": "Six ligand donor atoms occupy positions around the metal."
+      "explanation": "An octahedron has six vertices, so six donor atoms surround the metal. Four-coordinate complexes are tetrahedral or square planar."
     },
     {
       "type": "true_false",
@@ -855,15 +855,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "A complex with one or more unpaired electrons is paramagnetic.",
-      "answer": true,
+      "prompt": "A complex with one or more unpaired electrons is diamagnetic.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "coordination-chemistry",
         "magnetism"
       ],
-      "explanation": "Unpaired electron spins create magnetic behavior."
+      "explanation": "Unpaired electron spins make a complex paramagnetic. A diamagnetic complex has all of its electrons paired."
     },
     {
       "type": "true_false",
@@ -891,15 +891,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "CO commonly coordinates to metals through its carbon atom.",
-      "answer": true,
+      "prompt": "CO commonly coordinates to metals through its oxygen atom.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "inorganic-chemistry",
         "organometallic",
         "metal-carbonyls"
       ],
-      "explanation": "Carbon-bound CO can also accept metal back-donation into its pi-star orbitals."
+      "explanation": "Metal carbonyls usually bind through carbon. Carbon-bound CO can also accept back-donation from the metal into its π* orbitals."
     },
     {
       "type": "true_false",
@@ -987,15 +987,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "The rock-salt form of NaCl gives each ion six nearest neighbors of opposite charge.",
-      "answer": true,
+      "prompt": "In the rock-salt structure of NaCl, each ion has eight nearest neighbors of opposite charge.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "inorganic-chemistry",
         "solid-state",
         "crystal-structures"
       ],
-      "explanation": "NaCl has six-coordinate environments in its common rock-salt structure."
+      "explanation": "Each ion in rock-salt NaCl is six-coordinate. Eight-coordinate ions occur in the CsCl structure."
     },
     {
       "type": "true_false",
@@ -1047,27 +1047,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "Magnesium is the central metal ion in chlorophyll.",
-      "answer": true,
+      "prompt": "Iron is the central metal ion in chlorophyll.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "bioinorganic",
         "metals-in-biology"
       ],
-      "explanation": "Mg2+ sits in the chlorophyll macrocycle."
+      "explanation": "Mg2+ sits in the chlorophyll macrocycle. Iron is the central metal in heme."
     },
     {
       "type": "true_false",
-      "prompt": "A semiconductor generally has a smaller band gap than a good electrical insulator.",
-      "answer": true,
+      "prompt": "A semiconductor generally has a larger band gap than a good electrical insulator.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "inorganic-chemistry",
         "solid-state",
         "band-theory"
       ],
-      "explanation": "A smaller gap makes thermal or optical excitation of carriers easier."
+      "explanation": "Semiconductors have smaller band gaps than insulators, so thermal or optical energy can excite charge carriers more easily."
     },
     {
       "type": "true_false",
@@ -1575,15 +1575,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Fluorine is generally a stronger oxidizing agent than iodine in aqueous standard conditions.",
-      "answer": true,
+      "prompt": "Iodine is generally a stronger oxidizing agent than fluorine in aqueous standard conditions.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "inorganic-chemistry",
         "main-group",
         "halogens"
       ],
-      "explanation": "Fluorine has the most positive standard reduction potential among the halogens."
+      "explanation": "Fluorine has the most positive standard reduction potential of the halogens, so it is the strongest oxidizing agent among them. Iodine is the weakest."
     },
     {
       "type": "true_false",
@@ -1611,15 +1611,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Xenon can form compounds even though it is a noble gas.",
-      "answer": true,
+      "prompt": "Xenon cannot form any chemical compounds because it is a noble gas.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "inorganic-chemistry",
         "main-group",
         "noble-gases"
       ],
-      "explanation": "Xenon forms compounds such as xenon fluorides under suitable conditions."
+      "explanation": "Xenon forms compounds such as XeF2, XeF4 and XeF6, and oxides, under suitable conditions."
     },
     {
       "type": "flashcard",

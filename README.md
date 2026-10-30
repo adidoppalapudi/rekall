@@ -10,9 +10,11 @@
 2. Open a deck and choose the question types, difficulty, quiz length, and timer.
 3. Answer questions, see your score, and retry the ones you missed.
 
+Each deck remembers how you did. A question you miss comes back sooner, and one you get right sits out the deck's next two quizzes. Right answers spread over about two weeks master a question, and the deck screen counts how many you've mastered. Flashcards you grade yourself never count as mastered. Quick play stays random.
+
 ## Your decks stay yours
 
-Decks are saved in this browser on this device. Enyalië needs no account or server, and works offline after you have opened it once. To back up your decks or move them to another device, choose **export all decks** at the bottom of the library, then import that file on the other device. A deck that is already there can be replaced, kept alongside the new copy, or skipped. To export a single deck, use its **more** menu.
+Decks are saved in this browser on this device. Enyalië needs no account or server, and works offline after you have opened it once. To back up your decks and progress or move them to another device, choose **export all decks** at the bottom of the library, then import that file on the other device. A deck that is already there can be replaced, kept alongside the new copy, or skipped. A kept copy starts with no progress. To export a single deck without your progress, use its **more** menu.
 
 ## Make or import a deck
 

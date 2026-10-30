@@ -20,16 +20,22 @@
       "explanation": "Wegen is traditionally used with genitive in careful standard German."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “because of the heavy rain” in German?",
-      "answer": "wegen des starken Regens",
+      "choices": [
+        "wegen des starke Regens",
+        "wegen der starken Regens",
+        "wegen des starken Regen",
+        "wegen des starken Regens"
+      ],
+      "correctIndex": 3,
+      "explanation": "Wegen is traditionally used with genitive in careful standard German.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "genitive",
         "prepositions"
-      ],
-      "explanation": "Wegen is traditionally used with genitive in careful standard German."
+      ]
     },
     {
       "type": "flashcard",
@@ -44,16 +50,22 @@
       "explanation": "Trotz commonly governs genitive in standard written German."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “despite the difficulties” in German?",
-      "answer": "trotz der Schwierigkeiten",
+      "choices": [
+        "trotz die Schwierigkeiten",
+        "trotz des Schwierigkeiten",
+        "trotz der Schwierigkeitens",
+        "trotz der Schwierigkeiten"
+      ],
+      "correctIndex": 3,
+      "explanation": "Trotz commonly governs genitive in standard written German.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "genitive",
         "prepositions"
-      ],
-      "explanation": "Trotz commonly governs genitive in standard written German."
+      ]
     },
     {
       "type": "flashcard",
@@ -68,16 +80,22 @@
       "explanation": "Während can introduce a genitive noun phrase in formal usage."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “during the conversation” in German?",
-      "answer": "während des Gesprächs",
+      "choices": [
+        "während des Gespräch",
+        "während der Gesprächs",
+        "während das Gespräch",
+        "während des Gesprächs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Während can introduce a genitive noun phrase in formal usage.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "genitive",
         "prepositions"
-      ],
-      "explanation": "Während can introduce a genitive noun phrase in formal usage."
+      ]
     },
     {
       "type": "flashcard",
@@ -92,16 +110,22 @@
       "explanation": "The possessor or relation in a noun phrase can be expressed by genitive."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the development of the city” in German?",
-      "answer": "die Entwicklung der Stadt",
+      "choices": [
+        "die Entwicklung des Stadt",
+        "die Entwicklung die Stadt",
+        "die Entwicklung der Stadts",
+        "die Entwicklung der Stadt"
+      ],
+      "correctIndex": 3,
+      "explanation": "The possessor or relation in a noun phrase can be expressed by genitive.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "genitive",
         "noun-phrases"
-      ],
-      "explanation": "The possessor or relation in a noun phrase can be expressed by genitive."
+      ]
     },
     {
       "type": "flashcard",
@@ -116,16 +140,22 @@
       "explanation": "Plural dative after mit uses den and adjective ending -en."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “with the new colleagues” in German?",
-      "answer": "mit den neuen Kollegen",
+      "choices": [
+        "mit den neue Kollegen",
+        "mit den neuen Kollegen",
+        "mit die neuen Kollegen",
+        "mit dem neuen Kollegen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plural dative after mit uses den and adjective ending -en.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "cases",
         "adjective-endings"
-      ],
-      "explanation": "Plural dative after mit uses den and adjective ending -en."
+      ]
     },
     {
       "type": "flashcard",
@@ -140,16 +170,22 @@
       "explanation": "Masculine accusative after einen takes adjective ending -en."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “for an important customer” in German?",
-      "answer": "für einen wichtigen Kunden",
+      "choices": [
+        "für einen wichtigen Kunde",
+        "für einem wichtigen Kunden",
+        "für einen wichtigen Kunden",
+        "für ein wichtigen Kunden"
+      ],
+      "correctIndex": 2,
+      "explanation": "Masculine accusative after einen takes adjective ending -en.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "cases",
         "adjective-endings"
-      ],
-      "explanation": "Masculine accusative after einen takes adjective ending -en."
+      ]
     },
     {
       "type": "flashcard",
@@ -163,15 +199,21 @@
       "explanation": "Mit governs dative; feminine dative relative pronoun is der."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the colleague with whom I work” in German?",
-      "answer": "die Kollegin, mit der ich arbeite",
+      "choices": [
+        "die Kollegin, mit die ich arbeite",
+        "die Kollegin, mit der ich arbeite",
+        "die Kollegin, mit dem ich arbeite",
+        "die Kollegin, mit der arbeite ich"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mit governs dative; feminine dative relative pronoun is der.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "relative-clauses"
-      ],
-      "explanation": "Mit governs dative; feminine dative relative pronoun is der."
+      ]
     },
     {
       "type": "flashcard",
@@ -185,15 +227,21 @@
       "explanation": "An plus dative appears because the relative pronoun is the object of arbeiten an."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the project we are working on” in German?",
-      "answer": "das Projekt, an dem wir arbeiten",
+      "choices": [
+        "das Projekt, an das wir arbeiten",
+        "das Projekt, auf dem wir arbeiten",
+        "das Projekt, an dem arbeiten wir",
+        "das Projekt, an dem wir arbeiten"
+      ],
+      "correctIndex": 3,
+      "explanation": "An plus dative appears because the relative pronoun is the object of arbeiten an.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "relative-clauses"
-      ],
-      "explanation": "An plus dative appears because the relative pronoun is the object of arbeiten an."
+      ]
     },
     {
       "type": "flashcard",
@@ -207,15 +255,21 @@
       "explanation": "Aus governs dative plural, giving denen in the relative clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the reasons for which he left” in German?",
-      "answer": "die Gründe, aus denen er gegangen ist",
+      "choices": [
+        "die Gründe, aus die er gegangen ist",
+        "die Gründe, aus denen er gegangen hat",
+        "die Gründe, aus denen er gegangen ist",
+        "die Gründe, für denen er gegangen ist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aus governs dative plural, giving denen in the relative clause.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "relative-clauses"
-      ],
-      "explanation": "Aus governs dative plural, giving denen in the relative clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -229,15 +283,21 @@
       "explanation": "The present passive uses werden plus the past participle."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The contract is being signed.” in German?",
-      "answer": "Der Vertrag wird unterschrieben.",
+      "choices": [
+        "Der Vertrag wird unterschrieben.",
+        "Der Vertrag wird unterschreiben.",
+        "Der Vertrag wurde unterschrieben.",
+        "Der Vertrag hat unterschrieben."
+      ],
+      "correctIndex": 0,
+      "explanation": "The present passive uses werden plus the past participle.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "passive"
-      ],
-      "explanation": "The present passive uses werden plus the past participle."
+      ]
     },
     {
       "type": "flashcard",
@@ -252,16 +312,22 @@
       "explanation": "The simple past passive uses wurde plus the past participle."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The contract was signed.” in German?",
-      "answer": "Der Vertrag wurde unterschrieben.",
+      "choices": [
+        "Der Vertrag wird unterschrieben.",
+        "Der Vertrag wurde unterschrieben.",
+        "Der Vertrag wurde unterschreiben.",
+        "Der Vertrag würde unterschrieben."
+      ],
+      "correctIndex": 1,
+      "explanation": "The simple past passive uses wurde plus the past participle.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "passive",
         "preterite"
-      ],
-      "explanation": "The simple past passive uses wurde plus the past participle."
+      ]
     },
     {
       "type": "flashcard",
@@ -276,16 +342,22 @@
       "explanation": "The perfect passive uses ist ... worden; worden is the special passive participle of werden."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The contract has been signed.” in German?",
-      "answer": "Der Vertrag ist unterschrieben worden.",
+      "choices": [
+        "Der Vertrag ist unterschrieben geworden.",
+        "Der Vertrag hat unterschrieben worden.",
+        "Der Vertrag wird unterschrieben worden.",
+        "Der Vertrag ist unterschrieben worden."
+      ],
+      "correctIndex": 3,
+      "explanation": "The perfect passive uses ist ... worden; worden is the special passive participle of werden.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "passive",
         "perfect"
-      ],
-      "explanation": "The perfect passive uses ist ... worden; worden is the special passive participle of werden."
+      ]
     },
     {
       "type": "flashcard",
@@ -324,16 +396,22 @@
       "explanation": "Präteritum is common in written narrative and with many high-frequency verbs."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “She used to work in Bonn.” in German?",
-      "answer": "Früher arbeitete sie in Bonn.",
+      "choices": [
+        "Früher arbeitete sie in Bonn.",
+        "Früher sie arbeitete in Bonn.",
+        "Früher arbeitet sie in Bonn.",
+        "Früher arbeitete sie nach Bonn."
+      ],
+      "correctIndex": 0,
+      "explanation": "Präteritum is common in written narrative and with many high-frequency verbs.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "preterite",
         "narrative"
-      ],
-      "explanation": "Präteritum is common in written narrative and with many high-frequency verbs."
+      ]
     },
     {
       "type": "flashcard",
@@ -348,16 +426,22 @@
       "explanation": "Nachdem commonly pairs a prior action in Plusquamperfekt with a later Präteritum event."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “After he had eaten, he went for a walk.” in German?",
-      "answer": "Nachdem er gegessen hatte, ging er spazieren.",
+      "choices": [
+        "Nachdem er gegessen hat, ging er spazieren.",
+        "Nachdem er hatte gegessen, ging er spazieren.",
+        "Nachdem er gegessen hatte, ging er spazieren.",
+        "Nachdem er gegessen hatte, er ging spazieren."
+      ],
+      "correctIndex": 2,
+      "explanation": "Nachdem commonly pairs a prior action in Plusquamperfekt with a later Präteritum event.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "subordinate-clauses",
         "pluperfect"
-      ],
-      "explanation": "Nachdem commonly pairs a prior action in Plusquamperfekt with a later Präteritum event."
+      ]
     },
     {
       "type": "flashcard",
@@ -371,15 +455,21 @@
       "explanation": "Würde plus infinitive is a productive Konjunktiv II form for polite wishes."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I would like to take part.” in German?",
-      "answer": "Ich würde gern teilnehmen.",
+      "choices": [
+        "Ich werde gern teilnehmen.",
+        "Ich würde gern teilnehme.",
+        "Ich würde gern nehmen teil.",
+        "Ich würde gern teilnehmen."
+      ],
+      "correctIndex": 3,
+      "explanation": "Würde plus infinitive is a productive Konjunktiv II form for polite wishes.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "konjunktiv-ii"
-      ],
-      "explanation": "Würde plus infinitive is a productive Konjunktiv II form for polite wishes."
+      ]
     },
     {
       "type": "flashcard",
@@ -394,16 +484,22 @@
       "explanation": "A present unreal condition uses hätte and würde plus infinitive."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “If I had more time, I would travel.” in German?",
-      "answer": "Wenn ich mehr Zeit hätte, würde ich reisen.",
+      "choices": [
+        "Wenn ich mehr Zeit hatte, würde ich reisen.",
+        "Wenn ich mehr Zeit hätte, würde ich reisen.",
+        "Wenn ich mehr Zeit hätte, werde ich reisen.",
+        "Wenn ich mehr Zeit hätte, ich würde reisen."
+      ],
+      "correctIndex": 1,
+      "explanation": "A present unreal condition uses hätte and würde plus infinitive.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "konjunktiv-ii",
         "conditionals"
-      ],
-      "explanation": "A present unreal condition uses hätte and würde plus infinitive."
+      ]
     },
     {
       "type": "flashcard",
@@ -418,16 +514,22 @@
       "explanation": "Konjunktiv II of können is a standard polite request."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “Could you help me?” in German?",
-      "answer": "Könnten Sie mir helfen?",
+      "choices": [
+        "Könnten Sie mir helfen?",
+        "Könnten Sie mich helfen?",
+        "Konnten Sie mir helfen?",
+        "Könnten Sie mir hilft?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Konjunktiv II of können is a standard polite request.",
       "difficulty": "easy",
       "tags": [
         "b1",
         "konjunktiv-ii",
         "politeness"
-      ],
-      "explanation": "Konjunktiv II of können is a standard polite request."
+      ]
     },
     {
       "type": "flashcard",
@@ -463,15 +565,21 @@
       "explanation": "Obwohl introduces a concessive subordinate clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “although the task is difficult” in German?",
-      "answer": "obwohl die Aufgabe schwierig ist",
+      "choices": [
+        "obwohl die Aufgabe ist schwierig",
+        "obwohl ist die Aufgabe schwierig",
+        "obwohl die Aufgabe schwierig ist",
+        "trotz die Aufgabe schwierig ist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Obwohl introduces a concessive subordinate clause.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "subordinate-clauses"
-      ],
-      "explanation": "Obwohl introduces a concessive subordinate clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -486,16 +594,22 @@
       "explanation": "Damit introduces a purpose clause with the finite verb at the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “so that everyone can participate” in German?",
-      "answer": "damit alle teilnehmen können",
+      "choices": [
+        "damit alle können teilnehmen",
+        "damit alle teilnehmen können",
+        "damit alle teilnehmen kann",
+        "um alle teilnehmen können"
+      ],
+      "correctIndex": 1,
+      "explanation": "Damit introduces a purpose clause with the finite verb at the end.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "subordinate-clauses",
         "purpose"
-      ],
-      "explanation": "Damit introduces a purpose clause with the finite verb at the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -509,15 +623,21 @@
       "explanation": "Indem introduces the means or method by which something happens."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “by practising regularly” in German?",
-      "answer": "indem man regelmäßig übt",
+      "choices": [
+        "indem man übt regelmäßig",
+        "indem man regelmäßig üben",
+        "während man regelmäßig übt",
+        "indem man regelmäßig übt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Indem introduces the means or method by which something happens.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "subordinate-clauses"
-      ],
-      "explanation": "Indem introduces the means or method by which something happens."
+      ]
     },
     {
       "type": "flashcard",
@@ -555,15 +675,21 @@
       "explanation": "This paired connector links two parallel elements."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “both ... and ...” in German?",
-      "answer": "sowohl ... als auch ...",
+      "choices": [
+        "sowohl ... als auch ...",
+        "sowohl ... und auch ...",
+        "sowie ... als auch ...",
+        "beide ... und ..."
+      ],
+      "correctIndex": 0,
+      "explanation": "This paired connector links two parallel elements.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "connectors"
-      ],
-      "explanation": "This paired connector links two parallel elements."
+      ]
     },
     {
       "type": "flashcard",
@@ -578,16 +704,22 @@
       "explanation": "This paired connector negates both alternatives."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “neither ... nor ...” in German?",
-      "answer": "weder ... noch ...",
+      "choices": [
+        "weder ... oder ...",
+        "entweder ... noch ...",
+        "weder ... noch ...",
+        "nicht ... noch ..."
+      ],
+      "correctIndex": 2,
+      "explanation": "This paired connector negates both alternatives.",
       "difficulty": "easy",
       "tags": [
         "b1",
         "connectors",
         "negation"
-      ],
-      "explanation": "This paired connector negates both alternatives."
+      ]
     },
     {
       "type": "flashcard",
@@ -904,16 +1036,22 @@
       "explanation": "Arbeiten an takes an plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to work on a project” in German?",
-      "answer": "an einem Projekt arbeiten",
+      "choices": [
+        "auf einem Projekt arbeiten",
+        "an einem Projekt arbeiten",
+        "an ein Projekt arbeiten",
+        "über einem Projekt arbeiten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arbeiten an takes an plus dative.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "work",
         "verb-preposition"
-      ],
-      "explanation": "Arbeiten an takes an plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -927,15 +1065,21 @@
       "explanation": "Rechnen mit takes mit plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to expect a change” in German?",
-      "answer": "mit einer Änderung rechnen",
+      "choices": [
+        "auf eine Änderung rechnen",
+        "mit eine Änderung rechnen",
+        "für eine Änderung rechnen",
+        "mit einer Änderung rechnen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rechnen mit takes mit plus dative.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "verb-preposition"
-      ],
-      "explanation": "Rechnen mit takes mit plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -950,16 +1094,22 @@
       "explanation": "Sich einsetzen für expresses active support for a cause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to campaign for a topic / cause” in German?",
-      "answer": "sich für ein Thema einsetzen",
+      "choices": [
+        "sich auf ein Thema einsetzen",
+        "sich für einem Thema einsetzen",
+        "sich für ein Thema einsetzen",
+        "sich um ein Thema einsetzen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich einsetzen für expresses active support for a cause.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "society",
         "verb-preposition"
-      ],
-      "explanation": "Sich einsetzen für expresses active support for a cause."
+      ]
     },
     {
       "type": "flashcard",

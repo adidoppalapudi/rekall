@@ -37,7 +37,7 @@ function finished(pattern: boolean[], count: QuestionCount = 10, source: QuizSou
     title: 'test',
     source,
     settings,
-    items: buildQuizItems(questions, settings, seededRandom(1)),
+    items: buildQuizItems(questions, settings, { random: seededRandom(1) }),
     now: 0,
   });
   for (const correct of pattern) {

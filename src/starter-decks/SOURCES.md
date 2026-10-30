@@ -1,6 +1,6 @@
 # Starter deck references
 
-Content last updated: 20 October 2026.
+Content last updated: 29 October 2026.
 
 These references support the starter decks. Short dictionary excerpts are attributed in question explanations; examples and quiz wording are original. Definitions refer to the sense used in each question, rather than every meaning a word can have.
 
@@ -56,6 +56,9 @@ Use the National Park Service's own descriptions and maps for each named park.
 - [NBA: Toronto's 2019 championship run](https://www.nba.com/news/big-moments-raptors-run)
 - [NBA: championship winners](https://www.nba.com/news/top-10-players-with-multiple-championships)
 - [Cavaliers: 2003 draft](https://www.nba.com/cavaliers/tbt-lebron-james-drafted-2003)
+- [NBA official rulebook](https://official.nba.com/rulebook/) for rules and violations.
+- [NBA history: champions](https://www.nba.com/news/history-nba-champions), [NBA Finals MVP winners](https://www.nba.com/news/history-finals-mvp-winners), and [NBA all-time records](https://www.nba.com/news/history-all-time-records) for season-specific titles, award recipients, and statistical records through the 2025-26 season.
+- [NBA: first game anniversary](https://www.nba.com/news/nba-celebrates-first-game-anniversary-on-nov-1-in-new-york) for the first BAA game and the league's early history.
 
 ## Movies
 
@@ -75,7 +78,25 @@ Merriam-Webster entries checked for the definitions and examples:
 
 [ubiquitous](https://www.merriam-webster.com/dictionary/ubiquitous), [ephemeral](https://www.merriam-webster.com/dictionary/ephemeral), [benevolent](https://www.merriam-webster.com/dictionary/benevolent), [pragmatic](https://www.merriam-webster.com/dictionary/pragmatic), [meticulous](https://www.merriam-webster.com/dictionary/meticulous), [laconic](https://www.merriam-webster.com/dictionary/laconic), [gregarious](https://www.merriam-webster.com/dictionary/gregarious), [obfuscate](https://www.merriam-webster.com/dictionary/obfuscate), [ameliorate](https://www.merriam-webster.com/dictionary/ameliorate), [capricious](https://www.merriam-webster.com/dictionary/capricious), [esoteric](https://www.merriam-webster.com/dictionary/esoteric), [magnanimous](https://www.merriam-webster.com/dictionary/magnanimous), [sycophant](https://www.merriam-webster.com/dictionary/sycophant), [enervate](https://www.merriam-webster.com/dictionary/enervate), [mitigate](https://www.merriam-webster.com/dictionary/mitigate), [disparate](https://www.merriam-webster.com/dictionary/disparate), [ostentatious](https://www.merriam-webster.com/dictionary/ostentatious), [reticent](https://www.merriam-webster.com/dictionary/reticent), [pernicious](https://www.merriam-webster.com/dictionary/pernicious), [perfunctory](https://www.merriam-webster.com/dictionary/perfunctory), [equanimity](https://www.merriam-webster.com/dictionary/equanimity), [quixotic](https://www.merriam-webster.com/dictionary/quixotic), [inchoate](https://www.merriam-webster.com/dictionary/inchoate), [sanguine](https://www.merriam-webster.com/dictionary/sanguine), [superfluous](https://www.merriam-webster.com/dictionary/superfluous), [tenacious](https://www.merriam-webster.com/dictionary/tenacious), [ambivalent](https://www.merriam-webster.com/dictionary/ambivalent), [candid](https://www.merriam-webster.com/dictionary/candid), [loquacious](https://www.merriam-webster.com/dictionary/loquacious), [garrulous](https://www.merriam-webster.com/dictionary/garrulous), [alacrity](https://www.merriam-webster.com/dictionary/alacrity), [assiduous](https://www.merriam-webster.com/dictionary/assiduous), [audacious](https://www.merriam-webster.com/dictionary/audacious), [deleterious](https://www.merriam-webster.com/dictionary/deleterious), [didactic](https://www.merriam-webster.com/dictionary/didactic), [erudite](https://www.merriam-webster.com/dictionary/erudite), [fastidious](https://www.merriam-webster.com/dictionary/fastidious), [furtive](https://www.merriam-webster.com/dictionary/furtive), [iconoclast](https://www.merriam-webster.com/dictionary/iconoclast), [ineffable](https://www.merriam-webster.com/dictionary/ineffable), [juxtapose](https://www.merriam-webster.com/dictionary/juxtapose), [liminal](https://www.merriam-webster.com/dictionary/liminal), [mendacious](https://www.merriam-webster.com/dictionary/mendacious), [obdurate](https://www.merriam-webster.com/dictionary/obdurate), [pellucid](https://www.merriam-webster.com/dictionary/pellucid), [prosaic](https://www.merriam-webster.com/dictionary/prosaic), [redolent](https://www.merriam-webster.com/dictionary/redolent), [vicissitude](https://www.merriam-webster.com/dictionary/vicissitude), [anodyne](https://www.merriam-webster.com/dictionary/anodyne), [aberration](https://www.merriam-webster.com/dictionary/aberration).
 
-The reticent question now supplies context. Merriam-Webster records both reserved speech and a broader reluctant sense, so the old blanket claim that the latter is an error was removed.
+## German
+
+These references support the German Foundations through C2 and Review decks. Prompts, examples, explanations, and answer choices are original. No exam questions or long source passages are reproduced.
+
+- [Goethe-Institut: Goethe-Zertifikat A1 vocabulary list](https://www.goethe.de/pro/relaunch/prf/sr/A1_SD1_Wortliste_02.pdf) for beginner subject areas and core vocabulary.
+- [Goethe-Institut: A1 exam description](https://www.goethe.de/ins/de/en/prf/gzsd1.cfm) for A1 communication goals: introductions, everyday information, simple conversations, reading notices, and short personal writing.
+- [Goethe-Institut: explanations of German grammar and sounds](https://www.goethe.de/resources/files/pdf94/appendix-volume-i1.pdf) for beginner explanations of umlauts, ß, and German sound patterns.
+- [Leibniz Institute for the German Language (IDS), grammis](https://grammis.ids-mannheim.de/) for standard German word order, verb position, case government, and grammatical terminology.
+- [IDS: word order](https://grammis.ids-mannheim.de/systematische-grammatik/748) and [IDS: prepositional phrases and case](https://grammis.ids-mannheim.de/systematische-grammatik/1422) for main-clause, question, subordinate-clause, and preposition examples.
+- [Duden pronunciation guidance](https://www.duden.de/hilfe/aussprache) and [Duden spelling rules](https://www.duden.de/sprachwissen/rechtschreibregeln) for IPA conventions, stress notation, standard pronunciation references, capitalization, and spelling.
+
+IPA and pronunciation guidance are based on standard German references. Learner-friendly English approximations are deliberately labeled as approximations. Regional variation is noted where it affects a beginner answer; these decks teach standard German rather than a specific local dialect.
+
+Level alignment for the A2 to C2 decks:
+
+- [Goethe-Institut German examinations A1–C2](https://www.goethe.de/ins/de/en/prf.html)
+- [Goethe-Institut language-level descriptors](https://www.goethe.de/resources/files/pdf357/language-v2.pdf)
+- [Council of Europe CEFR Companion Volume](https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions)
+- [IDS grammis: indirect speech and Konjunktiv](https://grammis.ids-mannheim.de/progr%40mm/6851)
 
 ## Mixed trivia and history
 
@@ -117,7 +138,7 @@ Question wording, scenarios, and numerical values in the AP Chemistry deck are o
 - [American Chemical Society: laboratory safety guidelines for secondary schools](https://institute.acs.org/acs-center/lab-safety/education-training/high-school-labs.html).
 - [NOAA: water cycle](https://www.noaa.gov/education/resource-collections/freshwater/water-cycle) and [EPA: overview of greenhouse gases](https://www.epa.gov/ghgemissions/overview-greenhouse-gases).
 
-Question wording and examples are original. Numerical results were recalculated; the deck was also checked with Enyalië's `parseDeckFile` validator. Question IDs are not part of Enyalië's current deck-file schema: the importer validates the editable question fields and assigns database IDs when saving.
+Question wording and examples are original. Numerical results were recalculated.
 
 ## General Chemistry I & II
 
@@ -125,13 +146,13 @@ Question wording and examples are original. Numerical results were recalculated;
 - [OpenStax Chemistry 2e: reaction stoichiometry](https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry), [equilibrium](https://openstax.org/books/chemistry-2e/pages/13-introduction), and [potential, free energy, and equilibrium](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium) for quantitative and conceptual review.
 - [IUPAC Gold Book](https://goldbook.iupac.org/) for standard chemistry terminology.
 
-Question wording and examples are original. Numerical calculations in the deck were checked directly; it was validated with Enyalië's `parseDeckFile`.
+Question wording and examples are original. Numerical calculations in the deck were checked directly.
 
 ## Chemistry for Health Sciences
 
 - [OpenStax Chemistry 2e](https://openstax.org/books/chemistry-2e/pages/1-introduction) for solutions, concentration, acids and bases, bonding, and reaction principles.
 
-This deck teaches general chemistry concepts and does not provide patient-specific medical advice. Question wording and examples are original; the file was validated with Enyalië's `parseDeckFile`.
+This deck teaches general chemistry concepts and does not provide patient-specific medical advice. Question wording and examples are original.
 
 ## Organic Chemistry I and II
 
@@ -139,7 +160,7 @@ This deck teaches general chemistry concepts and does not provide patient-specif
 - [OpenStax Organic Chemistry: reaction mechanisms](https://openstax.org/books/organic-chemistry/pages/6-2-how-organic-reactions-occur-mechanisms), [aromaticity](https://openstax.org/books/organic-chemistry/pages/15-4-aromatic-ions), and [spectroscopy summary](https://openstax.org/books/organic-chemistry/pages/12-summary) for representative concepts.
 - [IUPAC Gold Book](https://goldbook.iupac.org/) for terminology.
 
-Questions and examples are original. Mechanism conditions and products were checked for the stated reaction class; both files were validated with Enyalië's `parseDeckFile`.
+Questions and examples are original. Mechanism conditions and products were checked for the stated reaction class.
 
 ## Analytical Chemistry
 
@@ -148,7 +169,7 @@ Questions and examples are original. Mechanism conditions and products were chec
 - [NIST/SEMATECH Engineering Statistics Handbook: calibration](https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3.htm) for calibration and measurement-model context.
 - [OpenStax Chemistry 2e](https://openstax.org/books/chemistry-2e/pages/1-introduction) for titration, equilibrium, and spectroscopy fundamentals.
 
-Question wording and examples are original; calculations and core terminology were checked, and the deck was validated with Enyalië's `parseDeckFile`.
+Question wording and examples are original. Calculations and core terminology were checked.
 
 ## Inorganic Chemistry
 
@@ -157,7 +178,7 @@ Question wording and examples are original; calculations and core terminology we
 - [IUPAC Gold Book](https://goldbook.iupac.org/) for coordination and inorganic chemistry terminology.
 - [OpenStax Chemistry 2e](https://openstax.org/books/chemistry-2e/pages/1-introduction) for bonding, redox, and solid-state fundamentals.
 
-Question wording and examples are original. The deck was checked for basic electron counts, charge balance, coordination geometry, and schema compatibility with `parseDeckFile`.
+Question wording and examples are original. The deck was checked for basic electron counts, charge balance and coordination geometry.
 
 ## Fun Chemistry for Kids
 
@@ -166,7 +187,7 @@ Question wording and examples are original. The deck was checked for basic elect
 - [OpenStax Chemistry 2e](https://openstax.org/books/chemistry-2e/pages/1-introduction) for states of matter, mixtures, reactions, and basic chemical concepts.
 - [NOAA: water cycle](https://www.noaa.gov/education/resource-collections/freshwater/water-cycle) for water-cycle concepts.
 
-Questions and explanations are original and use everyday examples. Safety questions discourage tasting unknown substances, mixing household cleaners, and unsupervised handling; the file was validated with Enyalië's `parseDeckFile`.
+Questions and explanations are original and use everyday examples. Safety questions discourage tasting unknown substances, mixing household cleaners, and unsupervised handling.
 
 ## AP World History: Modern
 
@@ -185,11 +206,15 @@ Questions and explanations are original and use everyday examples. Safety questi
 
 The deck was checked against the Fall 2026 College Board framework and its nine unit allocations.
 
-## NBA (expanded)
+## AP Environmental Science
 
-- [NBA official rulebook](https://official.nba.com/rulebook/) for rules and violations.
-- [NBA history: champions](https://www.nba.com/news/history-nba-champions), [NBA Finals MVP winners](https://www.nba.com/news/history-finals-mvp-winners), and [NBA all-time records](https://www.nba.com/news/history-all-time-records) for season-specific titles, award recipients, and statistical records through the 2025-26 season.
-- [NBA: first game anniversary](https://www.nba.com/news/nba-celebrates-first-game-anniversary-on-nov-1-in-new-york) for the first BAA game and the league's early history.
+- [College Board AP Environmental Science Course and Exam Description](https://apcentral.collegeboard.org/media/pdf/ap-environmental-science-course-and-exam-description.pdf) for the nine units, learning objectives and science practices.
+- [College Board: clarifications for 2026-27](https://apcentral.collegeboard.org/media/pdf/ap-environmental-science-course-and-exam-description-clarifications.pdf) for the updated nitrogen, phosphorus, population, irrigation, meat production and fossil fuel content. The "about 70% of human freshwater use goes to agriculture" figure is EIN-2.E.1.
+- [College Board AP Environmental Science course page](https://apcentral.collegeboard.org/courses/ap-environmental-science/course) for unit exam weighting.
+- [EPA: criteria air pollutants](https://www.epa.gov/criteria-air-pollutants) and [NAAQS table](https://www.epa.gov/criteria-air-pollutants/naaqs-table) for the Clean Air Act standards.
+- [NOAA Chemical Sciences Laboratory: the Montreal Protocol at 35](https://csl.noaa.gov/news/2023/367_0111.html) for CFC phase-out and ozone recovery.
+
+Population calculations such as the Rule of 70 were checked by calculation.
 
 ## World Geography
 

@@ -66,11 +66,50 @@ export interface DeckSummary extends Deck {
   questionCount: number;
 }
 
+/** Levels run from 1, just missed, to 5, mastered. A question never answered has no level and counts as new. */
+export type MasteryLevel = 1 | 2 | 3 | 4 | 5;
+
+/**
+ * How well one question is known, saved for each question answered at least
+ * once. Days are local calendar days from `dayNumber`. The rules that change
+ * it are in src/quiz/mastery.ts.
+ */
+export interface QuestionProgress {
+  questionId: string;
+  deckId: string;
+  level: MasteryLevel;
+  /** The first day a right answer can move the level up. */
+  promotionDay: number;
+  /** The draw weight the last answer set. It drifts back to 1 day by day. */
+  weightAfter: number;
+  answeredDay: number;
+  /** The deck's round when this was last answered right, or null if the last answer was a miss. */
+  rightRound: number | null;
+  /** The last day a miss dropped the level, so it drops at most once a day. */
+  dropDay: number | null;
+  seen: number;
+  right: number;
+}
+
+/** A question's progress without its ids, as a backup file holds it. */
+export type SavedProgress = Omit<QuestionProgress, 'questionId' | 'deckId'>;
+
+/** One deck's mastery: a record for each question answered at least once, and how many quizzes have used the deck. */
+export interface DeckProgress {
+  records: QuestionProgress[];
+  rounds: number;
+}
+
 /** A deck read from a file, ready to be saved. */
 export interface ImportedDeck extends DeckInput {
   /** Kept from the file so importing a newer export can replace the older copy. */
   id?: string;
   questions: QuestionContent[];
+  /**
+   * Only "export all decks" files have this. The deck's rounds and each
+   * question's progress, by position in `questions`.
+   */
+  progress?: { rounds: number; byQuestion: (SavedProgress | undefined)[] };
 }
 
 export const QUESTION_TYPE_LABELS: Record<QuestionType, string> = {

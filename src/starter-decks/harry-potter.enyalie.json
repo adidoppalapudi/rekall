@@ -17,6 +17,7 @@
         "Ilvermorny"
       ],
       "correctIndex": 0,
+      "explanation": "Durmstrang and Beauxbatons are the schools that visit Hogwarts for the Triwizard Tournament in Goblet of Fire.",
       "difficulty": "easy",
       "tags": [
         "places"
@@ -32,6 +33,7 @@
         "Hufflepuff"
       ],
       "correctIndex": 2,
+      "explanation": "The Sorting Hat considers Slytherin, but Harry asks not to be put there.",
       "difficulty": "easy",
       "tags": [
         "houses"
@@ -63,6 +65,7 @@
         "Phoenix"
       ],
       "correctIndex": 2,
+      "explanation": "The novels give Rowena Ravenclaw's house an eagle, even though the name suggests a raven.",
       "difficulty": "medium",
       "tags": [
         "houses"
@@ -94,6 +97,7 @@
         "Hermes"
       ],
       "correctIndex": 0,
+      "explanation": "Hagrid buys Hedwig for Harry's eleventh birthday at Eeylops Owl Emporium in Diagon Alley.",
       "difficulty": "easy",
       "tags": [
         "creatures"
@@ -109,6 +113,7 @@
         "Borgin and Burkes"
       ],
       "correctIndex": 0,
+      "explanation": "Goblins run Gringotts, and its vaults lie deep below London.",
       "difficulty": "easy",
       "tags": [
         "places"
@@ -124,6 +129,7 @@
         "Horace Slughorn"
       ],
       "correctIndex": 0,
+      "explanation": "The sign over the shop says Ollivanders has made fine wands since 382 B.C.",
       "difficulty": "medium",
       "tags": [
         "characters"
@@ -155,6 +161,7 @@
         "Holly"
       ],
       "correctIndex": 3,
+      "explanation": "The wand is holly and phoenix feather, eleven inches long.",
       "difficulty": "medium",
       "tags": [
         "wands"
@@ -170,6 +177,7 @@
         "Minerva McGonagall"
       ],
       "correctIndex": 1,
+      "explanation": "Armando Dippet was headmaster fifty years earlier, when Tom Riddle was a student.",
       "difficulty": "easy",
       "tags": [
         "characters"
@@ -185,6 +193,7 @@
         "Filius Flitwick"
       ],
       "correctIndex": 1,
+      "explanation": "Horace Slughorn takes over Potions in Harry's sixth year, when Snape moves to Defence Against the Dark Arts.",
       "difficulty": "easy",
       "tags": [
         "classes"
@@ -200,6 +209,7 @@
         "Alastor Moody"
       ],
       "correctIndex": 1,
+      "explanation": "Lupin follows Quirrell, who taught in Harry's first year, and Lockhart, who taught in his second.",
       "difficulty": "medium",
       "tags": [
         "classes"
@@ -215,6 +225,7 @@
         "Rolanda Hooch"
       ],
       "correctIndex": 1,
+      "explanation": "McGonagall is also head of Gryffindor House and a registered Animagus who can turn into a cat.",
       "difficulty": "easy",
       "tags": [
         "classes"
@@ -230,6 +241,7 @@
         "Leprechaun"
       ],
       "correctIndex": 2,
+      "explanation": "Dobby serves the Malfoy family until Harry tricks Lucius Malfoy into freeing him with a sock.",
       "difficulty": "easy",
       "tags": [
         "creatures"
@@ -245,6 +257,7 @@
         "He is a werewolf"
       ],
       "correctIndex": 3,
+      "explanation": "Snape sets an essay on werewolves, and Hermione works out the secret from Lupin's absences at the full moon.",
       "difficulty": "medium",
       "tags": [
         "characters"
@@ -276,6 +289,7 @@
         "Hare"
       ],
       "correctIndex": 0,
+      "explanation": "Ron's Patronus, by contrast, is a Jack Russell terrier.",
       "difficulty": "medium",
       "tags": [
         "magic"
@@ -307,6 +321,7 @@
         "Alohomora"
       ],
       "correctIndex": 0,
+      "explanation": "Nox is the counter-spell that puts the light out again.",
       "difficulty": "easy",
       "tags": [
         "spells"
@@ -322,6 +337,7 @@
         "Chaser"
       ],
       "correctIndex": 2,
+      "explanation": "McGonagall picks Harry as Seeker in his first year, making him the youngest house player in about a century.",
       "difficulty": "easy",
       "tags": [
         "quidditch"
@@ -337,6 +353,7 @@
         "Golden Snitch"
       ],
       "correctIndex": 3,
+      "explanation": "Catching the Snitch earns 150 points and usually ends the game. The Golden Snidget was the rare bird the Snitch replaced.",
       "difficulty": "easy",
       "tags": [
         "quidditch"
@@ -430,6 +447,7 @@
       "type": "flashcard",
       "prompt": "What is a Pensieve used for?",
       "answer": "Reviewing and exploring memories.",
+      "explanation": "Dumbledore keeps one in his office. Harry sees Snape's memories in it in Deathly Hallows.",
       "difficulty": "medium",
       "tags": [
         "magical-objects"

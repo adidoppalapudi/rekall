@@ -897,15 +897,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Water vapor is water in the gas state.",
-      "answer": true,
+      "prompt": "Water vapor is water in the solid state.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "fun-chemistry-for-kids",
         "states-of-matter",
         "water"
       ],
-      "explanation": "Water molecules can be gas even though the gas itself is invisible."
+      "explanation": "Water vapor is water in the gas state. Ice is the solid state."
     },
     {
       "type": "true_false",
@@ -981,15 +981,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "The bubbles in many fizzy drinks are carbon dioxide.",
-      "answer": true,
+      "prompt": "The bubbles in most fizzy drinks are oxygen.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "fun-chemistry-for-kids",
         "reactions",
         "carbon-dioxide"
       ],
-      "explanation": "Carbon dioxide escapes when the drink is opened."
+      "explanation": "They are carbon dioxide, which escapes when the drink is opened."
     },
     {
       "type": "true_false",
@@ -1017,27 +1017,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "A cut apple can brown after touching air.",
-      "answer": true,
+      "prompt": "A cut apple stays the same color no matter how long it touches air.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "fun-chemistry-for-kids",
         "food-chemistry",
         "browning"
       ],
-      "explanation": "Oxygen and enzymes help form brown compounds."
+      "explanation": "Oxygen in the air and enzymes in the apple make brown compounds, so a cut apple browns over time."
     },
     {
       "type": "true_false",
-      "prompt": "Evaporation changes liquid water into water vapor.",
-      "answer": true,
+      "prompt": "Evaporation turns water vapor back into liquid water.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "fun-chemistry-for-kids",
         "water-nature",
         "water-cycle"
       ],
-      "explanation": "Evaporation can happen at the liquid surface."
+      "explanation": "That is condensation. Evaporation changes liquid water into water vapor, often at the surface."
     },
     {
       "type": "true_false",
@@ -1053,15 +1053,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Ice usually floats because it is less dense than liquid water.",
-      "answer": true,
+      "prompt": "Ice sinks in liquid water because it is denser.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "fun-chemistry-for-kids",
         "water-nature",
         "ice-density"
       ],
-      "explanation": "The frozen crystal structure takes up more space for the same amount of water."
+      "explanation": "Ice usually floats. Its frozen crystal structure takes up more space, so it is less dense than liquid water."
     },
     {
       "type": "true_false",
@@ -1125,15 +1125,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Sweat can cool skin when it evaporates.",
-      "answer": true,
+      "prompt": "Sweat warms your skin as it evaporates.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "fun-chemistry-for-kids",
         "body-chemistry",
         "heat"
       ],
-      "explanation": "Evaporation takes energy from the skin."
+      "explanation": "Evaporating sweat takes heat energy from your skin, which cools you down."
     },
     {
       "type": "true_false",

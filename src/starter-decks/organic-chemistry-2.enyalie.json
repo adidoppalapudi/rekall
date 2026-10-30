@@ -657,15 +657,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Benzene is aromatic because it is planar, cyclic, conjugated, and has six pi electrons.",
-      "answer": true,
+      "prompt": "Benzene is antiaromatic because its ring holds six pi electrons.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "aromaticity",
         "benzene"
       ],
-      "explanation": "Six pi electrons satisfy 4n+2 with n=1."
+      "explanation": "Six pi electrons satisfy Hückel’s 4n+2 rule with n=1, so planar, cyclic, conjugated benzene is aromatic."
     },
     {
       "type": "true_false",
@@ -705,15 +705,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Friedel-Crafts alkylation can produce polyalkylation.",
-      "answer": true,
+      "prompt": "Friedel-Crafts alkylation cannot over-alkylate, because the first alkyl group deactivates the ring.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "aromatic-reactions",
         "friedel-crafts"
       ],
-      "explanation": "An installed alkyl group activates the ring, making further substitution possible."
+      "explanation": "An installed alkyl group activates the ring, so further substitution and polyalkylation are common."
     },
     {
       "type": "true_false",
@@ -741,27 +741,27 @@
     },
     {
       "type": "true_false",
-      "prompt": "Under basic conditions, an epoxide nucleophile commonly attacks its less substituted carbon.",
-      "answer": true,
+      "prompt": "Under basic conditions, an epoxide nucleophile commonly attacks its more substituted carbon.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "alcohols-ethers-epoxides",
         "epoxide-opening"
       ],
-      "explanation": "The reaction is usually SN2-like and favors the less hindered site."
+      "explanation": "Basic ring opening is usually SN2-like and favors the less hindered, less substituted carbon."
     },
     {
       "type": "true_false",
-      "prompt": "NaBH4 commonly reduces aldehydes and ketones to alcohols.",
-      "answer": true,
+      "prompt": "NaBH4 commonly oxidizes alcohols to aldehydes and ketones.",
+      "answer": false,
       "difficulty": "easy",
       "tags": [
         "organic-chemistry-2",
         "carbonyls",
         "reduction"
       ],
-      "explanation": "Hydride addition followed by protonation gives an alcohol."
+      "explanation": "NaBH4 is a hydride reducing agent. It reduces aldehydes and ketones to alcohols."
     },
     {
       "type": "true_false",
@@ -813,15 +813,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Fischer esterification is an equilibrium reaction.",
-      "answer": true,
+      "prompt": "Fischer esterification goes to completion and cannot be reversed by water.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "carboxylic-derivatives",
         "esterification"
       ],
-      "explanation": "Removing water or using excess reactant can shift the equilibrium toward ester."
+      "explanation": "Fischer esterification is an equilibrium. Removing water or using excess reactant shifts it toward the ester, and water can hydrolyze the ester back."
     },
     {
       "type": "true_false",
@@ -861,15 +861,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "A Diels-Alder reaction is a [4+2] cycloaddition.",
-      "answer": true,
+      "prompt": "A Diels-Alder reaction is a [2+2] cycloaddition that forms a four-membered ring.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "conjugated-systems",
         "diels-alder"
       ],
-      "explanation": "Four pi electrons from the diene and two from the dienophile form a six-membered ring."
+      "explanation": "Diels-Alder is a [4+2] cycloaddition. Four pi electrons from the diene and two from the dienophile form a six-membered ring."
     },
     {
       "type": "true_false",
@@ -933,15 +933,15 @@
     },
     {
       "type": "true_false",
-      "prompt": "Retrosynthetic analysis starts with a target molecule and works backward to simpler precursors.",
-      "answer": true,
+      "prompt": "Retrosynthetic analysis starts from available reagents and works forward to the target molecule.",
+      "answer": false,
       "difficulty": "medium",
       "tags": [
         "organic-chemistry-2",
         "synthesis",
         "retrosynthesis"
       ],
-      "explanation": "Strategic bond disconnections suggest feasible forward reactions."
+      "explanation": "Retrosynthesis starts with the target and works backward through strategic disconnections to simpler precursors."
     },
     {
       "type": "true_false",

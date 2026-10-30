@@ -209,6 +209,7 @@
         "North America"
       ],
       "correctIndex": 1,
+      "explanation": "Asia covers about 30% of Earth's land area and has more people than any other continent.",
       "difficulty": "easy",
       "tags": [
         "continents"
@@ -314,6 +315,7 @@
         "Strait of Hormuz"
       ],
       "correctIndex": 0,
+      "explanation": "The strait links the Mediterranean Sea with the Atlantic Ocean.",
       "difficulty": "medium",
       "tags": [
         "waterways"
@@ -329,6 +331,7 @@
         "Atlantic and Indian"
       ],
       "correctIndex": 0,
+      "explanation": "The canal opened in 1914 and uses locks to lift ships about 26 m above sea level to cross Panama.",
       "difficulty": "easy",
       "tags": [
         "waterways"

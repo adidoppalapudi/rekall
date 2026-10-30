@@ -20,16 +20,22 @@
       "explanation": "Werden plus infinitive forms the analytic future; the infinitive goes to the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I will call tomorrow.” in German?",
-      "answer": "Ich werde morgen anrufen.",
+      "choices": [
+        "Ich werde morgen anrufe.",
+        "Ich wird morgen anrufen.",
+        "Ich werde anrufen morgen.",
+        "Ich werde morgen anrufen."
+      ],
+      "correctIndex": 3,
+      "explanation": "Werden plus infinitive forms the analytic future; the infinitive goes to the end.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "future",
         "word-order"
-      ],
-      "explanation": "Werden plus infinitive forms the analytic future; the infinitive goes to the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -43,15 +49,21 @@
       "explanation": "In a main clause, the finite form of werden is in position two and the infinitive is final."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “We will start later.” in German?",
-      "answer": "Wir werden später anfangen.",
+      "choices": [
+        "Wir wird später anfangen.",
+        "Wir werden später anfängen.",
+        "Wir werden anfangen später.",
+        "Wir werden später anfangen."
+      ],
+      "correctIndex": 3,
+      "explanation": "In a main clause, the finite form of werden is in position two and the infinitive is final.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "future"
-      ],
-      "explanation": "In a main clause, the finite form of werden is in position two and the infinitive is final."
+      ]
     },
     {
       "type": "flashcard",
@@ -66,16 +78,22 @@
       "explanation": "Vorhaben is commonly followed by a zu-infinitive clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I intend to learn German.” in German?",
-      "answer": "Ich habe vor, Deutsch zu lernen.",
+      "choices": [
+        "Ich habe vor, Deutsch lernen.",
+        "Ich habe vor, zu Deutsch lernen.",
+        "Ich vorhabe, Deutsch zu lernen.",
+        "Ich habe vor, Deutsch zu lernen."
+      ],
+      "correctIndex": 3,
+      "explanation": "Vorhaben is commonly followed by a zu-infinitive clause.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "zu-infinitive",
         "plans"
-      ],
-      "explanation": "Vorhaben is commonly followed by a zu-infinitive clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -89,15 +107,21 @@
       "explanation": "Adjectival evaluations can be followed by an infinitive with zu."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “It is important to be punctual.” in German?",
-      "answer": "Es ist wichtig, pünktlich zu sein.",
+      "choices": [
+        "Es ist wichtig, pünktlich sein.",
+        "Es ist wichtig, zu pünktlich sein.",
+        "Es ist wichtig, pünktlich zu ist.",
+        "Es ist wichtig, pünktlich zu sein."
+      ],
+      "correctIndex": 3,
+      "explanation": "Adjectival evaluations can be followed by an infinitive with zu.",
       "difficulty": "easy",
       "tags": [
         "a2",
         "zu-infinitive"
-      ],
-      "explanation": "Adjectival evaluations can be followed by an infinitive with zu."
+      ]
     },
     {
       "type": "flashcard",
@@ -111,15 +135,21 @@
       "explanation": "Ohne plus zu-infinitive expresses an accompanying circumstance that does not happen."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “without waiting long” in German?",
-      "answer": "ohne lange zu warten",
+      "choices": [
+        "ohne lange warten",
+        "ohne lange zu warten",
+        "ohne lange zu wartet",
+        "ohne zu warten lange"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ohne plus zu-infinitive expresses an accompanying circumstance that does not happen.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "zu-infinitive"
-      ],
-      "explanation": "Ohne plus zu-infinitive expresses an accompanying circumstance that does not happen."
+      ]
     },
     {
       "type": "flashcard",
@@ -133,15 +163,21 @@
       "explanation": "Statt plus zu-infinitive expresses an alternative action."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “instead of driving by car” in German?",
-      "answer": "statt mit dem Auto zu fahren",
+      "choices": [
+        "statt mit dem Auto fahren",
+        "statt mit den Auto zu fahren",
+        "statt mit dem Auto zu fahren",
+        "statt zu mit dem Auto fahren"
+      ],
+      "correctIndex": 2,
+      "explanation": "Statt plus zu-infinitive expresses an alternative action.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "zu-infinitive"
-      ],
-      "explanation": "Statt plus zu-infinitive expresses an alternative action."
+      ]
     },
     {
       "type": "flashcard",
@@ -155,15 +191,21 @@
       "explanation": "Der is the masculine nominative relative pronoun when the relative-clause subject is masculine."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the man who lives next door” in German?",
-      "answer": "der Mann, der nebenan wohnt",
+      "choices": [
+        "der Mann, den nebenan wohnt",
+        "der Mann, der nebenan wohnt",
+        "der Mann, die nebenan wohnt",
+        "der Mann, der wohnt nebenan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Der is the masculine nominative relative pronoun when the relative-clause subject is masculine.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "relative-clauses"
-      ],
-      "explanation": "Der is the masculine nominative relative pronoun when the relative-clause subject is masculine."
+      ]
     },
     {
       "type": "flashcard",
@@ -177,15 +219,21 @@
       "explanation": "Die is feminine nominative and feminine accusative; the relative pronoun’s case depends on its role in the clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the woman whom I know” in German?",
-      "answer": "die Frau, die ich kenne",
+      "choices": [
+        "die Frau, der ich kenne",
+        "die Frau, den ich kenne",
+        "die Frau, die kenne ich",
+        "die Frau, die ich kenne"
+      ],
+      "correctIndex": 3,
+      "explanation": "Die is feminine nominative and feminine accusative; the relative pronoun’s case depends on its role in the clause.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "relative-clauses"
-      ],
-      "explanation": "Die is feminine nominative and feminine accusative; the relative pronoun’s case depends on its role in the clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -199,15 +247,21 @@
       "explanation": "Das is the neuter nominative or accusative relative pronoun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the book that you are reading” in German?",
-      "answer": "das Buch, das du liest",
+      "choices": [
+        "das Buch, dass du liest",
+        "das Buch, den du liest",
+        "das Buch, das du liest",
+        "das Buch, das liest du"
+      ],
+      "correctIndex": 2,
+      "explanation": "Das is the neuter nominative or accusative relative pronoun.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "relative-clauses"
-      ],
-      "explanation": "Das is the neuter nominative or accusative relative pronoun."
+      ]
     },
     {
       "type": "flashcard",
@@ -222,16 +276,22 @@
       "explanation": "Nach mit, the plural relative pronoun is denen because mit governs dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the children with whom I play” in German?",
-      "answer": "die Kinder, mit denen ich spiele",
+      "choices": [
+        "die Kinder, mit denen ich spiele",
+        "die Kinder, mit die ich spiele",
+        "die Kinder, mit den ich spiele",
+        "die Kinder, mit denen spiele ich"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nach mit, the plural relative pronoun is denen because mit governs dative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "relative-clauses",
         "dative"
-      ],
-      "explanation": "Nach mit, the plural relative pronoun is denen because mit governs dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -245,15 +305,21 @@
       "explanation": "After an indefinite article in masculine nominative, the adjective shows strong masculine marking: guter."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “a good friend” in German?",
-      "answer": "ein guter Freund",
+      "choices": [
+        "ein gute Freund",
+        "ein guter Freund",
+        "ein guten Freund",
+        "ein gutes Freund"
+      ],
+      "correctIndex": 1,
+      "explanation": "After an indefinite article in masculine nominative, the adjective shows strong masculine marking: guter.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings"
-      ],
-      "explanation": "After an indefinite article in masculine nominative, the adjective shows strong masculine marking: guter."
+      ]
     },
     {
       "type": "flashcard",
@@ -268,16 +334,22 @@
       "explanation": "Masculine accusative after an indefinite article uses the ending -en on the adjective."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “a good friend (accusative)” in German?",
-      "answer": "einen guten Freund",
+      "choices": [
+        "einen guter Freund",
+        "einen gute Freund",
+        "ein guten Freund",
+        "einen guten Freund"
+      ],
+      "correctIndex": 3,
+      "explanation": "Masculine accusative after an indefinite article uses the ending -en on the adjective.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings",
         "accusative"
-      ],
-      "explanation": "Masculine accusative after an indefinite article uses the ending -en on the adjective."
+      ]
     },
     {
       "type": "flashcard",
@@ -292,16 +364,22 @@
       "explanation": "After a dative masculine indefinite article, the adjective ending is -en."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “with a good friend” in German?",
-      "answer": "mit einem guten Freund",
+      "choices": [
+        "mit einem guter Freund",
+        "mit einen guten Freund",
+        "mit einem guten Freund",
+        "mit einem gutem Freund"
+      ],
+      "correctIndex": 2,
+      "explanation": "After a dative masculine indefinite article, the adjective ending is -en.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings",
         "dative"
-      ],
-      "explanation": "After a dative masculine indefinite article, the adjective ending is -en."
+      ]
     },
     {
       "type": "flashcard",
@@ -315,15 +393,21 @@
       "explanation": "Without an article, feminine or neuter nominative uses a strong adjective ending: frische Milch."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “fresh milk” in German?",
-      "answer": "frische Milch",
+      "choices": [
+        "frische Milch",
+        "frisch Milch",
+        "frisches Milch",
+        "frischem Milch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without an article, feminine or neuter nominative uses a strong adjective ending: frische Milch.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings"
-      ],
-      "explanation": "Without an article, feminine or neuter nominative uses a strong adjective ending: frische Milch."
+      ]
     },
     {
       "type": "flashcard",
@@ -337,15 +421,21 @@
       "explanation": "Without an article, neuter nominative or accusative uses the strong ending -es."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “cold water” in German?",
-      "answer": "kaltes Wasser",
+      "choices": [
+        "kalte Wasser",
+        "kaltes Wasser",
+        "kalter Wasser",
+        "kalt Wasser"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without an article, neuter nominative or accusative uses the strong ending -es.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings"
-      ],
-      "explanation": "Without an article, neuter nominative or accusative uses the strong ending -es."
+      ]
     },
     {
       "type": "flashcard",
@@ -359,15 +449,21 @@
       "explanation": "Warten auf takes auf plus accusative for the thing awaited."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to wait for” in German?",
-      "answer": "warten auf",
+      "choices": [
+        "warten für",
+        "warten an",
+        "warten nach",
+        "warten auf"
+      ],
+      "correctIndex": 3,
+      "explanation": "Warten auf takes auf plus accusative for the thing awaited.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "verb-preposition"
-      ],
-      "explanation": "Warten auf takes auf plus accusative for the thing awaited."
+      ]
     },
     {
       "type": "flashcard",
@@ -381,15 +477,21 @@
       "explanation": "Sprechen über takes über plus accusative when discussing a topic."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to talk about” in German?",
-      "answer": "sprechen über",
+      "choices": [
+        "sprechen auf",
+        "sprechen an",
+        "sprechen über",
+        "sprechen für"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sprechen über takes über plus accusative when discussing a topic.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "verb-preposition"
-      ],
-      "explanation": "Sprechen über takes über plus accusative when discussing a topic."
+      ]
     },
     {
       "type": "flashcard",
@@ -403,15 +505,21 @@
       "explanation": "Teilnehmen an governs an plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to take part in” in German?",
-      "answer": "teilnehmen an",
+      "choices": [
+        "teilnehmen an",
+        "teilnehmen in",
+        "teilnehmen bei",
+        "teilnehmen auf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Teilnehmen an governs an plus dative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "verb-preposition"
-      ],
-      "explanation": "Teilnehmen an governs an plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -425,15 +533,21 @@
       "explanation": "Abhängen von takes von plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to depend on” in German?",
-      "answer": "abhängen von",
+      "choices": [
+        "abhängen auf",
+        "abhängen von",
+        "abhängen an",
+        "abhängen mit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abhängen von takes von plus dative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "verb-preposition"
-      ],
-      "explanation": "Abhängen von takes von plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -447,15 +561,21 @@
       "explanation": "Sich kümmern um takes um plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to take care of” in German?",
-      "answer": "sich kümmern um",
+      "choices": [
+        "sich kümmern für",
+        "sich kümmern über",
+        "sich kümmern auf",
+        "sich kümmern um"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich kümmern um takes um plus accusative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "verb-preposition"
-      ],
-      "explanation": "Sich kümmern um takes um plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -469,15 +589,21 @@
       "explanation": "Darüber is a da-compound referring to a thing or situation after über."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I am happy about it.” in German?",
-      "answer": "Ich freue mich darüber.",
+      "choices": [
+        "Ich freue mich darauf.",
+        "Ich freue mich über es.",
+        "Ich freue mich darüber.",
+        "Ich freue mich dafür."
+      ],
+      "correctIndex": 2,
+      "explanation": "Darüber is a da-compound referring to a thing or situation after über.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "da-compounds"
-      ],
-      "explanation": "Darüber is a da-compound referring to a thing or situation after über."
+      ]
     },
     {
       "type": "flashcard",
@@ -491,15 +617,21 @@
       "explanation": "Worauf is the question form corresponding to warten auf."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “What are you waiting for?” in German?",
-      "answer": "Worauf wartest du?",
+      "choices": [
+        "Worauf wartest du?",
+        "Wofür wartest du?",
+        "Worüber wartest du?",
+        "Darauf wartest du?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Worauf is the question form corresponding to warten auf.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "da-compounds"
-      ],
-      "explanation": "Worauf is the question form corresponding to warten auf."
+      ]
     },
     {
       "type": "flashcard",
@@ -514,16 +646,22 @@
       "explanation": "Auf etwas ankommen is a fixed expression meaning to matter or depend on."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “That is what matters.” in German?",
-      "answer": "Darauf kommt es an.",
+      "choices": [
+        "Darüber kommt es an.",
+        "Darauf kommt es an.",
+        "Dafür kommt es an.",
+        "Daran kommt es an."
+      ],
+      "correctIndex": 1,
+      "explanation": "Auf etwas ankommen is a fixed expression meaning to matter or depend on.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "idioms",
         "da-compounds"
-      ],
-      "explanation": "Auf etwas ankommen is a fixed expression meaning to matter or depend on."
+      ]
     },
     {
       "type": "flashcard",
@@ -626,16 +764,22 @@
       "explanation": "Lust auf plus accusative expresses desire or inclination."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I feel like listening to music.” in German?",
-      "answer": "Ich habe Lust auf Musik.",
+      "choices": [
+        "Ich habe Lust für Musik.",
+        "Ich habe Lust an Musik.",
+        "Ich habe Lust zu Musik.",
+        "Ich habe Lust auf Musik."
+      ],
+      "correctIndex": 3,
+      "explanation": "Lust auf plus accusative expresses desire or inclination.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "feelings",
         "prepositions"
-      ],
-      "explanation": "Lust auf plus accusative expresses desire or inclination."
+      ]
     },
     {
       "type": "flashcard",
@@ -650,16 +794,22 @@
       "explanation": "Angst haben vor takes vor plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I am afraid of dogs.” in German?",
-      "answer": "Ich habe Angst vor Hunden.",
+      "choices": [
+        "Ich habe Angst von Hunden.",
+        "Ich habe Angst für Hunden.",
+        "Ich habe Angst vor Hunden.",
+        "Ich habe Angst vor Hunde."
+      ],
+      "correctIndex": 2,
+      "explanation": "Angst haben vor takes vor plus dative.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "feelings",
         "prepositions"
-      ],
-      "explanation": "Angst haben vor takes vor plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -674,16 +824,22 @@
       "explanation": "Vom is von plus dem, and abhängen is separable in the main clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “That depends on the weather.” in German?",
-      "answer": "Das hängt vom Wetter ab.",
+      "choices": [
+        "Das hängt vom Wetter ab.",
+        "Das hängt vom Wetter an.",
+        "Das abhängt vom Wetter.",
+        "Das hängt auf das Wetter ab."
+      ],
+      "correctIndex": 0,
+      "explanation": "Vom is von plus dem, and abhängen is separable in the main clause.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "separable-verbs",
         "prepositions"
-      ],
-      "explanation": "Vom is von plus dem, and abhängen is separable in the main clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -698,16 +854,22 @@
       "explanation": "A modal verb with a passive infinitive uses the double-infinitive pattern."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The computer has to be repaired.” in German?",
-      "answer": "Der Computer muss repariert werden.",
+      "choices": [
+        "Der Computer muss reparieren werden.",
+        "Der Computer muss repariert werden.",
+        "Der Computer muss repariert wird.",
+        "Der Computer wird repariert müssen."
+      ],
+      "correctIndex": 1,
+      "explanation": "A modal verb with a passive infinitive uses the double-infinitive pattern.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "passive",
         "modal-verbs"
-      ],
-      "explanation": "A modal verb with a passive infinitive uses the double-infinitive pattern."
+      ]
     },
     {
       "type": "flashcard",
@@ -743,15 +905,21 @@
       "explanation": "Ankommen is a movement/change-of-state verb and uses sein in the perfect."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The letter has already arrived.” in German?",
-      "answer": "Der Brief ist schon angekommen.",
+      "choices": [
+        "Der Brief hat schon angekommen.",
+        "Der Brief ist schon ankommen.",
+        "Der Brief ist schon angekommen.",
+        "Der Brief ist schon angekommt."
+      ],
+      "correctIndex": 2,
+      "explanation": "Ankommen is a movement/change-of-state verb and uses sein in the perfect.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "perfect"
-      ],
-      "explanation": "Ankommen is a movement/change-of-state verb and uses sein in the perfect."
+      ]
     },
     {
       "type": "flashcard",
@@ -766,16 +934,22 @@
       "explanation": "Sich treffen is a reciprocal reflexive verb."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “We are meeting at eight o’clock.” in German?",
-      "answer": "Wir treffen uns um acht Uhr.",
+      "choices": [
+        "Wir treffen uns am acht Uhr.",
+        "Wir treffen uns um acht Uhren.",
+        "Wir treffen um acht Uhr uns.",
+        "Wir treffen uns um acht Uhr."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich treffen is a reciprocal reflexive verb.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "reflexive",
         "appointments"
-      ],
-      "explanation": "Sich treffen is a reciprocal reflexive verb."
+      ]
     },
     {
       "type": "flashcard",
@@ -836,16 +1010,22 @@
       "explanation": "Vor takes dative when it expresses a temporal relation."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “before the meal” in German?",
-      "answer": "vor dem Essen",
+      "choices": [
+        "vor dem Essen",
+        "vor das Essen",
+        "vor den Essen",
+        "vor der Essen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vor takes dative when it expresses a temporal relation.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "time",
         "dative"
-      ],
-      "explanation": "Vor takes dative when it expresses a temporal relation."
+      ]
     },
     {
       "type": "flashcard",
@@ -860,16 +1040,22 @@
       "explanation": "Nach takes dative in this temporal expression."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “after work” in German?",
-      "answer": "nach der Arbeit",
+      "choices": [
+        "nach die Arbeit",
+        "nach dem Arbeit",
+        "nach den Arbeit",
+        "nach der Arbeit"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nach takes dative in this temporal expression.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "time",
         "dative"
-      ],
-      "explanation": "Nach takes dative in this temporal expression."
+      ]
     },
     {
       "type": "flashcard",
@@ -956,16 +1142,22 @@
       "explanation": "Könnten is Konjunktiv II of können and softens a polite request."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “Could you repeat that, please?” in German?",
-      "answer": "Könnten Sie das bitte wiederholen?",
+      "choices": [
+        "Könnten Sie das bitte wiederholen?",
+        "Könnten Sie das bitte wiederholt?",
+        "Könnten Sie bitte wiederholen das?",
+        "Konnten Sie das bitte wiederholen?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Könnten is Konjunktiv II of können and softens a polite request.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "politeness",
         "konjunktiv-ii"
-      ],
-      "explanation": "Könnten is Konjunktiv II of können and softens a polite request."
+      ]
     },
     {
       "type": "flashcard",
@@ -980,16 +1172,22 @@
       "explanation": "Wäre is the Konjunktiv II form of sein used in polite or hypothetical language."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “That would be very kind.” in German?",
-      "answer": "Das wäre sehr nett.",
+      "choices": [
+        "Das war sehr nett.",
+        "Das wäre sehr nett.",
+        "Das würde sehr nett.",
+        "Das werde sehr nett."
+      ],
+      "correctIndex": 1,
+      "explanation": "Wäre is the Konjunktiv II form of sein used in polite or hypothetical language.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "politeness",
         "konjunktiv-ii"
-      ],
-      "explanation": "Wäre is the Konjunktiv II form of sein used in polite or hypothetical language."
+      ]
     },
     {
       "type": "flashcard",
@@ -1004,16 +1202,22 @@
       "explanation": "Würde plus infinitive is a common polite way to express a wish."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I would like to make a reservation.” in German?",
-      "answer": "Ich würde gern reservieren.",
+      "choices": [
+        "Ich werde gern reservieren.",
+        "Ich wurde gern reservieren.",
+        "Ich würde gern reservieren.",
+        "Ich würde gern reserviere."
+      ],
+      "correctIndex": 2,
+      "explanation": "Würde plus infinitive is a common polite way to express a wish.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "politeness",
         "konjunktiv-ii"
-      ],
-      "explanation": "Würde plus infinitive is a common polite way to express a wish."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -1277,16 +1481,22 @@
       "explanation": "Diejenige is a demonstrative pronoun referring to a feminine person or noun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the one who arrives first” in German?",
-      "answer": "diejenige, die zuerst ankommt",
+      "choices": [
+        "diejenige, der zuerst ankommt",
+        "diejenige, die zuerst ankommen",
+        "diejenige, die ankommt zuerst",
+        "diejenige, die zuerst ankommt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Diejenige is a demonstrative pronoun referring to a feminine person or noun.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "pronouns",
         "relative-clauses"
-      ],
-      "explanation": "Diejenige is a demonstrative pronoun referring to a feminine person or noun."
+      ]
     },
     {
       "type": "flashcard",
@@ -1301,16 +1511,22 @@
       "explanation": "Derjenige is masculine; den is accusative inside the relative clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the one whom we looked for” in German?",
-      "answer": "derjenige, den wir gesucht haben",
+      "choices": [
+        "derjenige, der wir gesucht haben",
+        "derjenige, den wir gesucht haben",
+        "derjenige, dem wir gesucht haben",
+        "derjenige, den wir gesucht hat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Derjenige is masculine; den is accusative inside the relative clause.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "pronouns",
         "relative-clauses"
-      ],
-      "explanation": "Derjenige is masculine; den is accusative inside the relative clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -1325,16 +1541,22 @@
       "explanation": "Derselbe means the same identical one and takes normal adjective-like endings."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “with the same problem” in German?",
-      "answer": "mit demselben Problem",
+      "choices": [
+        "mit demselben Problem",
+        "mit denselben Problem",
+        "mit dasselbe Problem",
+        "mit demselbem Problem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derselbe means the same identical one and takes normal adjective-like endings.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "pronouns",
         "dative"
-      ],
-      "explanation": "Derselbe means the same identical one and takes normal adjective-like endings."
+      ]
     },
     {
       "type": "flashcard",
@@ -1348,15 +1570,21 @@
       "explanation": "Möglich is an adjective whose ending changes with case, gender, and article."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “a possible solution” in German?",
-      "answer": "eine mögliche Lösung",
+      "choices": [
+        "eine möglicher Lösung",
+        "eine möglichen Lösung",
+        "eine mögliche Lösung",
+        "ein mögliche Lösung"
+      ],
+      "correctIndex": 2,
+      "explanation": "Möglich is an adjective whose ending changes with case, gender, and article.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "adjective-endings"
-      ],
-      "explanation": "Möglich is an adjective whose ending changes with case, gender, and article."
+      ]
     },
     {
       "type": "flashcard",
@@ -1371,16 +1599,22 @@
       "explanation": "After kein with a neuter noun, the adjective takes -es in nominative or accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “no significant risk” in German?",
-      "answer": "kein nennenswertes Risiko",
+      "choices": [
+        "kein nennenswerter Risiko",
+        "keine nennenswerte Risiko",
+        "kein nennenswerte Risiko",
+        "kein nennenswertes Risiko"
+      ],
+      "correctIndex": 3,
+      "explanation": "After kein with a neuter noun, the adjective takes -es in nominative or accusative.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings",
         "negation"
-      ],
-      "explanation": "After kein with a neuter noun, the adjective takes -es in nominative or accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1395,16 +1629,22 @@
       "explanation": "Plural dative after mit uses öffentlichen Verkehrsmitteln."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “by public transport” in German?",
-      "answer": "mit öffentlichen Verkehrsmitteln",
+      "choices": [
+        "mit öffentliche Verkehrsmitteln",
+        "mit öffentlichen Verkehrsmitteln",
+        "mit öffentlichen Verkehrsmittel",
+        "mit den öffentliche Verkehrsmitteln"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plural dative after mit uses öffentlichen Verkehrsmitteln.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "adjective-endings",
         "transport"
-      ],
-      "explanation": "Plural dative after mit uses öffentlichen Verkehrsmitteln."
+      ]
     },
     {
       "type": "flashcard",
@@ -1419,16 +1659,22 @@
       "explanation": "Sich vorbereiten auf takes auf plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to prepare for an exam” in German?",
-      "answer": "sich auf eine Prüfung vorbereiten",
+      "choices": [
+        "sich auf eine Prüfung vorbereiten",
+        "sich für eine Prüfung vorbereiten",
+        "sich an eine Prüfung vorbereiten",
+        "sich auf einer Prüfung vorbereiten"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sich vorbereiten auf takes auf plus accusative.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "verb-preposition",
         "education"
-      ],
-      "explanation": "Sich vorbereiten auf takes auf plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1443,16 +1689,22 @@
       "explanation": "Sich verabschieden von takes von plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to say goodbye to someone” in German?",
-      "answer": "sich von jemandem verabschieden",
+      "choices": [
+        "sich an jemandem verabschieden",
+        "sich von jemanden verabschieden",
+        "sich von jemandem verabschieden",
+        "sich zu jemandem verabschieden"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich verabschieden von takes von plus dative.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "verb-preposition",
         "communication"
-      ],
-      "explanation": "Sich verabschieden von takes von plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1467,16 +1719,22 @@
       "explanation": "Teilnehmen an takes an plus dative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to take part in a meeting” in German?",
-      "answer": "an einer Besprechung teilnehmen",
+      "choices": [
+        "an eine Besprechung teilnehmen",
+        "in einer Besprechung teilnehmen",
+        "bei einer Besprechung teilnehmen",
+        "an einer Besprechung teilnehmen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Teilnehmen an takes an plus dative.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "verb-preposition",
         "work"
-      ],
-      "explanation": "Teilnehmen an takes an plus dative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1491,16 +1749,22 @@
       "explanation": "Nachdenken über can be represented by the da-compound darüber."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I am thinking it over.” in German?",
-      "answer": "Ich denke darüber nach.",
+      "choices": [
+        "Ich denke darauf nach.",
+        "Ich denke darüber nach.",
+        "Ich nachdenke darüber.",
+        "Ich denke davon nach."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nachdenken über can be represented by the da-compound darüber.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "da-compounds",
         "thinking"
-      ],
-      "explanation": "Nachdenken über can be represented by the da-compound darüber."
+      ]
     },
     {
       "type": "flashcard",
@@ -1515,16 +1779,22 @@
       "explanation": "Woran asks about the thing connected with an verb or preposition."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “What is the reason for that?” in German?",
-      "answer": "Woran liegt das?",
+      "choices": [
+        "Woran liegt das?",
+        "Worauf liegt das?",
+        "Wovon liegt das?",
+        "Daran liegt das?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Woran asks about the thing connected with an verb or preposition.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "da-compounds",
         "questions"
-      ],
-      "explanation": "Woran asks about the thing connected with an verb or preposition."
+      ]
     },
     {
       "type": "flashcard",
@@ -1538,15 +1808,21 @@
       "explanation": "Sich lohnen is commonly followed by a zu-infinitive clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “It is worth booking early.” in German?",
-      "answer": "Es lohnt sich, früh zu buchen.",
+      "choices": [
+        "Es lohnt sich, früh buchen.",
+        "Es lohnt mich, früh zu buchen.",
+        "Es lohnt sich, früh zu buchen.",
+        "Es lohnt sich, früh zu bucht."
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich lohnen is commonly followed by a zu-infinitive clause.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "zu-infinitive"
-      ],
-      "explanation": "Sich lohnen is commonly followed by a zu-infinitive clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -1560,15 +1836,21 @@
       "explanation": "Versuchen plus zu-infinitive expresses an attempt."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I try to remain calm.” in German?",
-      "answer": "Ich versuche, ruhig zu bleiben.",
+      "choices": [
+        "Ich versuche, ruhig bleiben.",
+        "Ich versuche, zu ruhig bleiben.",
+        "Ich versuche mich, ruhig zu bleiben.",
+        "Ich versuche, ruhig zu bleiben."
+      ],
+      "correctIndex": 3,
+      "explanation": "Versuchen plus zu-infinitive expresses an attempt.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "zu-infinitive"
-      ],
-      "explanation": "Versuchen plus zu-infinitive expresses an attempt."
+      ]
     },
     {
       "type": "flashcard",
@@ -1583,16 +1865,22 @@
       "explanation": "Um ... zu expresses purpose when the subject is the same in both clauses."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “in order to save time” in German?",
-      "answer": "um Zeit zu sparen",
+      "choices": [
+        "um Zeit sparen",
+        "um Zeit zu sparen",
+        "für Zeit zu sparen",
+        "um zu Zeit sparen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um ... zu expresses purpose when the subject is the same in both clauses.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "zu-infinitive",
         "purpose"
-      ],
-      "explanation": "Um ... zu expresses purpose when the subject is the same in both clauses."
+      ]
     },
     {
       "type": "flashcard",
@@ -1606,15 +1894,21 @@
       "explanation": "Ohne dass is used when the subordinate clause has its own explicit subject."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “without anyone noticing it” in German?",
-      "answer": "ohne dass jemand es merkt",
+      "choices": [
+        "ohne dass jemand es merkt",
+        "ohne dass jemand merkt es",
+        "ohne jemand es zu merken",
+        "ohne dass jemand es merken"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ohne dass is used when the subordinate clause has its own explicit subject.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "subordinate-clauses"
-      ],
-      "explanation": "Ohne dass is used when the subordinate clause has its own explicit subject."
+      ]
     },
     {
       "type": "flashcard",
@@ -1629,16 +1923,22 @@
       "explanation": "Je ... desto ... expresses a proportional comparison."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the earlier, the better” in German?",
-      "answer": "je früher, desto besser",
+      "choices": [
+        "desto früher, je besser",
+        "je früher, als besser",
+        "je früher, desto besser",
+        "so früher, desto besser"
+      ],
+      "correctIndex": 2,
+      "explanation": "Je ... desto ... expresses a proportional comparison.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "comparison",
         "connectors"
-      ],
-      "explanation": "Je ... desto ... expresses a proportional comparison."
+      ]
     },
     {
       "type": "flashcard",
@@ -1675,16 +1975,22 @@
       "explanation": "After eine der, the superlative noun phrase is plural."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “one of the most important questions” in German?",
-      "answer": "eine der wichtigsten Fragen",
+      "choices": [
+        "eine der wichtigste Fragen",
+        "eine der wichtigsten Fragen",
+        "einer der wichtigsten Fragen",
+        "eine von wichtigsten Fragen"
+      ],
+      "correctIndex": 1,
+      "explanation": "After eine der, the superlative noun phrase is plural.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "superlatives",
         "adjective-endings"
-      ],
-      "explanation": "After eine der, the superlative noun phrase is plural."
+      ]
     },
     {
       "type": "flashcard",
@@ -1699,16 +2005,22 @@
       "explanation": "Sich ärgern über takes über plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to be annoyed about the noise” in German?",
-      "answer": "sich über den Lärm ärgern",
+      "choices": [
+        "sich über dem Lärm ärgern",
+        "sich auf den Lärm ärgern",
+        "sich für den Lärm ärgern",
+        "sich über den Lärm ärgern"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich ärgern über takes über plus accusative.",
       "difficulty": "medium",
       "tags": [
         "a2",
         "feelings",
         "verb-preposition"
-      ],
-      "explanation": "Sich ärgern über takes über plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1723,16 +2035,22 @@
       "explanation": "Gewohnt sein can be followed by a zu-infinitive clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “I am used to getting up early.” in German?",
-      "answer": "Ich bin es gewohnt, früh aufzustehen.",
+      "choices": [
+        "Ich bin es gewohnt, früh auf zu stehen.",
+        "Ich bin es gewohnt, früh zu aufstehen.",
+        "Ich bin es gewohnt, früh aufzustehen.",
+        "Ich habe es gewohnt, früh aufzustehen."
+      ],
+      "correctIndex": 2,
+      "explanation": "Gewohnt sein can be followed by a zu-infinitive clause.",
       "difficulty": "hard",
       "tags": [
         "a2",
         "routines",
         "zu-infinitive"
-      ],
-      "explanation": "Gewohnt sein can be followed by a zu-infinitive clause."
+      ]
     }
   ]
 }

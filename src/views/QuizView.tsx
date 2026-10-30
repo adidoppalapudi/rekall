@@ -124,7 +124,6 @@ export function QuizView() {
           key={`${session.id}-${session.current}`}
           item={item}
           answer={answer}
-          streak={session.streak}
           revealed={revealed}
           deckName={session.source.kind === 'quick' ? session.deckNames[item.question.deckId] : undefined}
           onAnswer={quiz.answer}
@@ -186,7 +185,6 @@ function Countdown({
 interface QuestionCardProps {
   item: QuizItem;
   answer: AnswerRecord | null;
-  streak: number;
   revealed: boolean;
   deckName?: string;
   onAnswer: (response: QuizResponse) => void;
@@ -195,7 +193,7 @@ interface QuestionCardProps {
   onRate: (response: QuizResponse) => void;
 }
 
-function QuestionCard({ item, answer, streak, revealed, deckName, onAnswer, onReveal, onRate }: QuestionCardProps) {
+function QuestionCard({ item, answer, revealed, deckName, onAnswer, onReveal, onRate }: QuestionCardProps) {
   const promptId = useId();
   const cardRef = useRef<HTMLElement>(null);
   const { question } = item;
@@ -224,7 +222,7 @@ function QuestionCard({ item, answer, streak, revealed, deckName, onAnswer, onRe
       )}
 
       <div className="feedback" aria-live="polite">
-        {answer && <Feedback question={question} answer={answer} streak={streak} />}
+        {answer && <Feedback question={question} answer={answer} />}
       </div>
     </article>
   );
@@ -390,14 +388,25 @@ function FlashcardAnswer({
   );
 }
 
-function Feedback({ question, answer, streak }: { question: Question; answer: AnswerRecord; streak: number }) {
+function Feedback({ question, answer }: { question: Question; answer: AnswerRecord }) {
+  const { parts } = answer;
+  // Only show where the points came from when a bonus was earned.
+  const showParts = parts !== undefined && (parts.streak > 0 || parts.speed > 0);
   return (
     <>
       {answer.correct ? (
-        <p className="verdict is-correct">
-          ✓ correct <span className="points">+{answer.points}</span>
-          {streak >= 3 && <span className="combo">{streak} in a row</span>}
-        </p>
+        <>
+          <p className="verdict is-correct">
+            ✓ correct <span className="points">+{answer.points}</span>
+          </p>
+          {showParts && (
+            <p className="chips">
+              <span className="chip">+{parts.answer}</span>
+              {parts.streak > 0 && <span className="chip chip-streak">streak +{parts.streak}</span>}
+              {parts.speed > 0 && <span className="chip chip-speed">speed +{parts.speed}</span>}
+            </p>
+          )}
+        </>
       ) : (
         <p className="verdict is-wrong">
           ✗ {answer.response.type === 'timeout' ? 'out of time' : 'incorrect'}. Answer:{' '}

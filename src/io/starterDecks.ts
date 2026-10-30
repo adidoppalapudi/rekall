@@ -1,7 +1,8 @@
 /**
  * The decks that ship with Enyalië (src/starter-decks/*.enyalie.json).
- * Each file is bundled as a separate asset and only downloaded when the
- * starter deck list is opened, so they add nothing to the app's start-up.
+ * Each file is bundled as a separate asset. The build lists them all in
+ * index.html (see vite.config.ts), so the service worker saves them on the
+ * first visit, after the page has loaded, and this list opens offline.
  * To add one, drop a deck file into that folder.
  */
 import type { ImportedDeck } from '../models/types';
@@ -27,6 +28,14 @@ async function fetchStarterDeck(path: string, url: string): Promise<StarterDeck>
   if (!parsed.ok) throw new Error(`${path} is not a valid deck: ${parsed.errors[0].message}`);
   const name = path.split('/').pop() ?? path;
   return { file: { name, size: text.length, text: async () => text }, deck: parsed.value };
+}
+
+/** Downloads and checks one starter deck by its file name without the extension, e.g. "world-geography". */
+export async function loadStarterDeck(name: string): Promise<ImportedDeck> {
+  const path = `../starter-decks/${name}.enyalie.json`;
+  const url = urls[path];
+  if (!url) throw new Error(`there is no starter deck called "${name}"`);
+  return (await fetchStarterDeck(path, url)).deck;
 }
 
 /** Downloads and checks every starter deck, sorted by deck name. */

@@ -434,16 +434,22 @@
       "explanation": "Ausfallen is separable; the prefix is final in the main clause."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The flight is cancelled.” in German?",
-      "answer": "Der Flug fällt aus.",
+      "choices": [
+        "Der Flug ausfällt.",
+        "Der Flug fällt ab.",
+        "Der Flug ist ausfällt.",
+        "Der Flug fällt aus."
+      ],
+      "correctIndex": 3,
+      "explanation": "Ausfallen is separable; the prefix is final in the main clause.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "travel",
         "separable-verbs"
-      ],
-      "explanation": "Ausfallen is separable; the prefix is final in the main clause."
+      ]
     },
     {
       "type": "flashcard",
@@ -480,16 +486,22 @@
       "explanation": "Sich beschweren über takes über plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to complain about a delay” in German?",
-      "answer": "sich über eine Verspätung beschweren",
+      "choices": [
+        "sich auf eine Verspätung beschweren",
+        "sich über einer Verspätung beschweren",
+        "sich für eine Verspätung beschweren",
+        "sich über eine Verspätung beschweren"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich beschweren über takes über plus accusative.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "travel",
         "verb-preposition"
-      ],
-      "explanation": "Sich beschweren über takes über plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -992,16 +1004,22 @@
       "explanation": "Sich gewöhnen an takes an plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to get used to a new situation” in German?",
-      "answer": "sich an eine neue Situation gewöhnen",
+      "choices": [
+        "sich auf eine neue Situation gewöhnen",
+        "sich an einer neuen Situation gewöhnen",
+        "sich mit einer neuen Situation gewöhnen",
+        "sich an eine neue Situation gewöhnen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich gewöhnen an takes an plus accusative.",
       "difficulty": "hard",
       "tags": [
         "b1",
         "feelings",
         "verb-preposition"
-      ],
-      "explanation": "Sich gewöhnen an takes an plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -1632,16 +1650,22 @@
       "explanation": "Sich beschweren bei names the person or institution receiving the complaint."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to complain to an office” in German?",
-      "answer": "sich bei einer Stelle beschweren",
+      "choices": [
+        "sich an einer Stelle beschweren",
+        "sich bei einer Stelle beschweren",
+        "sich zu einer Stelle beschweren",
+        "sich bei eine Stelle beschweren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sich beschweren bei names the person or institution receiving the complaint.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "communication",
         "verb-preposition"
-      ],
-      "explanation": "Sich beschweren bei names the person or institution receiving the complaint."
+      ]
     },
     {
       "type": "flashcard",
@@ -1772,16 +1796,22 @@
       "explanation": "Sich einstellen auf means to prepare mentally or practically for a situation."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to adjust to something” in German?",
-      "answer": "sich auf etwas einstellen",
+      "choices": [
+        "sich an etwas einstellen",
+        "sich für etwas einstellen",
+        "sich auf etwas einstellen",
+        "sich zu etwas einstellen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sich einstellen auf means to prepare mentally or practically for a situation.",
       "difficulty": "medium",
       "tags": [
         "b1",
         "feelings",
         "verb-preposition"
-      ],
-      "explanation": "Sich einstellen auf means to prepare mentally or practically for a situation."
+      ]
     }
   ]
 }

@@ -20,16 +20,22 @@
       "explanation": "The impersonal passive presents a general expectation without naming an agent."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “It is expected that the figures will rise.” in German?",
-      "answer": "Es wird erwartet, dass die Zahlen steigen.",
+      "choices": [
+        "Es ist erwartet, dass die Zahlen steigen.",
+        "Es wird erwartet, dass die Zahlen steigt.",
+        "Es wird erwartet, dass steigen die Zahlen.",
+        "Es wird erwartet, dass die Zahlen steigen."
+      ],
+      "correctIndex": 3,
+      "explanation": "The impersonal passive presents a general expectation without naming an agent.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive",
         "formal"
-      ],
-      "explanation": "The impersonal passive presents a general expectation without naming an agent."
+      ]
     },
     {
       "type": "flashcard",
@@ -43,15 +49,21 @@
       "explanation": "Perfect passive uses sein plus participle plus worden."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The data were published yesterday.” in German?",
-      "answer": "Die Daten sind gestern veröffentlicht worden.",
+      "choices": [
+        "Die Daten sind gestern veröffentlicht geworden.",
+        "Die Daten haben gestern veröffentlicht worden.",
+        "Die Daten sind gestern veröffentlichen worden.",
+        "Die Daten sind gestern veröffentlicht worden."
+      ],
+      "correctIndex": 3,
+      "explanation": "Perfect passive uses sein plus participle plus worden.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive"
-      ],
-      "explanation": "Perfect passive uses sein plus participle plus worden."
+      ]
     },
     {
       "type": "flashcard",
@@ -66,16 +78,22 @@
       "explanation": "A modal verb with passive uses a double infinitive at the end."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The application had to be approved.” in German?",
-      "answer": "Der Antrag musste genehmigt werden.",
+      "choices": [
+        "Der Antrag musste genehmigen werden.",
+        "Der Antrag musste genehmigt worden.",
+        "Der Antrag muss genehmigt werden.",
+        "Der Antrag musste genehmigt werden."
+      ],
+      "correctIndex": 3,
+      "explanation": "A modal verb with passive uses a double infinitive at the end.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive",
         "modal-verbs"
-      ],
-      "explanation": "A modal verb with passive uses a double infinitive at the end."
+      ]
     },
     {
       "type": "flashcard",
@@ -89,15 +107,21 @@
       "explanation": "Sich lassen plus infinitive is a common passive alternative expressing possibility."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The problem can be solved.” in German?",
-      "answer": "Das Problem lässt sich lösen.",
+      "choices": [
+        "Das Problem lässt sich gelöst.",
+        "Das Problem lässt lösen.",
+        "Das Problem lässt sich zu lösen.",
+        "Das Problem lässt sich lösen."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich lassen plus infinitive is a common passive alternative expressing possibility.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive-alternatives"
-      ],
-      "explanation": "Sich lassen plus infinitive is a common passive alternative expressing possibility."
+      ]
     },
     {
       "type": "flashcard",
@@ -111,15 +135,21 @@
       "explanation": "Sein plus zu-infinitive can express a passive meaning of possibility or necessity."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The results are easy to explain.” in German?",
-      "answer": "Die Ergebnisse sind leicht zu erklären.",
+      "choices": [
+        "Die Ergebnisse sind leicht erklären.",
+        "Die Ergebnisse sind leicht zu erklären.",
+        "Die Ergebnisse haben leicht zu erklären.",
+        "Die Ergebnisse sind leicht zu erklärt."
+      ],
+      "correctIndex": 1,
+      "explanation": "Sein plus zu-infinitive can express a passive meaning of possibility or necessity.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive-alternatives"
-      ],
-      "explanation": "Sein plus zu-infinitive can express a passive meaning of possibility or necessity."
+      ]
     },
     {
       "type": "flashcard",
@@ -133,15 +163,21 @@
       "explanation": "Past unreal conditions use hätte or wäre plus Partizip II."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “If I had known that, I would have acted differently.” in German?",
-      "answer": "Hätte ich das gewusst, hätte ich anders gehandelt.",
+      "choices": [
+        "Hätte ich das gewusst, würde ich anders gehandelt.",
+        "Hatte ich das gewusst, hätte ich anders gehandelt.",
+        "Hätte ich das gewusst, hätte ich anders gehandelt.",
+        "Hätte ich das gewusst, hätte ich anders handeln."
+      ],
+      "correctIndex": 2,
+      "explanation": "Past unreal conditions use hätte or wäre plus Partizip II.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "konjunktiv-ii"
-      ],
-      "explanation": "Past unreal conditions use hätte or wäre plus Partizip II."
+      ]
     },
     {
       "type": "flashcard",
@@ -155,15 +191,21 @@
       "explanation": "Wäre ... gewesen expresses a counterfactual evaluation of a past situation."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “It would have been better to start earlier.” in German?",
-      "answer": "Es wäre besser gewesen, früher zu beginnen.",
+      "choices": [
+        "Es wäre besser gewesen, früher beginnen.",
+        "Es wäre besser gewesen, früher zu beginnen.",
+        "Es war besser gewesen, früher zu beginnen.",
+        "Es wäre besser geworden, früher zu beginnen."
+      ],
+      "correctIndex": 1,
+      "explanation": "Wäre ... gewesen expresses a counterfactual evaluation of a past situation.",
       "difficulty": "medium",
       "tags": [
         "b2",
         "konjunktiv-ii"
-      ],
-      "explanation": "Wäre ... gewesen expresses a counterfactual evaluation of a past situation."
+      ]
     },
     {
       "type": "flashcard",
@@ -178,16 +220,22 @@
       "explanation": "Könnte makes an argument deliberately less absolute."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “One could argue that ...” in German?",
-      "answer": "Man könnte argumentieren, dass ...",
+      "choices": [
+        "Man konnte argumentieren, dass ...",
+        "Man könnte argumentiert, dass ...",
+        "Man könnte zu argumentieren, dass ...",
+        "Man könnte argumentieren, dass ..."
+      ],
+      "correctIndex": 3,
+      "explanation": "Könnte makes an argument deliberately less absolute.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "argumentation",
         "konjunktiv-ii"
-      ],
-      "explanation": "Könnte makes an argument deliberately less absolute."
+      ]
     },
     {
       "type": "flashcard",
@@ -201,15 +249,21 @@
       "explanation": "Konjunktiv I marks reported speech and distance from the claim."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “He claimed that he had no time.” in German?",
-      "answer": "Er behauptete, er habe keine Zeit.",
+      "choices": [
+        "Er behauptete, er haben keine Zeit.",
+        "Er behauptete, habe er keine Zeit.",
+        "Er behauptete, er habe keine Zeit.",
+        "Er behauptete, er sei keine Zeit."
+      ],
+      "correctIndex": 2,
+      "explanation": "Konjunktiv I marks reported speech and distance from the claim.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "reported-speech"
-      ],
-      "explanation": "Konjunktiv I marks reported speech and distance from the claim."
+      ]
     },
     {
       "type": "flashcard",
@@ -223,15 +277,21 @@
       "explanation": "Sei is the Konjunktiv I form of sein in reported speech."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “She said that she had already arrived.” in German?",
-      "answer": "Sie sagte, sie sei bereits angekommen.",
+      "choices": [
+        "Sie sagte, sie sei bereits angekommen.",
+        "Sie sagte, sie habe bereits angekommen.",
+        "Sie sagte, sie sei bereits ankommen.",
+        "Sie sagte, sei sie bereits angekommen."
+      ],
+      "correctIndex": 0,
+      "explanation": "Sei is the Konjunktiv I form of sein in reported speech.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "reported-speech"
-      ],
-      "explanation": "Sei is the Konjunktiv I form of sein in reported speech."
+      ]
     },
     {
       "type": "flashcard",
@@ -245,15 +305,21 @@
       "explanation": "Seien marks reported plural information without adopting it as the writer’s own assertion."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The spokesperson explained that the figures were stable.” in German?",
-      "answer": "Die Sprecherin erklärte, die Zahlen seien stabil.",
+      "choices": [
+        "Die Sprecherin erklärte, die Zahlen sei stabil.",
+        "Die Sprecherin erklärte, die Zahlen seien stabil.",
+        "Die Sprecherin erklärte, die Zahlen seid stabil.",
+        "Die Sprecherin erklärte, seien die Zahlen stabil."
+      ],
+      "correctIndex": 1,
+      "explanation": "Seien marks reported plural information without adopting it as the writer’s own assertion.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "reported-speech"
-      ],
-      "explanation": "Seien marks reported plural information without adopting it as the writer’s own assertion."
+      ]
     },
     {
       "type": "flashcard",
@@ -311,15 +377,21 @@
       "explanation": "Nominalization with -ung turns a process into a noun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the implementation of the plan” in German?",
-      "answer": "die Umsetzung des Plans",
+      "choices": [
+        "die Umsetzung der Plans",
+        "die Umsetzung des Plan",
+        "die Umsetzung dem Plan",
+        "die Umsetzung des Plans"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nominalization with -ung turns a process into a noun.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "nominalization"
-      ],
-      "explanation": "Nominalization with -ung turns a process into a noun."
+      ]
     },
     {
       "type": "flashcard",
@@ -334,16 +406,22 @@
       "explanation": "Vermeidung is a nominalized verb; unnötiger is genitive plural."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the avoidance of unnecessary costs” in German?",
-      "answer": "die Vermeidung unnötiger Kosten",
+      "choices": [
+        "die Vermeidung unnötigen Kosten",
+        "die Vermeidung unnötige Kosten",
+        "die Vermeidung unnötiger Kosten",
+        "die Vermeidung der unnötiger Kosten"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vermeidung is a nominalized verb; unnötiger is genitive plural.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "nominalization",
         "genitive"
-      ],
-      "explanation": "Vermeidung is a nominalized verb; unnötiger is genitive plural."
+      ]
     },
     {
       "type": "flashcard",
@@ -357,15 +435,21 @@
       "explanation": "A present participle can modify a noun before it."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the rapidly growing sector” in German?",
-      "answer": "die schnell wachsende Branche",
+      "choices": [
+        "die schnell wachsende Branche",
+        "die schnell gewachsene Branche",
+        "die schnell wachsend Branche",
+        "die schnell wachsender Branche"
+      ],
+      "correctIndex": 0,
+      "explanation": "A present participle can modify a noun before it.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "participles"
-      ],
-      "explanation": "A present participle can modify a noun before it."
+      ]
     },
     {
       "type": "flashcard",
@@ -379,15 +463,21 @@
       "explanation": "A past participle can function adjectivally before a noun."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the investigation already completed” in German?",
-      "answer": "die bereits abgeschlossene Untersuchung",
+      "choices": [
+        "die bereits abschließende Untersuchung",
+        "die bereits abgeschlossene Untersuchung",
+        "die bereits abgeschlossen Untersuchung",
+        "die bereits abgeschlossener Untersuchung"
+      ],
+      "correctIndex": 1,
+      "explanation": "A past participle can function adjectivally before a noun.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "participles"
-      ],
-      "explanation": "A past participle can function adjectivally before a noun."
+      ]
     },
     {
       "type": "flashcard",
@@ -402,16 +492,22 @@
       "explanation": "This formal prepositional phrase takes auf plus accusative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “with regard to” in German?",
-      "answer": "im Hinblick auf",
+      "choices": [
+        "im Hinblick an",
+        "im Hinblick für",
+        "im Hinblick über",
+        "im Hinblick auf"
+      ],
+      "correctIndex": 3,
+      "explanation": "This formal prepositional phrase takes auf plus accusative.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "formal",
         "prepositions"
-      ],
-      "explanation": "This formal prepositional phrase takes auf plus accusative."
+      ]
     },
     {
       "type": "flashcard",
@@ -426,16 +522,22 @@
       "explanation": "Hinsichtlich is a formal genitive preposition."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “with regard to the new regulation” in German?",
-      "answer": "hinsichtlich der neuen Regelung",
+      "choices": [
+        "hinsichtlich die neue Regelung",
+        "hinsichtlich der neue Regelung",
+        "hinsichtlich der neuen Regelung",
+        "hinsichtlich dem neuen Regelung"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hinsichtlich is a formal genitive preposition.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "formal",
         "genitive"
-      ],
-      "explanation": "Hinsichtlich is a formal genitive preposition."
+      ]
     },
     {
       "type": "flashcard",
@@ -1208,16 +1310,22 @@
       "explanation": "This impersonal passive construction presents an assumption without naming the agent."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “It is assumed that ...” in German?",
-      "answer": "Es wird davon ausgegangen, dass ...",
+      "choices": [
+        "Es wird davon ausgegangen, dass ...",
+        "Es wird davon ausgegehen, dass ...",
+        "Es ist davon ausgegangen, dass ...",
+        "Es wird darauf ausgegangen, dass ..."
+      ],
+      "correctIndex": 0,
+      "explanation": "This impersonal passive construction presents an assumption without naming the agent.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive",
         "hedging"
-      ],
-      "explanation": "This impersonal passive construction presents an assumption without naming the agent."
+      ]
     },
     {
       "type": "flashcard",
@@ -1232,16 +1340,22 @@
       "explanation": "Dürfte plus passive expresses a cautious probability."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The proposal is probably going to be accepted.” in German?",
-      "answer": "Der Vorschlag dürfte angenommen werden.",
+      "choices": [
+        "Der Vorschlag dürfte angenommen worden.",
+        "Der Vorschlag dürfte angenommen werden.",
+        "Der Vorschlag darf angenommen werden.",
+        "Der Vorschlag dürfte annehmen werden."
+      ],
+      "correctIndex": 1,
+      "explanation": "Dürfte plus passive expresses a cautious probability.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "passive",
         "modal-verbs"
-      ],
-      "explanation": "Dürfte plus passive expresses a cautious probability."
+      ]
     },
     {
       "type": "flashcard",
@@ -1256,16 +1370,22 @@
       "explanation": "A past modal passive uses hätte plus the double infinitive."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The measure could have been avoided.” in German?",
-      "answer": "Die Maßnahme hätte vermieden werden können.",
+      "choices": [
+        "Die Maßnahme hätte vermieden werden gekonnt.",
+        "Die Maßnahme hat vermieden werden können.",
+        "Die Maßnahme hätte vermeiden werden können.",
+        "Die Maßnahme hätte vermieden werden können."
+      ],
+      "correctIndex": 3,
+      "explanation": "A past modal passive uses hätte plus the double infinitive.",
       "difficulty": "expert",
       "tags": [
         "b2",
         "passive",
         "konjunktiv-ii"
-      ],
-      "explanation": "A past modal passive uses hätte plus the double infinitive."
+      ]
     },
     {
       "type": "flashcard",
@@ -1302,16 +1422,22 @@
       "explanation": "Einräumen plus a perfect infinitive reports an earlier action compactly."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “He admitted having made a mistake.” in German?",
-      "answer": "Er räumte ein, einen Fehler gemacht zu haben.",
+      "choices": [
+        "Er räumte ein, einen Fehler gemacht zu haben.",
+        "Er räumte ein, einen Fehler zu gemacht haben.",
+        "Er räumte ein, einen Fehler gemacht haben.",
+        "Er räumte ein, einen Fehler machen zu haben."
+      ],
+      "correctIndex": 0,
+      "explanation": "Einräumen plus a perfect infinitive reports an earlier action compactly.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "reported-speech",
         "infinitive"
-      ],
-      "explanation": "Einräumen plus a perfect infinitive reports an earlier action compactly."
+      ]
     },
     {
       "type": "flashcard",
@@ -1326,16 +1452,22 @@
       "explanation": "Bestreiten plus a perfect infinitive reports a denied prior action."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “She denied having known about it.” in German?",
-      "answer": "Sie bestritt, davon gewusst zu haben.",
+      "choices": [
+        "Sie bestritt, davon zu gewusst haben.",
+        "Sie bestritt, davon gewusst haben.",
+        "Sie bestritt, davon gewusst zu haben.",
+        "Sie bestritt, davon wissen zu haben."
+      ],
+      "correctIndex": 2,
+      "explanation": "Bestreiten plus a perfect infinitive reports a denied prior action.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "reported-speech",
         "infinitive"
-      ],
-      "explanation": "Bestreiten plus a perfect infinitive reports a denied prior action."
+      ]
     },
     {
       "type": "flashcard",
@@ -1350,16 +1482,22 @@
       "explanation": "Durchführung is a formal nominalization of durchführen."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the conducting of a survey” in German?",
-      "answer": "die Durchführung einer Befragung",
+      "choices": [
+        "die Durchführung eine Befragung",
+        "die Durchführung einer Befragungs",
+        "die Durchführung des Befragung",
+        "die Durchführung einer Befragung"
+      ],
+      "correctIndex": 3,
+      "explanation": "Durchführung is a formal nominalization of durchführen.",
       "difficulty": "medium",
       "tags": [
         "b2",
         "nominalization",
         "research"
-      ],
-      "explanation": "Durchführung is a formal nominalization of durchführen."
+      ]
     },
     {
       "type": "flashcard",
@@ -1374,16 +1512,22 @@
       "explanation": "Auswertung is a formal noun for analyzing results."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “the evaluation of the results” in German?",
-      "answer": "die Auswertung der Ergebnisse",
+      "choices": [
+        "die Auswertung die Ergebnisse",
+        "die Auswertung der Ergebnisse",
+        "die Auswertung des Ergebnisse",
+        "die Auswertung den Ergebnissen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Auswertung is a formal noun for analyzing results.",
       "difficulty": "medium",
       "tags": [
         "b2",
         "nominalization",
         "research"
-      ],
-      "explanation": "Auswertung is a formal noun for analyzing results."
+      ]
     },
     {
       "type": "flashcard",
@@ -1398,16 +1542,22 @@
       "explanation": "This formal genitive phrase appears in legal and institutional contexts."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “excluding the public” in German?",
-      "answer": "unter Ausschluss der Öffentlichkeit",
+      "choices": [
+        "unter Ausschluss der Öffentlichkeit",
+        "unter Ausschluss die Öffentlichkeit",
+        "unter Ausschluss des Öffentlichkeit",
+        "unter Ausschluss der Öffentlichkeiten"
+      ],
+      "correctIndex": 0,
+      "explanation": "This formal genitive phrase appears in legal and institutional contexts.",
       "difficulty": "hard",
       "tags": [
         "b2",
         "formal",
         "genitive"
-      ],
-      "explanation": "This formal genitive phrase appears in legal and institutional contexts."
+      ]
     },
     {
       "type": "flashcard",
@@ -1422,16 +1572,22 @@
       "explanation": "In Ermangelung is a formal phrase meaning in the absence of."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “for lack of evidence” in German?",
-      "answer": "in Ermangelung von Beweisen",
+      "choices": [
+        "in Ermangelung von Beweise",
+        "in Ermangelung an Beweisen",
+        "in Ermangelung von Beweisen",
+        "in Ermangelung für Beweisen"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Ermangelung is a formal phrase meaning in the absence of.",
       "difficulty": "expert",
       "tags": [
         "b2",
         "formal",
         "genitive"
-      ],
-      "explanation": "In Ermangelung is a formal phrase meaning in the absence of."
+      ]
     },
     {
       "type": "flashcard",

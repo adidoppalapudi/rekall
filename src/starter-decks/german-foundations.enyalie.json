@@ -8,316 +8,472 @@
   },
   "questions": [
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter A named in German?",
-      "answer": "A — /aː/ (“ah”)",
+      "choices": [
+        "/eː/ (“ay”)",
+        "/haː/ (“hah”)",
+        "/aː/ (“ah”)",
+        "/ɛʁ/ (“air”, with a German r)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter B named in German?",
-      "answer": "B — /beː/ (“bay”)",
+      "choices": [
+        "/peː/ (“pay”)",
+        "/veː/ (“vay”)",
+        "/deː/ (“day”)",
+        "/beː/ (“bay”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter C named in German?",
-      "answer": "C — /tseː/ (“tsay”)",
+      "choices": [
+        "/tsɛt/ (“tset”)",
+        "/ɛs/ (“ess”)",
+        "/tseː/ (“tsay”)",
+        "/kaː/ (“kah”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter D named in German?",
-      "answer": "D — /deː/ (“day”)",
+      "choices": [
+        "/teː/ (“tay”)",
+        "/beː/ (“bay”)",
+        "/ɡeː/ (“gay”)",
+        "/deː/ (“day”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter E named in German?",
-      "answer": "E — /eː/ (“ay”)",
+      "choices": [
+        "/eː/ (“ay”)",
+        "/iː/ (“ee”)",
+        "/aː/ (“ah”)",
+        "/ɡeː/ (“gay”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter F named in German?",
-      "answer": "F — /ɛf/ (“eff”)",
+      "choices": [
+        "/faʊ̯/ (“fow”)",
+        "/ɛf/ (“eff”)",
+        "/ɛs/ (“ess”)",
+        "/ɛl/ (“ell”)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter G named in German?",
-      "answer": "G — /ɡeː/ (“gay”)",
+      "choices": [
+        "/jɔt/ (“yot”)",
+        "/kaː/ (“kah”)",
+        "/ɡeː/ (“gay”)",
+        "/eː/ (“ay”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter H named in German?",
-      "answer": "H — /haː/ (“hah”)",
+      "choices": [
+        "/aː/ (“ah”)",
+        "/kaː/ (“kah”)",
+        "/ɛʁ/ (“air”, with a German r)",
+        "/haː/ (“hah”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter I named in German?",
-      "answer": "I — /iː/ (“ee”)",
+      "choices": [
+        "/iː/ (“ee”)",
+        "/eː/ (“ay”)",
+        "/ˈʏpsilɔn/ (“üpsilon”)",
+        "/jɔt/ (“yot”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter J named in German?",
-      "answer": "J — /jɔt/ (“yot”)",
+      "choices": [
+        "/ɡeː/ (“gay”)",
+        "/jɔt/ (“yot”)",
+        "/iː/ (“ee”)",
+        "/ˈʏpsilɔn/ (“üpsilon”)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter K named in German?",
-      "answer": "K — /kaː/ (“kah”)",
+      "choices": [
+        "/ɡeː/ (“gay”)",
+        "/kuː/ (“koo”)",
+        "/kaː/ (“kah”)",
+        "/tseː/ (“tsay”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter L named in German?",
-      "answer": "L — /ɛl/ (“ell”)",
+      "choices": [
+        "/ɛm/ (“em”)",
+        "/ɛn/ (“en”)",
+        "/ɛʁ/ (“air”, with a German r)",
+        "/ɛl/ (“ell”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter M named in German?",
-      "answer": "M — /ɛm/ (“em”)",
+      "choices": [
+        "/ɛm/ (“em”)",
+        "/ɛn/ (“en”)",
+        "/ɛl/ (“ell”)",
+        "/veː/ (“vay”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter N named in German?",
-      "answer": "N — /ɛn/ (“en”)",
+      "choices": [
+        "/ɛm/ (“em”)",
+        "/ɛn/ (“en”)",
+        "/ɛl/ (“ell”)",
+        "/ɛʁ/ (“air”, with a German r)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter O named in German?",
-      "answer": "O — /oː/ (“oh”)",
+      "choices": [
+        "/uː/ (“oo”)",
+        "/aː/ (“ah”)",
+        "/oː/ (“oh”)",
+        "/kuː/ (“koo”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter P named in German?",
-      "answer": "P — /peː/ (“pay”)",
+      "choices": [
+        "/beː/ (“bay”)",
+        "/teː/ (“tay”)",
+        "/deː/ (“day”)",
+        "/peː/ (“pay”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter Q named in German?",
-      "answer": "Q — /kuː/ (“koo”)",
+      "choices": [
+        "/kuː/ (“koo”)",
+        "/uː/ (“oo”)",
+        "/kaː/ (“kah”)",
+        "/oː/ (“oh”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter R named in German?",
-      "answer": "R — /ɛʁ/ (“air”, with a German r)",
+      "choices": [
+        "/aː/ (“ah”)",
+        "/ɛʁ/ (“air”, with a German r)",
+        "/ɛl/ (“ell”)",
+        "/haː/ (“hah”)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter S named in German?",
-      "answer": "S — /ɛs/ (“ess”)",
+      "choices": [
+        "/tsɛt/ (“tset”)",
+        "/tseː/ (“tsay”)",
+        "/ɛs/ (“ess”)",
+        "/ɛf/ (“eff”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter T named in German?",
-      "answer": "T — /teː/ (“tay”)",
+      "choices": [
+        "/deː/ (“day”)",
+        "/peː/ (“pay”)",
+        "/tsɛt/ (“tset”)",
+        "/teː/ (“tay”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter U named in German?",
-      "answer": "U — /uː/ (“oo”)",
+      "choices": [
+        "/uː/ (“oo”)",
+        "/oː/ (“oh”)",
+        "/kuː/ (“koo”)",
+        "/iː/ (“ee”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter V named in German?",
-      "answer": "V — /faʊ̯/ (“fow”)",
+      "choices": [
+        "/veː/ (“vay”)",
+        "/faʊ̯/ (“fow”)",
+        "/ɛf/ (“eff”)",
+        "/uː/ (“oo”)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter W named in German?",
-      "answer": "W — /veː/ (“vay”)",
+      "choices": [
+        "/faʊ̯/ (“fow”)",
+        "/beː/ (“bay”)",
+        "/veː/ (“vay”)",
+        "/uː/ (“oo”)"
+      ],
+      "correctIndex": 2,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter X named in German?",
-      "answer": "X — /ɪks/ (“iks”)",
+      "choices": [
+        "/ɛs/ (“ess”)",
+        "/tsɛt/ (“tset”)",
+        "/tseː/ (“tsay”)",
+        "/ɪks/ (“iks”)"
+      ],
+      "correctIndex": 3,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter Y named in German?",
-      "answer": "Y — /ˈʏpsilɔn/ (“üpsilon”)",
+      "choices": [
+        "/ˈʏpsilɔn/ (“üpsilon”)",
+        "/iː/ (“ee”)",
+        "/jɔt/ (“yot”)",
+        "/uː/ (“oo”)"
+      ],
+      "correctIndex": 0,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is the letter Z named in German?",
-      "answer": "Z — /tsɛt/ (“tset”)",
+      "choices": [
+        "/tseː/ (“tsay”)",
+        "/tsɛt/ (“tset”)",
+        "/ɛs/ (“ess”)",
+        "/teː/ (“tay”)"
+      ],
+      "correctIndex": 1,
+      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "alphabet",
         "pronunciation"
-      ],
-      "explanation": "German letter names are conventionally written with the IPA form shown here; the plain-language guide is only an approximation."
+      ]
     },
     {
       "type": "flashcard",
@@ -380,124 +536,184 @@
       "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is ch pronounced after i, e, ä, ö, ü and many consonants?",
-      "answer": "Usually as the voiceless palatal fricative [ç], as in ich [ɪç].",
+      "choices": [
+        "[x], as in Bach",
+        "[k], as in Kind",
+        "[ʃ], as in Schule",
+        "[ç], as in ich"
+      ],
+      "correctIndex": 3,
+      "explanation": "Usually as the voiceless palatal fricative [ç], as in ich [ɪç].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is ch pronounced after a, o, u and au?",
-      "answer": "Usually as the voiceless velar fricative [x], as in Bach [bax].",
+      "choices": [
+        "[x], as in Bach",
+        "[ç], as in ich",
+        "[k], as in Kind",
+        "[ʃ], as in Schule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Usually as the voiceless velar fricative [x], as in Bach [bax].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German z pronounced at the beginning of a native word?",
-      "answer": "As [ts], not as the English letter-name sound; zehn begins [tseːn].",
+      "choices": [
+        "[z], as in English zoo",
+        "[ts], as in zehn",
+        "[s], as in Haus",
+        "[ʃ], as in Schule"
+      ],
+      "correctIndex": 1,
+      "explanation": "As [ts], not as the English letter-name sound; zehn begins [tseːn].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German w normally pronounced?",
-      "answer": "As [v], so was begins approximately [vas].",
+      "choices": [
+        "[w], as in English water",
+        "[f], as in Vater",
+        "[v], as in was",
+        "[b], as in Ball"
+      ],
+      "correctIndex": 2,
+      "explanation": "As [v], so was begins approximately [vas].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German j normally pronounced?",
-      "answer": "As [j], like the y in English yes; ja begins [jaː].",
+      "choices": [
+        "[dʒ], like the j in English jam",
+        "[ʒ], like the s in English measure",
+        "[h], as in Haus",
+        "[j], like the y in English yes"
+      ],
+      "correctIndex": 3,
+      "explanation": "As [j], like the y in English yes; ja begins [jaː].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German v pronounced in many native German words?",
-      "answer": "Often as [f], as in Vater [ˈfaːtɐ], though loanwords can use [v].",
+      "choices": [
+        "Often [f], as in Vater",
+        "Always [v], as in English van",
+        "[w], as in English water",
+        "[b], as in Ball"
+      ],
+      "correctIndex": 0,
+      "explanation": "Often as [f], as in Vater [ˈfaːtɐ], though loanwords can use [v].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German s pronounced at the beginning of a word before a vowel?",
-      "answer": "Often voiced [z], as in sieben [ˈziːbn̩].",
+      "choices": [
+        "Always voiceless [s], as in English sun",
+        "Often voiced [z], as in sieben",
+        "[ʃ], as in Schule",
+        "[ts], as in zehn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Often voiced [z], as in sieben [ˈziːbn̩].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German sch pronounced?",
-      "answer": "As [ʃ], like sh in English ship; Schule begins [ˈʃuːlə].",
+      "choices": [
+        "[sk], like sch in English school",
+        "[s], as in Haus",
+        "[ʃ], like sh in English ship",
+        "[ç], as in ich"
+      ],
+      "correctIndex": 2,
+      "explanation": "As [ʃ], like sh in English ship; Schule begins [ˈʃuːlə].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German sp pronounced at the beginning of a stressed syllable?",
-      "answer": "As [ʃp], as in sprechen [ˈʃprɛçn̩].",
+      "choices": [
+        "[sp], as in English spin",
+        "[ʃb], with a voiced b",
+        "[zp], with a voiced s",
+        "[ʃp], as in sprechen"
+      ],
+      "correctIndex": 3,
+      "explanation": "As [ʃp], as in sprechen [ˈʃprɛçn̩].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How is German st pronounced at the beginning of a stressed syllable?",
-      "answer": "As [ʃt], as in Stadt [ʃtat].",
+      "choices": [
+        "[ʃt], as in Stadt",
+        "[st], as in English stop",
+        "[ʃd], with a voiced d",
+        "[zt], with a voiced s"
+      ],
+      "correctIndex": 0,
+      "explanation": "As [ʃt], as in Stadt [ʃtat].",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "consonants"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
       "type": "flashcard",
@@ -596,40 +812,54 @@
       "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which syllable is stressed in Telefon?",
-      "answer": "The final syllable: Teleˈfon.",
+      "choices": [
+        "The first syllable: ˈTelefon",
+        "The final syllable: Teleˈfon",
+        "The second syllable: Teˈlefon"
+      ],
+      "correctIndex": 1,
+      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "stress"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which syllable is stressed in Deutschland?",
-      "answer": "The first syllable: ˈDeutschland.",
+      "choices": [
+        "The first syllable: ˈDeutschland",
+        "The second syllable: Deutschˈland"
+      ],
+      "correctIndex": 0,
+      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "stress"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "Which syllable is stressed in willkommen?",
-      "answer": "The second syllable: willˈkommen.",
+      "choices": [
+        "The first syllable: ˈwillkommen",
+        "The final syllable: willkomˈmen",
+        "The second syllable: willˈkommen"
+      ],
+      "correctIndex": 2,
+      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "pronunciation",
         "stress"
-      ],
-      "explanation": "This card follows standard German pronunciation and spelling conventions; IPA gives a more precise description than an English sound analogy."
+      ]
     },
     {
       "type": "multiple_choice",
@@ -1652,443 +1882,677 @@
       "explanation": "The German expression for “Slowly, please.” is “Langsam, bitte..”"
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “null”?",
-      "answer": "zero",
+      "choices": [
+        "ten",
+        "nine",
+        "zero",
+        "one"
+      ],
+      "correctIndex": 2,
+      "explanation": "“null” is the standard German number word for zero.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“null” is the standard German number word for zero."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “eins”?",
-      "answer": "one",
+      "choices": [
+        "eleven",
+        "nine",
+        "seven",
+        "one"
+      ],
+      "correctIndex": 3,
+      "explanation": "“eins” is the standard German number word for one.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“eins” is the standard German number word for one."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “zwei”?",
-      "answer": "two",
+      "choices": [
+        "twelve",
+        "two",
+        "twenty",
+        "three"
+      ],
+      "correctIndex": 1,
+      "explanation": "“zwei” is the standard German number word for two.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“zwei” is the standard German number word for two."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “drei”?",
-      "answer": "three",
+      "choices": [
+        "thirteen",
+        "three",
+        "thirty",
+        "two"
+      ],
+      "correctIndex": 1,
+      "explanation": "“drei” is the standard German number word for three.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“drei” is the standard German number word for three."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “vier”?",
-      "answer": "four",
+      "choices": [
+        "fourteen",
+        "forty",
+        "four",
+        "five"
+      ],
+      "correctIndex": 2,
+      "explanation": "“vier” is the standard German number word for four.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“vier” is the standard German number word for four."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “fünf”?",
-      "answer": "five",
+      "choices": [
+        "fifteen",
+        "fifty",
+        "four",
+        "five"
+      ],
+      "correctIndex": 3,
+      "explanation": "“fünf” is the standard German number word for five.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“fünf” is the standard German number word for five."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “sechs”?",
-      "answer": "six",
+      "choices": [
+        "six",
+        "sixteen",
+        "sixty",
+        "seven"
+      ],
+      "correctIndex": 0,
+      "explanation": "“sechs” is the standard German number word for six.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“sechs” is the standard German number word for six."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “sieben”?",
-      "answer": "seven",
+      "choices": [
+        "seventeen",
+        "seven",
+        "seventy",
+        "six"
+      ],
+      "correctIndex": 1,
+      "explanation": "“sieben” is the standard German number word for seven.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“sieben” is the standard German number word for seven."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “acht”?",
-      "answer": "eight",
+      "choices": [
+        "eighteen",
+        "eighty",
+        "eight",
+        "eleven"
+      ],
+      "correctIndex": 2,
+      "explanation": "“acht” is the standard German number word for eight.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“acht” is the standard German number word for eight."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “neun”?",
-      "answer": "nine",
+      "choices": [
+        "nineteen",
+        "ninety",
+        "ten",
+        "nine"
+      ],
+      "correctIndex": 3,
+      "explanation": "“neun” is the standard German number word for nine.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“neun” is the standard German number word for nine."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “zehn”?",
-      "answer": "ten",
+      "choices": [
+        "ten",
+        "two",
+        "twenty",
+        "eleven"
+      ],
+      "correctIndex": 0,
+      "explanation": "“zehn” is the standard German number word for ten.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“zehn” is the standard German number word for ten."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “elf”?",
-      "answer": "eleven",
+      "choices": [
+        "twelve",
+        "eleven",
+        "eight",
+        "ten"
+      ],
+      "correctIndex": 1,
+      "explanation": "“elf” is the standard German number word for eleven.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“elf” is the standard German number word for eleven."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “zwölf”?",
-      "answer": "twelve",
+      "choices": [
+        "eleven",
+        "twenty",
+        "twelve",
+        "two"
+      ],
+      "correctIndex": 2,
+      "explanation": "“zwölf” is the standard German number word for twelve.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“zwölf” is the standard German number word for twelve."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “dreizehn”?",
-      "answer": "thirteen",
+      "choices": [
+        "thirty",
+        "three",
+        "fourteen",
+        "thirteen"
+      ],
+      "correctIndex": 3,
+      "explanation": "“dreizehn” is the standard German number word for thirteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“dreizehn” is the standard German number word for thirteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “vierzehn”?",
-      "answer": "fourteen",
+      "choices": [
+        "fourteen",
+        "forty",
+        "four",
+        "thirteen"
+      ],
+      "correctIndex": 0,
+      "explanation": "“vierzehn” is the standard German number word for fourteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“vierzehn” is the standard German number word for fourteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “fünfzehn”?",
-      "answer": "fifteen",
+      "choices": [
+        "fifty",
+        "fifteen",
+        "five",
+        "sixteen"
+      ],
+      "correctIndex": 1,
+      "explanation": "“fünfzehn” is the standard German number word for fifteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“fünfzehn” is the standard German number word for fifteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “sechzehn”?",
-      "answer": "sixteen",
+      "choices": [
+        "sixty",
+        "six",
+        "sixteen",
+        "seventeen"
+      ],
+      "correctIndex": 2,
+      "explanation": "“sechzehn” is the standard German number word for sixteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“sechzehn” is the standard German number word for sixteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “siebzehn”?",
-      "answer": "seventeen",
+      "choices": [
+        "seventy",
+        "seven",
+        "eighteen",
+        "seventeen"
+      ],
+      "correctIndex": 3,
+      "explanation": "“siebzehn” is the standard German number word for seventeen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“siebzehn” is the standard German number word for seventeen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “achtzehn”?",
-      "answer": "eighteen",
+      "choices": [
+        "eighteen",
+        "eighty",
+        "eight",
+        "nineteen"
+      ],
+      "correctIndex": 0,
+      "explanation": "“achtzehn” is the standard German number word for eighteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“achtzehn” is the standard German number word for eighteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “neunzehn”?",
-      "answer": "nineteen",
+      "choices": [
+        "ninety",
+        "nineteen",
+        "nine",
+        "eighteen"
+      ],
+      "correctIndex": 1,
+      "explanation": "“neunzehn” is the standard German number word for nineteen.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“neunzehn” is the standard German number word for nineteen."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “zwanzig”?",
-      "answer": "twenty",
+      "choices": [
+        "twelve",
+        "two",
+        "twenty",
+        "thirty"
+      ],
+      "correctIndex": 2,
+      "explanation": "“zwanzig” is the standard German number word for twenty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“zwanzig” is the standard German number word for twenty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “dreißig”?",
-      "answer": "thirty",
+      "choices": [
+        "thirteen",
+        "three",
+        "twenty",
+        "thirty"
+      ],
+      "correctIndex": 3,
+      "explanation": "“dreißig” is the standard German number word for thirty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“dreißig” is the standard German number word for thirty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “vierzig”?",
-      "answer": "forty",
+      "choices": [
+        "forty",
+        "fourteen",
+        "four",
+        "fifty"
+      ],
+      "correctIndex": 0,
+      "explanation": "“vierzig” is the standard German number word for forty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“vierzig” is the standard German number word for forty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “fünfzig”?",
-      "answer": "fifty",
+      "choices": [
+        "fifteen",
+        "fifty",
+        "five",
+        "sixty"
+      ],
+      "correctIndex": 1,
+      "explanation": "“fünfzig” is the standard German number word for fifty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“fünfzig” is the standard German number word for fifty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “sechzig”?",
-      "answer": "sixty",
+      "choices": [
+        "sixteen",
+        "six",
+        "sixty",
+        "seventy"
+      ],
+      "correctIndex": 2,
+      "explanation": "“sechzig” is the standard German number word for sixty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“sechzig” is the standard German number word for sixty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “siebzig”?",
-      "answer": "seventy",
+      "choices": [
+        "seventeen",
+        "seven",
+        "eighty",
+        "seventy"
+      ],
+      "correctIndex": 3,
+      "explanation": "“siebzig” is the standard German number word for seventy.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“siebzig” is the standard German number word for seventy."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “achtzig”?",
-      "answer": "eighty",
+      "choices": [
+        "eighty",
+        "eighteen",
+        "eight",
+        "ninety"
+      ],
+      "correctIndex": 0,
+      "explanation": "“achtzig” is the standard German number word for eighty.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“achtzig” is the standard German number word for eighty."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “neunzig”?",
-      "answer": "ninety",
+      "choices": [
+        "nineteen",
+        "ninety",
+        "nine",
+        "eighty"
+      ],
+      "correctIndex": 1,
+      "explanation": "“neunzig” is the standard German number word for ninety.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“neunzig” is the standard German number word for ninety."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What number is “einhundert”?",
-      "answer": "one hundred",
+      "choices": [
+        "one thousand",
+        "eleven",
+        "one hundred",
+        "ten"
+      ],
+      "correctIndex": 2,
+      "explanation": "“einhundert” is the standard German number word for one hundred.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "numbers"
-      ],
-      "explanation": "“einhundert” is the standard German number word for one hundred."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “März”?",
-      "answer": "March",
+      "choices": [
+        "May",
+        "June",
+        "April",
+        "March"
+      ],
+      "correctIndex": 3,
+      "explanation": "“März” is the German month name for March.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“März” is the German month name for March."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “April”?",
-      "answer": "April",
+      "choices": [
+        "April",
+        "August",
+        "March",
+        "May"
+      ],
+      "correctIndex": 0,
+      "explanation": "“April” is the German month name for April.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“April” is the German month name for April."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “Mai”?",
-      "answer": "May",
+      "choices": [
+        "March",
+        "May",
+        "June",
+        "July"
+      ],
+      "correctIndex": 1,
+      "explanation": "“Mai” is the German month name for May.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“Mai” is the German month name for May."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “Juni”?",
-      "answer": "June",
+      "choices": [
+        "July",
+        "May",
+        "June",
+        "January"
+      ],
+      "correctIndex": 2,
+      "explanation": "“Juni” is the German month name for June.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“Juni” is the German month name for June."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “Juli”?",
-      "answer": "July",
+      "choices": [
+        "June",
+        "January",
+        "August",
+        "July"
+      ],
+      "correctIndex": 3,
+      "explanation": "“Juli” is the German month name for July.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“Juli” is the German month name for July."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “August”?",
-      "answer": "August",
+      "choices": [
+        "August",
+        "April",
+        "October",
+        "September"
+      ],
+      "correctIndex": 0,
+      "explanation": "“August” is the German month name for August.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“August” is the German month name for August."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “September”?",
-      "answer": "September",
+      "choices": [
+        "October",
+        "September",
+        "November",
+        "December"
+      ],
+      "correctIndex": 1,
+      "explanation": "“September” is the German month name for September.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“September” is the German month name for September."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “Oktober”?",
-      "answer": "October",
+      "choices": [
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "correctIndex": 2,
+      "explanation": "“Oktober” is the German month name for October.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“Oktober” is the German month name for October."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “November”?",
-      "answer": "November",
+      "choices": [
+        "September",
+        "October",
+        "December",
+        "November"
+      ],
+      "correctIndex": 3,
+      "explanation": "“November” is the German month name for November.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“November” is the German month name for November."
+      ]
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "What month is “Dezember”?",
-      "answer": "December",
+      "choices": [
+        "December",
+        "November",
+        "October",
+        "September"
+      ],
+      "correctIndex": 0,
+      "explanation": "“Dezember” is the German month name for December.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "“Dezember” is the German month name for December."
+      ]
     },
     {
       "type": "flashcard",
@@ -2283,16 +2747,22 @@
       "explanation": "This is standard everyday German for dates and time; regional spoken conventions can vary, especially for quarter-hour expressions."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you write the date 3 October in German words?",
-      "answer": "der dritte Oktober",
+      "choices": [
+        "der drei Oktober",
+        "der dritte Oktober",
+        "der dritten Oktober",
+        "der dreite Oktober"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is standard everyday German for dates and time; regional spoken conventions can vary, especially for quarter-hour expressions.",
       "difficulty": "easy",
       "tags": [
         "foundations",
         "time",
         "dates"
-      ],
-      "explanation": "This is standard everyday German for dates and time; regional spoken conventions can vary, especially for quarter-hour expressions."
+      ]
     },
     {
       "type": "flashcard",

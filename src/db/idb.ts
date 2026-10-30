@@ -7,10 +7,16 @@
  * never unrelated async work such as fetch().
  */
 
-const DB_VERSION = 3;
+const DB_VERSION = 4;
 export const DECKS = 'decks';
 export const QUESTIONS = 'questions';
-/** Index on questions.deckId, used to load or delete one deck's questions. */
+/** One record per answered question: its mastery level and when it was last answered (see quiz/mastery.ts). */
+export const PROGRESS = 'progress';
+/** How many quizzes each deck has finished, keyed by deck id. */
+export const DECK_ROUNDS = 'deckRounds';
+/** Ids of the latest recorded quizzes, so a quiz is never recorded twice. */
+export const RECORDED_SESSIONS = 'recordedSessions';
+/** Index on deckId (questions and progress), used to load or delete one deck's records. */
 export const BY_DECK = 'byDeck';
 
 export function openDatabase(name: string): Promise<IDBDatabase> {
@@ -33,6 +39,12 @@ export function openDatabase(name: string): Promise<IDBDatabase> {
       }
       if (event.oldVersion < 3 && db.objectStoreNames.contains('migrations')) {
         db.deleteObjectStore('migrations');
+      }
+      if (event.oldVersion < 4) {
+        const progress = db.createObjectStore(PROGRESS, { keyPath: 'questionId' });
+        progress.createIndex(BY_DECK, 'deckId', { unique: false });
+        db.createObjectStore(DECK_ROUNDS, { keyPath: 'deckId' });
+        db.createObjectStore(RECORDED_SESSIONS, { keyPath: 'id' });
       }
     };
     request.onsuccess = () => resolve(request.result);

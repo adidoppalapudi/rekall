@@ -52,6 +52,7 @@ function createWorkerHarness() {
     '<link rel="manifest" href="./manifest.webmanifest">',
     '<script src="./assets/app.js"></script>',
     '<link rel="stylesheet" href="./assets/app.css">',
+    '<link rel="prefetch" href="./assets/nature.enyalie-abc123.json">',
   ].join('');
   const fetch = async (resource: RequestInfo | URL) => {
     const url =
@@ -124,6 +125,7 @@ describe('Enyalië installation path and service worker', () => {
     const cache = await worker.caches.open('enyalie-v5');
     expect(await cache.match(`${origin}/enyalie/`)).toBeDefined();
     expect(await cache.match(`${origin}/enyalie/manifest.webmanifest`)).toBeDefined();
+    expect(await cache.match(`${origin}/enyalie/assets/nature.enyalie-abc123.json`)).toBeDefined();
   });
 
   it('cleans previous app caches and claims the new app scope on activation', async () => {

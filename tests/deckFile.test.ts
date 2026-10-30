@@ -84,6 +84,47 @@ describe('deck files', () => {
     expect(messages(JSON.stringify({ format: 'enyalie-decks' }))[0]).toMatch(/"decks" list/);
   });
 
+  it("keeps a backup's progress, dropping records that don't fit", () => {
+    const progress = { level: 3, promotionDay: 20750, weightAfter: 0.2, answeredDay: 20746, rightRound: 2 };
+    const fits = { ...progress, dropDay: null, seen: 4, right: 3 };
+    const question = (prompt: string, extra = {}) => ({ type: 'true_false', prompt, answer: true, ...extra });
+    const parsed = parseDecks(
+      JSON.stringify({
+        format: 'enyalie-decks',
+        decks: [
+          {
+            deck: { name: 'Played' },
+            rounds: 2,
+            questions: [
+              question('fits', { progress: fits }),
+              question('level out of range', { progress: { ...fits, level: 9 } }),
+              question('right in a round still to come', { progress: { ...fits, rightRound: 3 } }),
+              question('never answered'),
+            ],
+          },
+          { deck: { name: 'Never played' }, questions: [question('plain')] },
+        ],
+      }),
+    );
+
+    expect(parsed.ok && parsed.value.map((deck) => deck.progress)).toEqual([
+      { rounds: 2, byQuestion: [fits, undefined, undefined, undefined] },
+      undefined,
+    ]);
+  });
+
+  it('ignores progress in a one-deck file', () => {
+    const parsed = parseDecks(
+      JSON.stringify({
+        deck: { name: 'Shared' },
+        rounds: 2,
+        questions: [{ type: 'true_false', prompt: 'Q', answer: true, progress: { level: 3 } }],
+      }),
+    );
+
+    expect(parsed.ok && parsed.value[0].progress).toBeUndefined();
+  });
+
   it('names files after the deck', () => {
     expect(deckFileName('PostgreSQL Fundamentals')).toBe('postgresql-fundamentals.enyalie.json');
     expect(deckFileName('Café & Crème brûlée!')).toBe('cafe-creme-brulee.enyalie.json');

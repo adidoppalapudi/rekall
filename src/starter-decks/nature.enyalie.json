@@ -49,6 +49,7 @@
         "Mammals"
       ],
       "correctIndex": 3,
+      "explanation": "Bats are the only mammals capable of true powered flight.",
       "difficulty": "easy",
       "tags": [
         "classification"
@@ -80,6 +81,7 @@
         "Ten"
       ],
       "correctIndex": 0,
+      "explanation": "Insects have three body parts and six legs. Spiders have eight legs and are arachnids.",
       "difficulty": "easy",
       "tags": [
         "invertebrates"
@@ -143,6 +145,7 @@
         "Birds"
       ],
       "correctIndex": 3,
+      "explanation": "Birds are the only living animals with feathers.",
       "difficulty": "easy",
       "tags": [
         "classification"
@@ -158,6 +161,7 @@
         "Vertebrate"
       ],
       "correctIndex": 3,
+      "explanation": "Fish, amphibians, reptiles, birds and mammals are vertebrates. Most animal species are invertebrates.",
       "difficulty": "easy",
       "tags": [
         "classification"
@@ -173,6 +177,7 @@
         "Carrion"
       ],
       "correctIndex": 2,
+      "explanation": "Deer, rabbits and cows are herbivores.",
       "difficulty": "easy",
       "tags": [
         "food-webs"
@@ -188,6 +193,7 @@
         "Detritivore"
       ],
       "correctIndex": 0,
+      "explanation": "Bears, raccoons and humans are omnivores.",
       "difficulty": "medium",
       "tags": [
         "food-webs"
@@ -203,6 +209,7 @@
         "Deer and rabbits"
       ],
       "correctIndex": 2,
+      "explanation": "These decomposers return nutrients to the soil, where plants can use them again.",
       "difficulty": "medium",
       "tags": [
         "food-webs"
@@ -218,6 +225,7 @@
         "Predator"
       ],
       "correctIndex": 2,
+      "explanation": "Plants and algae are producers. They make sugars through photosynthesis.",
       "difficulty": "medium",
       "tags": [
         "food-webs"
@@ -233,6 +241,7 @@
         "Annual population totals"
       ],
       "correctIndex": 2,
+      "explanation": "A food web joins many food chains, because most animals eat, and are eaten by, more than one species.",
       "difficulty": "medium",
       "tags": [
         "food-webs"
@@ -248,6 +257,7 @@
         "Competition"
       ],
       "correctIndex": 1,
+      "explanation": "Bees and flowers are an example. Bees get nectar and the flowers get pollinated.",
       "difficulty": "medium",
       "tags": [
         "ecology"
@@ -279,6 +289,7 @@
         "Blending into surroundings"
       ],
       "correctIndex": 3,
+      "explanation": "Stick insects, snowshoe hares and many flatfish use camouflage to hide from predators or prey.",
       "difficulty": "easy",
       "tags": [
         "adaptations"
@@ -310,6 +321,7 @@
         "Active mainly at dusk"
       ],
       "correctIndex": 0,
+      "explanation": "Owls, bats and many moths are nocturnal. Animals most active at dawn and dusk are called crepuscular.",
       "difficulty": "easy",
       "tags": [
         "behavior"
@@ -325,6 +337,7 @@
         "Migration"
       ],
       "correctIndex": 3,
+      "explanation": "Arctic terns make the longest known migration, flying between the Arctic and the Antarctic each year.",
       "difficulty": "easy",
       "tags": [
         "behavior"
@@ -356,6 +369,7 @@
         "Producer"
       ],
       "correctIndex": 1,
+      "explanation": "The animal a predator eats is its prey. Scavengers feed on animals that are already dead.",
       "difficulty": "easy",
       "tags": [
         "food-webs"
@@ -387,6 +401,7 @@
         "The length of daylight"
       ],
       "correctIndex": 2,
+      "explanation": "Biodiversity covers variety within species, between species and among ecosystems.",
       "difficulty": "medium",
       "tags": [
         "ecology"
@@ -432,6 +447,7 @@
       "type": "flashcard",
       "prompt": "What is an ecosystem?",
       "answer": "A community of organisms and the nonliving environment they interact with.",
+      "explanation": "A pond ecosystem includes its fish, plants and microbes, plus the water, sunlight and mud they depend on.",
       "difficulty": "medium",
       "tags": [
         "ecology"
@@ -441,6 +457,7 @@
       "type": "flashcard",
       "prompt": "What is natural selection?",
       "answer": "A process in which inherited traits that improve reproductive success become more common over generations.",
+      "explanation": "Charles Darwin and Alfred Russel Wallace first presented the idea together in 1858.",
       "difficulty": "hard",
       "tags": [
         "evolution"

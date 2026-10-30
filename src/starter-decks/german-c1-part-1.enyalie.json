@@ -19,15 +19,21 @@
       "explanation": "Konjunktiv I sei marks the statement as reported speech."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The minister explained that the reform was necessary.” in German?",
-      "answer": "Die Ministerin erklärte, die Reform sei notwendig.",
+      "choices": [
+        "Die Ministerin erklärte, die Reform seien notwendig.",
+        "Die Ministerin erklärte, die Reform sein notwendig.",
+        "Die Ministerin erklärte, sei die Reform notwendig.",
+        "Die Ministerin erklärte, die Reform sei notwendig."
+      ],
+      "correctIndex": 3,
+      "explanation": "Konjunktiv I sei marks the statement as reported speech.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "reported-speech"
-      ],
-      "explanation": "Konjunktiv I sei marks the statement as reported speech."
+      ]
     },
     {
       "type": "flashcard",
@@ -41,15 +47,21 @@
       "explanation": "A zu-infinitive perfect can report a prior action compactly."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “He claims not to have known anything about it.” in German?",
-      "answer": "Er behauptet, davon nichts gewusst zu haben.",
+      "choices": [
+        "Er behauptet, davon nichts zu gewusst haben.",
+        "Er behauptet, davon nichts gewusst haben.",
+        "Er behauptet, nichts davon zu wissen gehabt.",
+        "Er behauptet, davon nichts gewusst zu haben."
+      ],
+      "correctIndex": 3,
+      "explanation": "A zu-infinitive perfect can report a prior action compactly.",
       "difficulty": "expert",
       "tags": [
         "c1",
         "reported-speech"
-      ],
-      "explanation": "A zu-infinitive perfect can report a prior action compactly."
+      ]
     },
     {
       "type": "flashcard",
@@ -63,15 +75,21 @@
       "explanation": "Seien is the plural Konjunktiv I form of sein."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The newspaper reports that the negotiations have failed.” in German?",
-      "answer": "Die Zeitung berichtet, die Verhandlungen seien gescheitert.",
+      "choices": [
+        "Die Zeitung berichtet, die Verhandlungen haben gescheitert.",
+        "Die Zeitung berichtet, die Verhandlungen sei gescheitert.",
+        "Die Zeitung berichtet, die Verhandlungen seien gescheitet.",
+        "Die Zeitung berichtet, die Verhandlungen seien gescheitert."
+      ],
+      "correctIndex": 3,
+      "explanation": "Seien is the plural Konjunktiv I form of sein.",
       "difficulty": "expert",
       "tags": [
         "c1",
         "reported-speech"
-      ],
-      "explanation": "Seien is the plural Konjunktiv I form of sein."
+      ]
     },
     {
       "type": "flashcard",
@@ -86,16 +104,22 @@
       "explanation": "Sollen can report hearsay without asserting the information directly."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “He is said to have rejected the proposal.” in German?",
-      "answer": "Er soll den Vorschlag abgelehnt haben.",
+      "choices": [
+        "Er will den Vorschlag abgelehnt haben.",
+        "Er soll den Vorschlag abgelehnt hat.",
+        "Er sollte den Vorschlag abgelehnt haben.",
+        "Er soll den Vorschlag abgelehnt haben."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sollen can report hearsay without asserting the information directly.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "reported-speech",
         "modal-verbs"
-      ],
-      "explanation": "Sollen can report hearsay without asserting the information directly."
+      ]
     },
     {
       "type": "flashcard",
@@ -109,15 +133,21 @@
       "explanation": "Wollen can mark a person’s own claim when used in this reporting construction."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “She claims not to have noticed anything about it.” in German?",
-      "answer": "Sie will davon nichts bemerkt haben.",
+      "choices": [
+        "Sie soll davon nichts bemerkt haben.",
+        "Sie will davon nichts bemerkt haben.",
+        "Sie will davon nichts bemerkt hat.",
+        "Sie wollte davon nichts bemerkt haben."
+      ],
+      "correctIndex": 1,
+      "explanation": "Wollen can mark a person’s own claim when used in this reporting construction.",
       "difficulty": "expert",
       "tags": [
         "c1",
         "reported-speech"
-      ],
-      "explanation": "Wollen can mark a person’s own claim when used in this reporting construction."
+      ]
     },
     {
       "type": "flashcard",
@@ -132,16 +162,22 @@
       "explanation": "Plusquamperfekt passive places a completed passive event before another past event."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “After the data had been evaluated, the discussion began.” in German?",
-      "answer": "Nachdem die Daten ausgewertet worden waren, begann die Diskussion.",
+      "choices": [
+        "Nachdem die Daten ausgewertet geworden waren, begann die Diskussion.",
+        "Nachdem die Daten ausgewertet worden sind, begann die Diskussion.",
+        "Nachdem die Daten ausgewertet worden waren, begann die Diskussion.",
+        "Nachdem die Daten ausgewertet worden waren, die Diskussion begann."
+      ],
+      "correctIndex": 2,
+      "explanation": "Plusquamperfekt passive places a completed passive event before another past event.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "tense",
         "passive"
-      ],
-      "explanation": "Plusquamperfekt passive places a completed passive event before another past event."
+      ]
     },
     {
       "type": "flashcard",
@@ -156,16 +192,22 @@
       "explanation": "German often uses present passive with seit for an ongoing process."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “A solution has been being worked on for years.” in German?",
-      "answer": "Seit Jahren wird an einer Lösung gearbeitet.",
+      "choices": [
+        "Seit Jahren wurde an einer Lösung gearbeitet.",
+        "Seit Jahren wird an einer Lösung gearbeitet.",
+        "Seit Jahren wird an eine Lösung gearbeitet.",
+        "Seit Jahren wird auf einer Lösung gearbeitet."
+      ],
+      "correctIndex": 1,
+      "explanation": "German often uses present passive with seit for an ongoing process.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "tense",
         "passive"
-      ],
-      "explanation": "German often uses present passive with seit for an ongoing process."
+      ]
     },
     {
       "type": "flashcard",
@@ -251,15 +293,21 @@
       "explanation": "Sein plus zu-infinitive expresses passive necessity or possibility."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The question still needs to be clarified.” in German?",
-      "answer": "Die Frage ist noch zu klären.",
+      "choices": [
+        "Die Frage ist noch geklärt.",
+        "Die Frage hat noch zu klären.",
+        "Die Frage ist noch zu klären.",
+        "Die Frage ist noch zu geklärt."
+      ],
+      "correctIndex": 2,
+      "explanation": "Sein plus zu-infinitive expresses passive necessity or possibility.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "passive-alternatives"
-      ],
-      "explanation": "Sein plus zu-infinitive expresses passive necessity or possibility."
+      ]
     },
     {
       "type": "flashcard",
@@ -273,15 +321,21 @@
       "explanation": "Sich lassen plus infinitive is a productive passive alternative."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “The results cannot be generalized.” in German?",
-      "answer": "Die Ergebnisse lassen sich nicht verallgemeinern.",
+      "choices": [
+        "Die Ergebnisse lassen nicht sich verallgemeinern.",
+        "Die Ergebnisse lassen sich nicht verallgemeinert.",
+        "Die Ergebnisse lässt sich nicht verallgemeinern.",
+        "Die Ergebnisse lassen sich nicht verallgemeinern."
+      ],
+      "correctIndex": 3,
+      "explanation": "Sich lassen plus infinitive is a productive passive alternative.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "passive-alternatives"
-      ],
-      "explanation": "Sich lassen plus infinitive is a productive passive alternative."
+      ]
     },
     {
       "type": "flashcard",
@@ -340,16 +394,22 @@
       "explanation": "Angesichts is a formal preposition-like expression with genitive."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “in view of the current situation” in German?",
-      "answer": "angesichts der aktuellen Lage",
+      "choices": [
+        "angesichts der aktuellen Lage",
+        "angesichts die aktuelle Lage",
+        "angesichts der aktuelle Lage",
+        "angesichts dem aktuellen Lage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angesichts is a formal preposition-like expression with genitive.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "formal",
         "genitive"
-      ],
-      "explanation": "Angesichts is a formal preposition-like expression with genitive."
+      ]
     },
     {
       "type": "flashcard",
@@ -364,16 +424,22 @@
       "explanation": "Zwecks is a formal genitive preposition used especially in administrative writing."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “for the purpose of further examination” in German?",
-      "answer": "zwecks weiterer Prüfung",
+      "choices": [
+        "zwecks weitere Prüfung",
+        "zwecks weiteren Prüfung",
+        "zwecks einer weitere Prüfung",
+        "zwecks weiterer Prüfung"
+      ],
+      "correctIndex": 3,
+      "explanation": "Zwecks is a formal genitive preposition used especially in administrative writing.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "formal",
         "genitive"
-      ],
-      "explanation": "Zwecks is a formal genitive preposition used especially in administrative writing."
+      ]
     },
     {
       "type": "flashcard",
@@ -852,16 +918,22 @@
       "explanation": "Sich widmen takes dative: einer Frage."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “to devote oneself to a question” in German?",
-      "answer": "sich einer Frage widmen",
+      "choices": [
+        "sich einer Frage widmen",
+        "sich eine Frage widmen",
+        "sich an einer Frage widmen",
+        "sich mit einer Frage widmen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sich widmen takes dative: einer Frage.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "academic",
         "dative"
-      ],
-      "explanation": "Sich widmen takes dative: einer Frage."
+      ]
     },
     {
       "type": "flashcard",
@@ -1376,16 +1448,22 @@
       "explanation": "Sich absehen lassen expresses whether something can be anticipated."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “a development cannot be foreseen” in German?",
-      "answer": "eine Entwicklung lässt sich nicht absehen",
+      "choices": [
+        "eine Entwicklung lässt sich nicht abgesehen",
+        "eine Entwicklung lässt sich nicht absehen",
+        "eine Entwicklung lässt nicht absehen",
+        "eine Entwicklung lässt sich nicht abzusehen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sich absehen lassen expresses whether something can be anticipated.",
       "difficulty": "hard",
       "tags": [
         "c1",
         "future",
         "passive-alternatives"
-      ],
-      "explanation": "Sich absehen lassen expresses whether something can be anticipated."
+      ]
     },
     {
       "type": "flashcard",
@@ -1400,16 +1478,22 @@
       "explanation": "Bedürfen is a formal verb that governs the genitive."
     },
     {
-      "type": "flashcard",
+      "type": "multiple_choice",
       "prompt": "How do you say “further investigations are required” in German?",
-      "answer": "es bedarf weiterer Untersuchungen",
+      "choices": [
+        "es bedarf weitere Untersuchungen",
+        "es bedarf weiteren Untersuchungen",
+        "es bedarf weiterer Untersuchungen",
+        "es bedürfen weiterer Untersuchungen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bedürfen is a formal verb that governs the genitive.",
       "difficulty": "expert",
       "tags": [
         "c1",
         "formal",
         "genitive"
-      ],
-      "explanation": "Bedürfen is a formal verb that governs the genitive."
+      ]
     },
     {
       "type": "flashcard",

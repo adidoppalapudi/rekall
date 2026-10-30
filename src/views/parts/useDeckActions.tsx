@@ -17,8 +17,8 @@ interface DeckActionCallbacks {
 
 /**
  * Edit, duplicate, export and delete for a deck, shared by the library and
- * the deck screen, plus exporting every deck to one file. Render the returned
- * `dialogs` somewhere in the screen.
+ * the deck screen. Also exports every deck with its progress to one file,
+ * which is the backup. Render the returned `dialogs` somewhere in the screen.
  */
 export function useDeckActions(callbacks: DeckActionCallbacks) {
   const { notify } = useStatus();
@@ -38,7 +38,10 @@ export function useDeckActions(callbacks: DeckActionCallbacks) {
   async function exportAllDecks(decks: readonly Deck[]) {
     try {
       const entries = await Promise.all(
-        decks.map(async (deck) => ({ deck, questions: await store.listQuestions(deck.id) })),
+        decks.map(async (deck) => {
+          const [questions, progress] = await Promise.all([store.listQuestions(deck.id), store.loadProgress(deck.id)]);
+          return { deck, questions, progress };
+        }),
       );
       downloadTextFile(decksFileName(), serializeDeckFile(createDecksFile(entries)));
       const questionCount = entries.reduce((sum, entry) => sum + entry.questions.length, 0);

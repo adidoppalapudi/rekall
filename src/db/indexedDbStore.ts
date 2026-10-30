@@ -8,10 +8,30 @@ import {
   type DeckSummary,
   type ImportedDeck,
   type Question,
+  type QuestionProgress,
 } from '../models/types';
 import { nameWithSuffix, validateDeckInput, validateQuestionContent, validateQuestionList } from '../models/validation';
+import { applyAnswer, carryProgress, dayNumber } from '../quiz/mastery';
 import type { DataStore } from './DataStore';
-import { BY_DECK, DECKS, QUESTIONS, openDatabase, promisifyRequest, transactionDone } from './idb';
+import {
+  BY_DECK,
+  DECKS,
+  DECK_ROUNDS,
+  PROGRESS,
+  QUESTIONS,
+  RECORDED_SESSIONS,
+  openDatabase,
+  promisifyRequest,
+  transactionDone,
+} from './idb';
+
+interface DeckRounds {
+  deckId: string;
+  rounds: number;
+}
+
+/** Enough to stop a reload or a second render recording the same quiz again. */
+const KEPT_QUIZ_IDS = 100;
 
 export interface IndexedDbStoreOptions {
   /** Database name. Tests use a fresh name per test. */
@@ -81,6 +101,21 @@ export function createIndexedDbStore(options: IndexedDbStoreOptions = {}): DataS
     return promisifyRequest(index.getAllKeys(IDBKeyRange.only(deckId)));
   }
 
+  async function deckProgress(tx: IDBTransaction, deckId: string): Promise<QuestionProgress[]> {
+    const index = tx.objectStore(PROGRESS).index(BY_DECK);
+    return (await promisifyRequest(index.getAll(IDBKeyRange.only(deckId)))) as QuestionProgress[];
+  }
+
+  /** Keeps only the latest recorded quiz ids. */
+  async function trimRecordedSessions(tx: IDBTransaction): Promise<void> {
+    const store = tx.objectStore(RECORDED_SESSIONS);
+    const rows = (await promisifyRequest(store.getAll())) as { id: string; at: number }[];
+    rows
+      .sort((a, b) => a.at - b.at)
+      .slice(0, Math.max(rows.length - KEPT_QUIZ_IDS, 0))
+      .forEach((row) => store.delete(row.id));
+  }
+
   /** Marks a deck as changed when one of its questions changes. */
   function touchDeck(tx: IDBTransaction, deck: Deck, time: number): void {
     tx.objectStore(DECKS).put({ ...deck, updatedAt: time });
@@ -148,10 +183,14 @@ export function createIndexedDbStore(options: IndexedDbStoreOptions = {}): DataS
       }),
 
     deleteDeck: (id) =>
-      run([DECKS, QUESTIONS], 'readwrite', async (tx) => {
+      run([DECKS, QUESTIONS, PROGRESS, DECK_ROUNDS], 'readwrite', async (tx) => {
         tx.objectStore(DECKS).delete(id);
+        tx.objectStore(DECK_ROUNDS).delete(id);
         const keys = await deckQuestionKeys(tx, id);
-        keys.forEach((key) => tx.objectStore(QUESTIONS).delete(key));
+        keys.forEach((key) => {
+          tx.objectStore(QUESTIONS).delete(key);
+          tx.objectStore(PROGRESS).delete(key);
+        });
       }),
 
     listQuestions: (deckId) =>
@@ -203,10 +242,11 @@ export function createIndexedDbStore(options: IndexedDbStoreOptions = {}): DataS
     },
 
     deleteQuestion: (id) =>
-      run([DECKS, QUESTIONS], 'readwrite', async (tx) => {
+      run([DECKS, QUESTIONS, PROGRESS], 'readwrite', async (tx) => {
         const existing = await getRecord<Question>(tx, QUESTIONS, id);
         if (!existing) return;
         tx.objectStore(QUESTIONS).delete(id);
+        tx.objectStore(PROGRESS).delete(id);
         const deck = await getRecord<Deck>(tx, DECKS, existing.deckId);
         if (deck) touchDeck(tx, deck, now());
       }),
@@ -214,22 +254,75 @@ export function createIndexedDbStore(options: IndexedDbStoreOptions = {}): DataS
     async importDeck(input: ImportedDeck, { asNewDeck }) {
       const details = unwrap(validateDeckInput(input));
       const contents = unwrap(validateQuestionList(input.questions));
-      return run([DECKS, QUESTIONS], 'readwrite', async (tx) => {
+      return run([DECKS, QUESTIONS, PROGRESS, DECK_ROUNDS], 'readwrite', async (tx) => {
         const id = !asNewDeck && input.id ? input.id : createId();
         const existing = await getRecord<Deck>(tx, DECKS, id);
+        let oldQuestions: Question[] = [];
+        let oldProgress: QuestionProgress[] = [];
         if (existing) {
-          const keys = await deckQuestionKeys(tx, id);
-          keys.forEach((key) => tx.objectStore(QUESTIONS).delete(key));
+          const index = tx.objectStore(QUESTIONS).index(BY_DECK);
+          oldQuestions = sortByCreation((await promisifyRequest(index.getAll(IDBKeyRange.only(id)))) as Question[]);
+          oldProgress = await deckProgress(tx, id);
+          oldQuestions.forEach((question) => tx.objectStore(QUESTIONS).delete(question.id));
+          oldProgress.forEach((record) => tx.objectStore(PROGRESS).delete(record.questionId));
         }
         const time = now();
         const deck: Deck = { id, ...details, createdAt: existing?.createdAt ?? time, updatedAt: time };
         tx.objectStore(DECKS).put(deck);
-        contents.forEach((content, i) => {
-          const question: Question = { ...content, id: createId(), deckId: id, createdAt: time + i, updatedAt: time };
-          tx.objectStore(QUESTIONS).add(question);
-        });
+        const questions = contents.map(
+          (content, i): Question => ({ ...content, id: createId(), deckId: id, createdAt: time + i, updatedAt: time }),
+        );
+        questions.forEach((question) => tx.objectStore(QUESTIONS).add(question));
+
+        // A backup brings its own progress. Otherwise progress carries over from the replaced deck.
+        const saved = asNewDeck ? undefined : input.progress;
+        const progress = saved
+          ? questions.flatMap((question, i) => {
+              const record = saved.byQuestion[i];
+              return record ? [{ ...record, questionId: question.id, deckId: id }] : [];
+            })
+          : carryProgress(oldQuestions, oldProgress, questions);
+        progress.forEach((record) => tx.objectStore(PROGRESS).put(record));
+        if (saved) tx.objectStore(DECK_ROUNDS).put({ deckId: id, rounds: saved.rounds });
         return deck;
       });
     },
+
+    loadProgress: (deckId) =>
+      run([PROGRESS, DECK_ROUNDS], 'readonly', async (tx) => {
+        const rounds = await getRecord<DeckRounds>(tx, DECK_ROUNDS, deckId);
+        return { records: await deckProgress(tx, deckId), rounds: rounds?.rounds ?? 0 };
+      }),
+
+    recordQuiz: (session) =>
+      run([DECKS, QUESTIONS, PROGRESS, DECK_ROUNDS, RECORDED_SESSIONS], 'readwrite', async (tx) => {
+        if (session.finishedAt === null || (await getRecord(tx, RECORDED_SESSIONS, session.id))) return false;
+        const time = now();
+        const today = dayNumber(time);
+        tx.objectStore(RECORDED_SESSIONS).put({ id: session.id, at: time });
+        const answered = session.items.flatMap(({ question }, i) => {
+          const answer = session.answers[i];
+          return answer ? [{ question, correct: answer.correct }] : [];
+        });
+
+        // This quiz is one more round for every deck it used, and right answers remember that round.
+        const rounds = new Map<string, number>();
+        for (const deckId of new Set(answered.map(({ question }) => question.deckId))) {
+          if (!(await getRecord<Deck>(tx, DECKS, deckId))) continue; // deleted since
+          const round = ((await getRecord<DeckRounds>(tx, DECK_ROUNDS, deckId))?.rounds ?? 0) + 1;
+          rounds.set(deckId, round);
+          tx.objectStore(DECK_ROUNDS).put({ deckId, rounds: round });
+        }
+        for (const { question, correct } of answered) {
+          const round = rounds.get(question.deckId);
+          if (round === undefined || !(await getRecord<Question>(tx, QUESTIONS, question.id))) continue;
+          const current = await getRecord<QuestionProgress>(tx, PROGRESS, question.id);
+          const identity = { questionId: question.id, deckId: question.deckId };
+          const selfGraded = question.type === 'flashcard';
+          tx.objectStore(PROGRESS).put(applyAnswer(current, identity, correct, today, round, selfGraded));
+        }
+        await trimRecordedSessions(tx);
+        return true;
+      }),
   };
 }
