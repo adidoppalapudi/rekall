@@ -787,6 +787,20 @@ dialog.window::backdrop {
   font-weight: 700;
 }
 
+.steps {
+  margin: 0;
+  padding-left: 3ch;
+}
+
+.prompt-box {
+  height: min(15rem, 40dvh);
+  font-size: 0.875rem;
+}
+
+.window-note {
+  font-size: 0.875rem;
+}
+
 .starter-list {
   margin: 0;
   padding: 0;

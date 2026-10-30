@@ -18,7 +18,7 @@ Decks are saved in this browser on this device. Enyalië needs no account or ser
 
 ## Make or import a deck
 
-Create decks and questions in the app, or import one or more `.enyalie.json` deck files. You can also write a deck file yourself or have an AI draft one. Each imported file can be up to 20 MB.
+Create decks and questions in the app, or import one or more `.enyalie.json` deck files. You can also write a deck file yourself or have an AI draft one. In the library, **rules for deck creation** gives you a prompt to paste into an AI chat. Each imported file can be up to 20 MB.
 
 Enyalië supports multiple-choice, true/false, and flashcard questions. Multiple-choice questions have 2–4 choices and a zero-based `correctIndex`; true/false and flashcards use an `answer` field.
 

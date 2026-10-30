@@ -17,6 +17,7 @@ import { cyclePalette } from '../lib/palette';
 import { requestPersistentStorage } from '../lib/storage';
 import { loadStarterDeck } from '../io/starterDecks';
 import { DEFAULT_SETTINGS, QUICK_PLAY_SETTINGS, buildQuizItems, createSession } from '../quiz/engine';
+import { DeckRulesDialog } from './parts/DeckRulesDialog';
 import { StarterDecksDialog } from './parts/StarterDecksDialog';
 import { useDeckActions } from './parts/useDeckActions';
 import { useDeckImport } from './parts/useDeckImport';
@@ -35,6 +36,7 @@ export function LibraryView() {
   const [creating, setCreating] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [browsingStarters, setBrowsingStarters] = useState(false);
+  const [readingRules, setReadingRules] = useState(false);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const [startingStarter, setStartingStarter] = useState(false);
@@ -157,6 +159,9 @@ export function LibraryView() {
           <button type="button" className="btn" onClick={importer.chooseFile}>
             import deck files
           </button>
+          <button type="button" className="btn" onClick={() => setReadingRules(true)}>
+            rules for deck creation
+          </button>
         </p>
       </Notice>
     );
@@ -217,6 +222,9 @@ export function LibraryView() {
           <button type="button" className="btn btn-quiet" onClick={() => deckActions.exportAllDecks(decks)}>
             export all decks
           </button>
+          <button type="button" className="btn btn-quiet" onClick={() => setReadingRules(true)}>
+            rules for deck creation
+          </button>
         </p>
         <p className="library-definition dim">Enyalië n. “memory, (lit.) recalling”</p>
       </>
@@ -267,6 +275,7 @@ export function LibraryView() {
           }}
         />
       )}
+      {readingRules && <DeckRulesDialog onClose={() => setReadingRules(false)} />}
       {deckActions.dialogs}
       {importer.dialogs}
       {importer.fileInput}
